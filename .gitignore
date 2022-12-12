@@ -1,0 +1,12 @@
+# *.glog
+# *.gtex
+# *.aux
+# *.gaux
+# *.log
+# *.pdf
+# *.gz
+
+*.*
+!*.gabc
+!*.tex
+!.gitignore
