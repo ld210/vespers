@@ -6,7 +6,8 @@
 \usepackage{fontspec}
 \usepackage{libertine}
 \usepackage{xcolor}
-\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\definecolor{red}{HTML}{C70039}
 
 \usepackage[autocompile]{gregoriotex}
 
@@ -17,7 +18,17 @@
 Ton ordinaire
 \gregorioscore{vepres-deus_in_adjutorium}
 \vspace{5mm}
-\small{\red{\emph{Depuis la Septuagesime jusqu'à Pâques, au lieu de l'Alleluia.}}}
+\small{
+  \emph{
+    \textcolor{red}{
+      Depuis la Septuagesime jusqu'à Pâques, au lieu de l'Alleluia.
+    }
+  }
+}
 \gregorioscore{vepres-deus_in_adjutorium_septuagesime}
+
+\newpage
+\gregorioscore{antiennes/dixit-domino}
+
 
 \end{document}
