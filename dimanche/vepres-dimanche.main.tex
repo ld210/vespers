@@ -11,6 +11,8 @@
 \definecolor{red}{HTML}{C70039}
 
 \usepackage[autocompile]{gregoriotex}
+\input GoudyIn.fd
+\newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
 
 \pagestyle{empty}
 
@@ -29,8 +31,10 @@ Ton ordinaire
 \gregorioscore{vepres-deus_in_adjutorium_septuagesime}
 
 \newpage
-\greillumination{\usefont{U}{GotIn}{xl}{n}\Huge D}
+
+\greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont D}
 \gregorioscore{antiennes/dixit-dominus-domino-meo}
+\vspace{5mm}
 \gresetinitiallines{0}
 \gregorioscore{psaumes/psaume109-VIIC2}
 

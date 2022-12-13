@@ -1,7 +1,7 @@
 name:Dixit Dominus Domino meo;
 office-part:Antiphona;
-annotation: {\color{red}Ant.};
-annotation: {\color{red}VII C2};
+annotation: {\color{red}\footnotesize Ant.};
+annotation: {\color{red}\scriptsize VII C\tiny 2};
 mode:7;
 mode-differentia: C2;
 book:Antiphonale Romanum II, 2009, p. 479;
