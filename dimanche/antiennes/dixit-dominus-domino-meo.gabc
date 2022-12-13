@@ -1,6 +1,6 @@
 name:Dixit Dominus Domino meo;
 office-part:Antiphona;
-annotation: {\color{red}\footnotesize Ant.};
+annotation: {\color{red}\tiny 1 \footnotesize Ant.};
 annotation: {\color{red}\scriptsize VII C\tiny 2};
 mode:7;
 mode-differentia: C2;
