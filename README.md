@@ -16,3 +16,9 @@ Il est fortement conseiller d'utiliser un IDE. [VSCode](https://code.visualstudi
       * Juste en dessous à gauche, choisir `tex` pour le format des versets, cocher la cases `GABC for first verse`, et laisser le reste tel quel.
       * Au milieu, le cadre GABC contient le code `gabc` du premier verset, à copier/coller dans un nouveau fichier `gabc` dans le dossier correspondant.
       * Enfin, dans le dernier cadre se trouve le rendu du premier verset, ainsi que le code `tex` des versets suivants. Copier/coller le code tex dans le fichier adéquat.
+
+### Pour contribuer
+- Créer une branche depuis `master`
+- Travailler sur cette branche et pousser les commits
+- Créer une PR vers `master`
+- La PR sera mergée sur `master` après validation
