@@ -10,7 +10,7 @@ date: 2011;
 transcriber: Benjamin Bloomfield;
 transcription-date: 2011;
 style: modern;
-annotation: \Vbar;
+annotation: {\color{red} \Rbar};
 
 % Then, when gregorio encounters the following line (%%), it switches to the score, where you input the notes
 

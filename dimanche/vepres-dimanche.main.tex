@@ -7,7 +7,8 @@
 \usepackage{libertine}
 \usepackage{xcolor}
 \usepackage{GotIn}
-
+\usepackage{geometry}
+\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
 \definecolor{red}{HTML}{C70039}
 
 \usepackage[autocompile]{gregoriotex}
@@ -16,9 +17,15 @@
 
 \pagestyle{empty}
 
+
 \begin{document}
+\gresetlinecolor{gregoriocolor}
 
 Ton ordinaire
+
+% greillumination: remplace la première lettre, ici par une font ornementale
+\greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont D}
+
 \gregorioscore{vepres-deus_in_adjutorium}
 \vspace{5mm}
 \small{
@@ -28,15 +35,53 @@ Ton ordinaire
     }
   }
 }
+
 \gregorioscore{vepres-deus_in_adjutorium_septuagesime}
+
+% vfill : prends l'espace vertical disponible 
+\vfill
+
+% greseparator: ornement. Le premier parametre est le type (de 1 à 5), le second la taille en points
+\greseparator{4}{30}
 
 \newpage
 
 \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont D}
 \gregorioscore{antiennes/dixit-dominus-domino-meo}
 \vspace{5mm}
+% gresetinitiallines : avec le parametre à 0, supprime l'ornement
 \gresetinitiallines{0}
-\gregorioscore{psaumes/psaume109-VIIC2}
 
+\begin{center}
+  \normalsize{Psaume 109.}\\
+  \footnotesize{
+    \emph{Génération éternelle du Christ, Prêtre, Roi et Juge.}
+  }
+\end{center}
+
+% \gresetheadercapture{name}{grecommentary}{}
+\gregorioscore{psaumes/psaume109-VIIC2}
+\begin{enumerate}
+  \setcounter{enumi}{2}
+  \item Virgam virtútis tuæ emíttet Dómi\textbf{nus} ex \textbf{Si}on:\textcolor{red}{~*} \\ \-\hspace{2cm} domináre in médio inimi\textbf{có}rum tu\textbf{ó}rum.
+
+  \item Tecum princípium in die virtútis tuæ in splendóri\textbf{bus} sanc\textbf{tó}rum:\textcolor{red}{~*}\\ \-\hspace{2cm}  ex útero ante lucíferum \textbf{gé}nu\textbf{i} te.
+
+  \item Jurávit Dóminus, et non pœni\textbf{té}bit \textbf{e}um:\textcolor{red}{~*}\\ \-\hspace{2cm}  Tu es sacérdos in ætérnum secúndum órdi\textbf{nem} Mel\textbf{chí}sedech.
+
+  \item Dóminus a \textbf{dex}tris \textbf{tu}is,\textcolor{red}{~*} confrégit in die iræ \textbf{su}æ \textbf{re}ges.
+
+  \item Judicábit in natiónibus, im\textbf{plé}bit ru\textbf{í}nas:\textcolor{red}{~*} 
+  conquassábit cápita in \textbf{ter}ra mul\textbf{tó}rum.
+
+  \item De torrénte in \textbf{vi}a \textbf{bi}bet:\textcolor{red}{~*} proptérea exal\textbf{tá}bit \textbf{ca}put.
+
+  \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spi\textbf{rí}tui \textbf{Sanc}to.
+
+  \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
+\end{enumerate}
+
+\vfill
+\greseparator{4}{30}
 
 \end{document}
