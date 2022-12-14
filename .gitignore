@@ -9,5 +9,6 @@
 *.*
 !*.gabc
 !*.tex
+!*.pdf
 !.gitignore
 !README.md
