@@ -1,6 +1,7 @@
 % !TeX program = lualatex
 \documentclass[12pt, a5paper]{article}
 \usepackage{fullpage}
+\usepackage{subfiles}
 \usepackage{fontspec}
 \usepackage{libertine}
 \usepackage{xcolor}
@@ -22,9 +23,8 @@
 
 \begin{titlepage}\centering
   \vspace*{\fill}
-  \LARGE Vêpres des dimanches mobiles\\
+  \LARGE Vêpres du dimanche\\
   \large Temps après l'Épiphanie\\
-  \large Temps après la Pentecôte
   \vspace*{\fill}
 \end{titlepage}
 
@@ -560,5 +560,7 @@ Seigneur, donnez-nous beaucoup de saintes vocations religieuses.\\
 \gresetinitiallines{1}
 \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont L}
 \gregorioscore{ps--laudate_dominum_omnes_gentes_(psalmus_116)--solesmes}
+
+\subfile{propre-epiphanie.tex}
 
 \end{document}
