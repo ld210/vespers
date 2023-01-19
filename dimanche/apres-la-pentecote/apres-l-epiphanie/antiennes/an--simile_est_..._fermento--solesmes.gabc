@@ -1,6 +1,7 @@
 name:Simile est ... fermento;
 office-part:Antiphona;
-mode:1;
+annotation: {\color{red}\tiny Ant.};
+annotation: {\color{red}\scriptsize I.a2};
 book:Liber antiphonarius, 1960, p. 340;
 transcriber:Andrew Hinkley;
 %%

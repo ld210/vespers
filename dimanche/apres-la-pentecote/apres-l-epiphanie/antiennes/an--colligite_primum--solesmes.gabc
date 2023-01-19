@@ -1,6 +1,7 @@
 name:Colligite primum;
 office-part:Antiphona;
-mode:1;
+annotation: {\color{red}\tiny Ant.};
+annotation: {\color{red}\scriptsize I.g};
 book:The Liber Usualis, 1961, p. 494 & Liber antiphonarius, 1960, p. 339;
 transcriber:Andrew Hinkley;
 %%
