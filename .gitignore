@@ -12,3 +12,7 @@
 !*.pdf
 !.gitignore
 !README.md
+!*.png
+!*.jpg
+!*.svg
+!*.jpeg
