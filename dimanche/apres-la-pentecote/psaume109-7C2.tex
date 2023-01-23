@@ -1,0 +1,81 @@
+% !TeX program = lualatex
+\documentclass[12pt, a5paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+
+\begin{document}
+\gresetlinecolor{gregoriocolor}
+
+% ===== DEBUT Antienne =========
+\greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont D}
+\gregorioscore{antiennes/dixit-dominus-domino-meo}
+\begin{center}
+  \footnotesize{
+    \textit{
+      L'Éternel a dit à mon Seigneur: Assieds-toi à ma droite.
+    }
+  }
+\end{center}
+\medskip
+% ===== FIN Antienne ===========
+
+% ===== DEBUT psaume ===========
+% gresetinitiallines : avec le parametre à 0, supprime l'ornement
+\gresetinitiallines{0}
+
+\begin{center}
+  \normalsize{Psaume 109.}\\
+  \footnotesize{
+    \emph{Génération éternelle du Christ, Prêtre, Roi et Juge.}
+  }
+\end{center}
+
+\gregorioscore{psaumes/psaume109-VIIC2}
+\begin{enumerate}
+  \setcounter{enumi}{2}
+  \item Virgam virtútis tuæ emíttet Dómi\textbf{nus} ex \textbf{Si}on:\textcolor{red}{~*} \\ \-\hspace{2cm} domináre in médio inimi\textbf{có}rum tu\textbf{ó}rum.
+
+  \item Tecum princípium in die virtútis tuæ in splendóri\textbf{bus} sanc\textbf{tó}rum:\textcolor{red}{~*}\\ \-\hspace{2cm}  ex útero ante lucíferum \textbf{gé}nu\textbf{i} te.
+
+  \item Jurávit Dóminus, et non pœni\textbf{té}bit \textbf{e}um:\textcolor{red}{~*}\\ \-\hspace{2cm}  Tu es sacérdos in ætérnum secúndum órdi\textbf{nem} Mel\textbf{chí}sedech.
+
+  \item Dóminus a \textbf{dex}tris \textbf{tu}is,\textcolor{red}{~*} confrégit in die iræ \textbf{su}æ \textbf{re}ges.
+
+  \item Judicábit in natiónibus, im\textbf{plé}bit ru\textbf{í}nas:\textcolor{red}{~*} 
+  conquassábit cápita in \textbf{ter}ra mul\textbf{tó}rum.
+
+  \item De torrénte in \textbf{vi}a \textbf{bi}bet:\textcolor{red}{~*} proptérea exal\textbf{tá}bit \textbf{ca}put.
+
+  \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spi\textbf{rí}tui \textbf{Sanc}to.
+
+  \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
+\end{enumerate}
+
+\begin{footnotesize}
+  \textit{
+    Jusqu'à ce que je mette tes ennemis pour le marchepied de tes pieds. L'Éternel enverra de Sion la verge de ta force: Domine au milieu de tes ennemis! Ton peuple sera un peuple de franche volonté, au jour de ta puissance, en sainte magnificence. Du sein de l'aurore te viendra la rosée de ta jeunesse. L'Éternel a juré, et il ne se repentira point: Tu es sacrificateur pour toujours, selon l'ordre de Melchisédec. Le Seigneur, à ta droite, brisera les rois au jour de sa colère. Il jugera parmi les nations, il remplira tout de corps morts, il brisera le chef d'un grand pays. Il boira du torrent dans le chemin, c'est pourquoi il lèvera haut la tête.
+  }
+\end{footnotesize}
+
+% ===== FIN psaume =========
+
+\end{document}

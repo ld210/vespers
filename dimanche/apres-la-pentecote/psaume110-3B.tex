@@ -1,0 +1,95 @@
+% !TeX program = lualatex
+\documentclass[12pt, a5paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+
+    % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont M}
+  \gregorioscore{antiennes/an--magna_opera_domini--solesmes}
+  \begin{center}
+    \footnotesize{
+      \textit{
+        Grandes sont les œuvres du Seigneur ; tous ceux qui les aiment s'en instruisent.
+      }
+    }
+  \end{center}
+  \medskip
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \gresetinitiallines{0}
+
+  \begin{center}
+    \normalsize{Psaume 110.}\\
+    \footnotesize{
+      \emph{Bienfaits accordés par Dieu à son peuple.}
+    }
+  \end{center}
+  \grechangedim{baselineskip}{70pt}{scalable}
+  \gregorioscore{psaumes/psaume110-IIIb}
+  \begin{center}
+    \footnotesize{
+      \textit{
+        De tout cœur je rendrai grâce au Seigneur dans l'assemblée, parmi les justes.
+      }
+    }
+  \end{center}
+
+  \begin{enumerate}
+    \setcounter{enumi}{1}
+    \item Magna \textbf{ó}pera \textbf{Dó}\textbf{mi}ni:\textcolor{red}{~*} exquisíta in omnes voluntá\textit{tes} \textbf{e}jus.
+
+    \item Conféssio et magnificéntia \textbf{o}pus \textbf{e}jus:\textcolor{red}{~*}\\ \-\hspace{2cm} et justítia ejus manet in sǽcu\textit{lum} \textbf{sǽ}culi.
+
+    \item Memóriam fecit mirabílium suórum,\textcolor{red}{~†} miséricors et mise\textbf{rá}tor \textbf{Dó}\textbf{mi}nus:\textcolor{red}{~*} \\ \-\hspace{2cm} escam dedit timén\textit{ti}\textbf{bus} se.
+
+    \item Memor erit in sǽculum testa\textbf{mén}ti \textbf{su}i:\textcolor{red}{~*} \\ \-\hspace{2cm} virtútem óperum suórum annuntiábit pópu\textit{lo} \textbf{su}o:
+
+    \item Ut det illis heredi\textbf{tá}tem \textbf{gén}\textbf{ti}um:\textcolor{red}{~*} ópera mánuum ejus véritas, et \textit{ju}\textbf{dí}cium.
+
+    \item Fidélia ómnia mandáta ejus:\textcolor{red}{~†} confirmáta in \textbf{sǽ}culum \textbf{sǽ}\textbf{cu}li,\textcolor{red}{~*} \\ \-\hspace{2cm} facta in veritáte et æ\textit{qui}\textbf{tá}te.
+
+    \item Redemptiónem misit \textbf{pó}pulo \textbf{su}o:\textcolor{red}{~*} mandávit in ætérnum testamén\textit{tum} \textbf{su}um.
+
+    \item Sanctum, et terríbile \textbf{no}men \textbf{e}jus:\textcolor{red}{~*} inítium sapiéntiæ ti\textit{mor} \textbf{Dó}mini.
+
+    \item Intelléctus bonus ómnibus faci\textbf{én}tibus \textbf{e}um:\textcolor{red}{~*} \\ \-\hspace{2cm} laudátio ejus manet in sǽcu\textit{lum} \textbf{sǽ}culi.
+
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}\textbf{li}o,\textcolor{red}{~*} et Spirítu\textit{i} \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæculó\textit{rum}. \textbf{A}men.
+  \end{enumerate}
+
+  \medskip
+  \begin{footnotesize}
+    \textit{
+      Grandes sont les œuvres du Seigneur ; tous ceux qui les aiment s'en instruisent. Noblesse et beauté dans ses actions : à jamais se maintiendra sa justice. De ses merveilles il a laissé un mémorial ; le Seigneur est tendresse et pitié, il a donné des vivres à ses fidèles, Gardant toujours mémoire de son
+      alliance, il a montré sa force à son peuple. Lui donnant le domaine des nations. Justesse et sûreté les œuvres de ses mains. Sécurité, toutes ses lois, établies pour toujours et à jamais, accomplies avec droiture et sûreté ! Il apporte la délivrance à son peuple ; son alliance est promulguée pour toujours Saint, redoutable est son nom, la sagesse commence avec la crainte du Seigneur. Qui accomplit sa volonté en est éclairé. A jamais se maintiendra sa louange.
+    }
+  \end{footnotesize}
+
+\end{document}

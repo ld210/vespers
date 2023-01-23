@@ -1,0 +1,187 @@
+% !TeX program = lualatex
+\documentclass[12pt, a5paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont D}
+  \gregorioscore{antiennes/an--deus_autem_noster--solesmes}
+  \begin{center}
+    \footnotesize{
+      \textit{
+        Notre Dieu est dans le ciel, tout ce qu’il a voulu, il l’a fait.
+      }
+    }
+  \end{center}
+  \medskip
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \gresetinitiallines{0}
+
+  \begin{center}
+    \normalsize{Psaume 113.}\\
+    \footnotesize{
+      \emph{Le peuple délivré d'Egypte}\\
+      \emph{chante son libérateur et le proclame seul vrai Dieu.}
+    }
+  \end{center}
+
+  \gregorioscore{psaumes/psaume113-tPer}
+  \smallskip
+  \begin{center}
+    \footnotesize{
+      \emph{Quand Israël sortit d'Égypte, et Jacob, de chez un peuple étranger,}
+    }
+  \end{center}
+  \smallskip
+  \begin{enumerate}
+    \setcounter{enumi}{1}
+    \item Facta est Judǽa sanctifi\textit{cá}\textit{ti}\textit{o} \textbf{e}jus,\textcolor{red}{~*}  Israël potés\textit{tas} \textbf{e}jus.
+
+    \item Mare \textit{vi}\textit{dit}, \textit{et} \textbf{fu}git:\textcolor{red}{~*}  Jordánis convérsus est \textit{re}\textbf{trór}sum.
+
+    \item Montes exsultavé\textit{runt} \textit{ut} \textit{a}\textbf{rí}etes,\textcolor{red}{~*}  et colles sicut a\textit{gni} \textbf{ó}vium.
+
+    \item Quid est tibi, ma\textit{re}, \textit{quod} \textit{fu}\textbf{gís}ti:\textcolor{red}{~*}  et tu, Jordánis, quia convérsus es \textit{re}\textbf{trór}sum?
+
+    \item Montes, exsultástis \textit{sic}\textit{ut} \textit{a}\textbf{rí}etes,\textcolor{red}{~*}  et colles, sicut a\textit{gni} \textbf{ó}vium.
+
+    \item A fácie Dómini \textit{mo}\textit{ta} \textit{est} \textbf{ter}ra,\textcolor{red}{~*}  a fácie De\textit{i} \textbf{Ja}cob.
+
+    \item Qui convértit petram in \textit{sta}\textit{gna} \textit{a}\textbf{quá}rum,\textcolor{red}{~*}  et rupem in fontes \textit{a}\textbf{quá}rum.
+
+    \item Non nobis, Dó\textit{mi}\textit{ne}, \textit{non} \textbf{no}bis:\textcolor{red}{~*}  sed nómini tuo \textit{da} \textbf{gló}riam.
+
+    \item Super misericórdia tua, et ve\textit{ri}\textit{tá}\textit{te} \textbf{tu}a:\textcolor{red}{~*} \\ \-\hspace{2cm} nequándo dicant gentes: Ubi est Deus \textit{e}\textbf{ó}rum?
+
+    \item Deus autem \textit{nos}\textit{ter} \textit{in} \textbf{cæ}lo:\textcolor{red}{~*}  ómnia quæcúmque vólu\textit{it}, \textbf{fe}cit.
+
+    \item Simulácra géntium ar\textit{gén}\textit{tum}, \textit{et} \textbf{au}rum,\textcolor{red}{~*}  ópera mánu\textit{um} \textbf{hó}minum.
+
+    \item Os habent, \textit{et} \textit{non} \textit{lo}\textbf{quén}tur:\textcolor{red}{~*}  óculos habent, et non \textit{vi}\textbf{dé}bunt.
+
+    \item Aures ha\textit{bent}, \textit{et} \textit{non} \textbf{áu}dient:\textcolor{red}{~*}  nares habent, et non o\textit{do}\textbf{rá}bunt.
+
+    \item Manus habent, et non palpábunt:\textcolor{red}{~†} pedes habent, et \textit{non} \textit{am}\textit{bu}\textbf{lá}bunt:\textcolor{red}{~*} \\ \-\hspace{2cm} non clamábunt in gúttu\textit{re} \textbf{su}o.
+
+    \item Símiles illis fiant qui \textit{fá}\textit{ci}\textit{unt} \textbf{e}a:\textcolor{red}{~*}  et omnes qui confídunt \textit{in} \textbf{e}is.
+
+    \item Domus Israël spe\textit{rá}\textit{vit} \textit{in} \textbf{Dó}mino:\textcolor{red}{~*}  adjútor eórum et protéctor \textit{e}\textbf{ó}rum est,
+
+    \item Domus Aaron spe\textit{rá}\textit{vit} \textit{in} \textbf{Dó}mino:\textcolor{red}{~*}  adjútor eórum et protéctor \textit{e}\textbf{ó}rum est,
+
+    \item Qui timent Dóminum, spera\textit{vé}\textit{runt} \textit{in} \textbf{Dó}mino:\textcolor{red}{~*} \\ \-\hspace{2cm} adjútor eórum et protéctor \textit{e}\textbf{ó}rum est.
+
+    \item Dóminus me\textit{mor} \textit{fu}\textit{it} \textbf{nos}tri:\textcolor{red}{~*}  et benedí\textit{xit} \textbf{no}bis:
+
+    \item Benedíxit \textit{dó}\textit{mu}\textit{i} \textbf{Is}raël:\textcolor{red}{~*}  benedíxit dómu\textit{i} \textbf{A}aron.
+
+    \item Benedíxit ómnibus, \textit{qui} \textit{ti}\textit{ment} \textbf{Dó}minum,\textcolor{red}{~*}  pusíllis cum \textit{ma}\textbf{jó}ribus.
+
+    \item Adjíciat \textit{Dó}\textit{mi}\textit{nus} \textbf{su}per vos:\textcolor{red}{~*}  super vos, et super fíli\textit{os} \textbf{ves}tros.
+
+    \item Benedíc\textit{ti} \textit{vos} \textit{a} \textbf{Dó}mino,\textcolor{red}{~*}  qui fecit cælum, \textit{et} \textbf{ter}ram.
+
+    \item Cæ\textit{lum} \textit{cæ}\textit{li} \textbf{Dó}mino:\textcolor{red}{~*}  terram autem dedit fíli\textit{is} \textbf{hó}minum.
+
+    \item Non mórtui lau\textit{dá}\textit{bunt} \textit{te}, \textbf{Dó}mine:\textcolor{red}{~*}  neque omnes, qui descéndunt in \textit{in}\textbf{fér}num.
+
+    \item Sed nos qui vívimus, bene\textit{dí}\textit{ci}\textit{mus} \textbf{Dó}mino,\textcolor{red}{~*}  ex hoc nunc et usque \textit{in} \textbf{sǽ}culum.
+
+    \item Glória \textit{Pa}\textit{tri}, \textit{et} \textbf{Fí}lio,\textcolor{red}{~*}  et Spirítu\textit{i} \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, \textit{et} \textit{nunc}, \textit{et} \textbf{sem}per,\textcolor{red}{~*}  et in sǽcula sæculó\textit{rum}. \textbf{A}men.
+  \end{enumerate}
+
+  \begin{footnotesize}
+    \textit{
+      Juda fut pour Dieu un sanctuaire, Israël
+      devint son domaine.
+      La mer voit et s'enfuit, le Jourdain retourne
+      en arrière.
+      Comme des béliers, bondissent les montagnes,
+      et les collines, comme des agneaux.
+      Qu'as-tu, mer, à t'enfuir, Jourdain, à
+      retourner en arrière ?
+      Montagnes, pourquoi bondir comme des
+      béliers, collines, comme des agneaux ?
+      Tremble, terre, devant le Maître, devant la
+      face du Dieu de Jacob,
+      Lui qui change le rocher en source et la pierre
+      en fontaine d’eau vive.
+      Non pas à nous, Seigneur, non pas à nous,
+      mais à ton nom donne la gloire.
+      Pour ton amour et ta vérité.
+      Pourquoi les païens diraient-ils : « Où donc
+      est leur Dieu ? »
+      Notre Dieu, il est au ciel ; tout ce qu'il veut,
+      il le fait.
+      Leurs idoles : or et argent, ouvrages de mains
+      humaines.
+      Elles ont une bouche et ne parlent pas, des
+      yeux et ne voient pas,
+      Des oreilles et n'entendent pas, des narines et
+      ne sentent pas.
+      Leurs mains ne peuvent toucher, leurs pieds
+      ne peuvent marcher, pas un son ne sort de
+      leur gosier !
+      Qu'ils deviennent comme elles, tous ceux qui
+      les font, ceux qui mettent leur foi en elles.
+      Israël, mets ta foi dans le Seigneur : le
+      secours, le bouclier, c'est lui !
+      Famille d'Aaron, mets ta foi dans le
+      Seigneur : le secours, le bouclier, c'est lui !
+      Vous qui le craignez, ayez foi dans le
+      Seigneur : le secours, le bouclier, c'est lui !
+      Le Seigneur se souvient de nous : il bénira !
+      Il bénira la famille d'Israël, et la famille
+      d'Aaron
+      Il bénira tous ceux qui craignent le Seigneur,
+      du plus grand au plus petit.
+      Que le Seigneur multiplie ses bienfaits pour
+      vous et vos enfants !
+      Soyez bénis par le Seigneur qui a fait le ciel
+      et la terre !
+      Le ciel, c'est le ciel du Seigneur ; aux
+      hommes, il a donné la terre.
+      Les morts ne louent pas le Seigneur, ni ceux
+      qui descendent au silence.
+      Nous, les vivants, bénissons le Seigneur,
+      maintenant et pour les siècles des siècles
+    }
+  \end{footnotesize}
+
+  \bigskip
+
+  \gresetinitiallines{0}
+  % \grechangestyle{commentary}{\scriptsize\textit}
+  \gresetheadercapture{commentary}{grecommentary}{}
+  \gregorioscore{antiennes/an--deus_autem_noster--solesmes}
+  \vspace{10mm}
+
+  % ===== FIN psaume =========
+\end{document}

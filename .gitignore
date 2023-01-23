@@ -9,7 +9,7 @@
 *.*
 !*.gabc
 !*.tex
-!*.pdf
+!*.main.pdf
 !.gitignore
 !README.md
 !*.png

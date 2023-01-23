@@ -1,0 +1,112 @@
+% !TeX program = lualatex
+\documentclass[12pt, a5paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont Q}
+  \gregorioscore{antiennes/an--qui_timet_dominum--solesmes}
+  \begin{center}
+    \footnotesize{
+      \textit{
+        Celui qui craint le Seigneur a une volonté ardente d’accomplir ses commandements.
+      }
+    }
+  \end{center}
+  \medskip
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+
+  \gresetinitiallines{0}
+
+  \begin{center}
+    \normalsize{Psaume 111.}\\
+    \footnotesize{
+      \emph{Portrait du juste, et tableau de son bonheur.}
+    }
+  \end{center}
+  \smallskip
+
+  \gregorioscore{psaumes/psaume111-IVG}
+  \begin{center}
+    \footnotesize{
+      \emph{Heureux l’homme qui craint le Seigneur, qui aime entièrement sa volonté !}
+    }
+  \end{center}
+  \smallskip
+  \begin{enumerate}
+    \setcounter{enumi}{1}
+    \item Potens in terra erit \textit{se}\textit{men} \textbf{e}jus:\textcolor{red}{~*}  generátio rectórum benedi\textbf{cé}tur.
+
+    \item Glória, et divítiæ in \textit{do}\textit{mo} \textbf{e}jus:\textcolor{red}{~*}  et justítia ejus manet in sǽculum \textbf{sǽ}culi.
+
+    \item Exórtum est in ténebris \textit{lu}\textit{men} \textbf{rec}tis:\textcolor{red}{~*}  miséricors, et miserátor, et \textbf{jus}tus.
+    
+    \item Jucúndus homo qui miserétur et cómmodat,\textcolor{red}{~†} dispónet sermónes suos \textit{in} \textit{ju}\textbf{dí}cio:\textcolor{red}{~*}  quia in ætérnum non commo\textbf{vé}bitur.
+
+    \item In memória ætérna \textit{e}\textit{rit} \textbf{jus}tus:\textcolor{red}{~*}  ab auditióne mala non ti\textbf{mé}bit.
+
+    \item Parátum cor ejus speráre in Dómino,\textcolor{red}{~†} confirmátum \textit{est} \textit{cor} \textbf{e}jus:\textcolor{red}{~*} \\ \-\hspace{2cm} non commovébitur donec despíciat inimícos \textbf{su}os.
+
+    \item Dispérsit, dedit paupéribus:\textcolor{red}{~†} justítia ejus manet in sǽ\textit{cu}\textit{lum} \textbf{sǽ}culi,\textcolor{red}{~*} \\ \-\hspace{2cm} cornu ejus exaltábitur in \textbf{gló}ria.
+
+    \item Peccátor vidébit, et irascétur,\textcolor{red}{~†} déntibus suis fremet \textit{et} \textit{ta}\textbf{bé}scet:\textcolor{red}{~*} \\ \-\hspace{2cm} desidérium peccatórum per\textbf{í}bit.
+
+    \item Glória Pa\textit{tri}, \textit{et} \textbf{Fí}lio,\textcolor{red}{~*}  et Spirítui \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et \textit{nunc}, \textit{et} \textbf{sem}per,\textcolor{red}{~*}  et in sǽcula sæculórum. \textbf{A}men.
+  \end{enumerate}
+  \medskip
+  \begin{footnotesize}
+    \textit{
+      Sa lignée sera puissante sur la terre ; la
+      race des justes est bénie.
+      Les richesses affluent dans sa maison : à
+      jamais se maintiendra sa justice.
+      Lumière des cœurs droits, il s'est levé
+      dans les ténèbres, l’homme de justice, de
+      tendresse et de pitié.
+      L'homme de bien a pitié, il partage ; il
+      mène ses affaires avec droiture, cet
+      homme jamais ne tombera ;
+      Toujours on fera mémoire du juste, il ne
+      craint pas l'annonce d'un malheur :
+      Le cœur ferme, il s'appuie sur le
+      Seigneur. Son cœur est confiant, il ne
+      craint pas : il verra ce que valaient ses
+      oppresseurs.
+      A pleines mains, il donne au pauvre ; à
+      jamais se maintiendra sa justice, sa
+      puissance grandira, et sa gloire !
+      L'impie le voit et s'irrite ; il grince des
+      dents et se détruit. L'ambition des impies
+      se perdra.
+    }
+  \end{footnotesize}
+
+  % ===== FIN psaume =========
+\end{document}
