@@ -21,6 +21,8 @@
 
 \input Acorn.fd
 \newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
 
 \begin{document}
 \gresetlinecolor{gregoriocolor}
@@ -44,10 +46,6 @@
     Livret latin-français
   }
 \end{titlepage}
-
-
-% cette ligne ajoute de l'espace entre les portées
-\grechangedim{baselineskip}{60pt}{scalable}
 
 \begin{center}
   \rule{2cm}{0.4pt}
@@ -163,7 +161,7 @@
     \emph{Bienfaits accordés par Dieu à son peuple.}
   }
 \end{center}
-\grechangedim{baselineskip}{70pt}{scalable}
+% \grechangedim{baselineskip}{70pt}{scalable}
 \gregorioscore{psaumes/psaume110-IIIb}
 \begin{center}
   \footnotesize{
@@ -546,6 +544,9 @@
 % \vspace{5mm}
 \begin{center}
   \textcolor{red}{\normalsize{Capitule.}}
+  \footnotesize{
+    \emph{Sauf dimanches de la Septuagesime, Sexagesime et Quinquagesime.}
+  }
 \end{center}
 
 \begin{multicols}{2}
@@ -860,6 +861,18 @@ Seigneur, donnez-nous beaucoup de saintes vocations religieuses.\\
   }
 \end{footnotesize}
 
+\newpage
+
+\begin{titlepage}\centering
+  \vspace*{\fill}
+  \LARGE Propre du temps.
+  \vspace*{\fill}
+\end{titlepage}
+
+\newpage
+
 \subfile{propre-epiphanie.tex}
+\newpage
+\subfile{septuagesime.tex}
 
 \end{document}
