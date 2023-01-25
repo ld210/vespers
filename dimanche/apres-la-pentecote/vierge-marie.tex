@@ -1,0 +1,81 @@
+% !TeX program = lualatex
+\documentclass[12pt, a5paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  \begin{center}
+    \large{Antiennes à la Sainte Vierge.}
+  \end{center}
+
+
+  \begin{center}
+    \textcolor{red}{\normalsize{Alma Redemptoris Mater}}\\
+    \begin{footnotesize}
+      \textit{
+        Depuis les Vêpres du samedi avant le 1 Dimanche de l'Avent jusqu'aux Vêpres du 2 Février inclusivement.
+      }
+    \end{footnotesize}
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{antiennes-mariales/an--alma_redemptoris--solesmes}
+  \medskip
+  \begin{footnotesize}
+    \textit{
+      Mère féconde du Rédempteur, vous qui demeurez la Porte toujours ouverte du ciel et l'Étoile de la mer, venez au secours de ce peuple déchu qui voudrait se relever. Vous qui, au grand étonnement de la nature, avez donné le jour à votre divin Auteur, et qui êtes restée Vierge après comme auparavant, en recevant cet Ave de la bouche de Gabriel, ayez pitié des pécheurs.
+    }
+  \end{footnotesize}
+
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+
+  \newpage
+
+  \begin{center}
+    \textcolor{red}{\normalsize{Ave Regina caelorum}}\\
+    \begin{footnotesize}
+      \textit{
+      Depuis les Complies du 2 Février inclusivement, jusqu'aux Complies du Mercredi Saint inclusivement.
+      }
+    \end{footnotesize}
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{antiennes-mariales/an--ave_regina_caelorum_(simple_tone)--solesmes}
+  \medskip
+  \begin{footnotesize}
+    \textit{
+      Salut, Reine des cieux ! Salut, Souveraine des Anges ! Salut, Tige, salut, Ô Porte par qui la lumière s'est levée sur le monde. Réjouissez-vous, Vierge glorieuse, qui l'emportez sur toutes en beauté ! Adieu, Ô toute belle, et priez le Christ pour nous.
+    }
+  \end{footnotesize}
+
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+
+\end{document}
