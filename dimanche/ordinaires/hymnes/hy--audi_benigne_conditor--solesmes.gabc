@@ -2,6 +2,7 @@ name:Audi benigne Conditor;
 office-part:Hymnus;
 annotation: {\color{red}\tiny Hymne.};
 annotation: {\color{red}\scriptsize II};
+commentary: {\textit{Sanctus Gregorius Magnus}};
 book:The Liber Usualis, 1961, p. 539 & Liber antiphonarius, 1960, p. 362;
 transcriber:Andrew Hinkley;
 %%

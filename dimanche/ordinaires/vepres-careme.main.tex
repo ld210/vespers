@@ -10,6 +10,7 @@
 \usepackage{multicol}
 \usepackage{multicolrule}
 \usepackage{graphicx}
+\usepackage{enumitem}
 \usepackage[autocompile]{gregoriotex}
 
 \geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
@@ -121,6 +122,12 @@
 
 \begin{center}
   \textcolor{red}{\normalsize{Hymne.}}\\
+  \begin{footnotesize}
+    \textit{
+      Sauf Dimanche de la Passion et Dimanche des Rameaux, \\
+      voir au propre du jour.
+    }
+  \end{footnotesize}
 \end{center}
 
 % \grechangedim{baselineskip}{70pt}{scalable}
@@ -132,7 +139,7 @@
 
 \begin{footnotesize}
   \parindent=0pt
-  \begin{enumerate}
+  \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
     \item \textit{Créateur plein de bonté, écoutez les
     prières, et regardez les larmes dont
     nous accompagnons le jeûne sacré de
@@ -167,14 +174,9 @@
 
 \gresetinitiallines{0}
 \gabcsnippet{(c3)<c><v>\Vbar</v>.</c> An(h)ge(h)lis(h) sù(h)is(h) Dé(h)us(h) man(h)dá(h)vit(h) de(h) te.(g'_) (hvGF'Efgf.) (::) (Z) <c><v>\Rbar</v>.</c> Ut(h) cu(h)stó(h)di(h)ant(h) te(h) in(h) óm(h)ni(h)bus(h) vi(h)is(h) tu(h)is.(g'_) (hvGF'Efgf.) (::)}
-% \begin{center}
-%   \begin{minipage}[t]{9cm}%
-%     \gabcsnippet{(c3)<c><v>\Vbar</v>.</c> Di(h)ri(h)gá(h)tur(h) Dó(h)mi(h)ne(h) o(h)rá(h)ti(h)o(h) mé(h)a.(g'_) (hvGF'Efgf.) (::)(z)<c><v>\Rbar</v>.</c> Si(h)cut(h) in(h)cén(h)sum(h) in(h) cons(h)pé(h)ctu(h) tú(h)o.(g'_) (hvGF'Efgf.) (::)}%
-%   \end{minipage}%  
-% \end{center}
 \smallskip
 \begin{center}
-  \textit{\textcolor{red}{\Vbar.} Dieu a commandé à ses Anges,
+  \textit{\textcolor{red}{\Vbar.} Dieu a commandé à ses Anges,\\
   \textcolor{red}{\Rbar.} De vous garder dans toutes vos voies.}
 \end{center}
 
@@ -309,6 +311,17 @@
 \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont T}
 \gregorioscore{hy--tantum_ergo--solesmes}
 
+\begin{center}
+  \begin{footnotesize}
+    \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+      \item \textit{Devant un sacrement si grand, prosternons-nous, adorons ; et que les symboles anciens s'effacent devant le rite nouveau ; que la foi vienne suppléer à la faiblesse de nos sens.}
+      \item \textit{Au Père et au Fils louanges et acclamations, gloire honneur et puissance ainsi que bénédictions. A Celui qui de tous deux procède offrons une égale louange.}
+    \end{enumerate}
+  \end{footnotesize}
+\end{center}
+
+\medskip
+
 \begin{multicols}{2}
   \parindent=0pt
   \textcolor{red}{\Vbar.} Panem de caelo praestitisti eis.\\
@@ -319,6 +332,11 @@
   
 \end{multicols}
 
+\begin{center}
+  \rule{2cm}{0.4pt}
+\end{center}
+
+\newpage
 
 \begin{center}
   \textcolor{red}{\normalsize{Oraison}}
