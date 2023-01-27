@@ -1,6 +1,7 @@
 name:Lucis Creator optime;
 office-part:Hymnus;
-mode:8;
+annotation: {\color{red}\tiny Hymne.};
+annotation: {\color{red}\scriptsize VIII};
 book:Liber antiphonarius, 1960, p. 48;
 transcriber:Andrew Hinkley;
 %%

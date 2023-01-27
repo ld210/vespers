@@ -1,0 +1,36 @@
+% !TeX program = lualatex
+\documentclass[12pt, a5paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  \begin{multicols}{2}
+    \textcolor{red}{\Vbar.} Benedíctus Deus, et Pater Dómini nostri Iesu Chris\textit{ti}, \textcolor{red}{~†} Pater misericordiárum, et Deus totíus conso\textit{la}tiónis, \textcolor{red}{~*} qui consolátur nos in omni tribulatióne nostra.
+    \textcolor{red}{\Rbar.} Deo grátias
+
+    \columnbreak
+
+    \textit{Béni soit le Dieu et Père de Notre-Seigneur Jésus-Christ, le Père des miséricordes et le Dieu de toute consolation, qui nous console dans nos tribulations.}
+  \end{multicols}
+\end{document}
