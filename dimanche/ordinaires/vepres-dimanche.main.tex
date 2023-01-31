@@ -10,6 +10,7 @@
 \usepackage{multicol}
 \usepackage{multicolrule}
 \usepackage{graphicx}
+\usepackage{enumitem}
 \usepackage[autocompile]{gregoriotex}
 
 \geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
@@ -103,6 +104,9 @@
 % \vspace{5mm}
 \begin{center}
   \textcolor{red}{\normalsize{Capitule.}}\\
+  \small\textit{
+      Épître aux Galates. 4, 22-24.\\
+    }
   \footnotesize{
     \emph{Sauf dimanches de la Septuagesime, Sexagesime et Quinquagesime.}
   }
@@ -121,11 +125,7 @@
   \rule{2cm}{0.4pt}
 \end{center}
 
-\newpage
-
-\begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
+% \newpage
 
 \begin{center}
   \textcolor{red}{\normalsize{Hymne.}}\\
@@ -140,56 +140,51 @@
 \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont L}
 \gregorioscore{hymnes/hy--lucis_creator_optime--solesmes}
 \bigskip
+\begin{center}
+  \begin{footnotesize}
+    \textit{
+      \textcolor{red}{1. } O Très bon Créateur de la
+      lumière, qui faites naître la
+      clarté des jours ; aux premiers
+      rayons de la lumière nouvelle,
+      vous préparez l'origine du
+      monde.
+    }
+  \end{footnotesize}
+\end{center}
 
-\begin{footnotesize}
-  \textit{
-    O Très bon Créateur de la
-    lumière, qui faites naître la
-    clarté des jours ; aux premiers
-    rayons de la lumière nouvelle,
-    vous préparez l'origine du
-    monde.
-    Vous, qui faites appeler jour
-    Le temps qui s'écoule du matin
-    au soir ; Voici l'approche de la
-    nuit, Ecoutez nos prières mêlées
-    de larmes ;
-    Ne permettez pas que notre
-    âme, Chargée de crimes soit
-    privée du bienfait de la vie,
-    Tandis que sans penser à
-    l'éternité, Elle s'embarrasse
-    dans les liens du péché.
-    Qu'elle frappe enfin à la porte
-    du ciel ; Qu'elle remporte la
-    récompense de la vie ;
-    Qu'elle évite tout mal
-    Et se purifie de toute iniquité.
-    Accordez-nous cette grâce, Père
-    très miséricordieux, Ainsi que
-    vous, Fils unique, égal au Père,
-    Qui, avec l'Esprit Consolateur,
-    Régnez à jamais.
-    Ainsi soit-il.
-  }
-\end{footnotesize}
+\begin{multicols}{2}
+  \begin{footnotesize}
+    \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+      \setcounter{enumi}{1}
+      \item \textit{Vous, qui faites appeler jour Le temps qui s'écoule du matin au soir ; Voici l'approche de la nuit, Ecoutez nos prières mêlées de larmes ;}
+      \item \textit{Ne permettez pas que notre âme, Chargée de crimes soit privée du bienfait de la vie,
+      Tandis que sans penser à l'éternité, Elle s'embarrasse dans les liens du péché.}
+    \end{enumerate}
+  \end{footnotesize}
+
+  \columnbreak
+  \begin{footnotesize}
+    \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+      \setcounter{enumi}{3}
+      \item \textit{Qu'elle frappe enfin à la porte du ciel ; Qu'elle remporte la récompense de la vie ;
+      Qu'elle évite tout mal Et se purifie de toute iniquité.}
+      \item \textit{Accordez-nous cette grâce, Père très miséricordieux, Ainsi que vous, Fils unique, égal au Père, Qui, avec l'Esprit Consolateur, Régnez à jamais. Ainsi soit-il.}
+    \end{enumerate}
+  \end{footnotesize}
+\end{multicols}
+
 % \grechangedim{baselineskip}{50pt}{scalable}
 
 \begin{center}
   \rule{2cm}{0.4pt}
 \end{center}
 
-% \newpage
+\newpage
 
 
 \gresetinitiallines{0}
 \gabcsnippet{(c3)<c><v>\Vbar</v>.</c> Di(h)ri(h)gá(h)tur(h) Dó(h)mi(h)ne(h) o(h)rá(h)ti(h)o(h) mé(h)a.(g'_) (hvGF'Efgf.) (::) (Z) <c><v>\Rbar</v>.</c> Si(h)cut(h) in(h)cén(h)sum(h) in(h) cons(h)pé(h)ctu(h) tú(h)o.(g'_) (hvGF'Efgf.) (::)}
-% \begin{center}
-%   \begin{minipage}[t]{9cm}%
-%     \gabcsnippet{(c3)<c><v>\Vbar</v>.</c> Di(h)ri(h)gá(h)tur(h) Dó(h)mi(h)ne(h) o(h)rá(h)ti(h)o(h) mé(h)a.(g'_) (hvGF'Efgf.) (::)(z)<c><v>\Rbar</v>.</c> Si(h)cut(h) in(h)cén(h)sum(h) in(h) cons(h)pé(h)ctu(h) tú(h)o.(g'_) (hvGF'Efgf.) (::)}%
-%   \end{minipage}%  
-% \end{center}
-\smallskip
 \begin{center}
   \textit{\textcolor{red}{\Vbar.} Que ma prière s’élève,
   \textcolor{red}{\Rbar.} Seigneur, comme l’encens devant votre face.}
@@ -204,10 +199,6 @@
   \footnotesize{
     \emph{Au propre du jour}
   }
-\end{center}
-
-\begin{center}
-  \rule{2cm}{0.4pt}
 \end{center}
 
 \begin{center}
@@ -239,11 +230,25 @@
   \textcolor{red}{\Rbar.} Et avec votre esprit.}\\
 \end{multicols}
 
-\vspace{10pt}
-
 \gresetinitiallines{1}
 \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont B}
 \gregorioscore{benedicamus/ky--benedicamus_xi--solesmes}
+\begin{center}
+  \begin{footnotesize}
+    \textcolor{red}{\textit{Sur un ton très grave : }}
+  \end{footnotesize}
+\end{center}
+\begin{multicols}{2}
+  \parindent=0pt
+  \textcolor{red}{\Vbar.} Fidélium ánimæ per misericórdiam Dei requiéscant in pace.\\
+  \textcolor{red}{\Rbar.} Amen.\\
+
+  \columnbreak
+  
+  \textit{\textcolor{red}{\Vbar.} Que les âmes des fidèles défunts, par la
+  miséricorde de Dieu, reposent en paix.\\
+  \textcolor{red}{\Rbar.} Amen.}\\
+\end{multicols}
 
 \newpage
 
@@ -325,6 +330,14 @@
 \gresetinitiallines{1}
 \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont T}
 \gregorioscore{hymnes/hy--tantum_ergo--solesmes}
+\begin{center}
+  \begin{footnotesize}
+    \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+      \item \textit{Devant un sacrement si grand, prosternons-nous, adorons ; et que les symboles anciens s'effacent devant le rite nouveau ; que la foi vienne suppléer à la faiblesse de nos sens.}
+      \item \textit{Au Père et au Fils louanges et acclamations, gloire honneur et puissance ainsi que bénédictions. A Celui qui de tous deux procède offrons une égale louange.}
+    \end{enumerate}
+  \end{footnotesize}
+\end{center}
 
 \begin{multicols}{2}
   \parindent=0pt
@@ -336,6 +349,7 @@
   
 \end{multicols}
 
+\newpage
 
 \begin{center}
   \textcolor{red}{\normalsize{Oraison}}
