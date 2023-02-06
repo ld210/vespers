@@ -1,0 +1,197 @@
+% !TeX program = lualatex
+\documentclass[12pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont Z}
+  \gregorioscore{antiennes/an--zelus_domus_tuae--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{
+        Le zèle de votre maison m'a dévoré ; et sur moi sont tombés les opprobres de ceux qui s'attaquaient à vous.
+      }
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \normalsize{Psaume 68.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume68-VIIIc}
+
+  \begin{enumerate}
+    \setcounter{enumi}{1}
+    \item Infíxus sum in limo pro\textbf{fún}di:\textcolor{red}{~*} et non \textit{est} \textit{sub}\textbf{stán}tia.
+
+    \item Veni in altitúdinem \textbf{ma}ris:\textcolor{red}{~*} et tempés\textit{tas} \textit{de}\textbf{mér}sit me.
+
+    \item Laborávi clamans, raucæ factæ sunt fauces \textbf{me}æ:\textcolor{red}{~*} defecérunt óculi mei, dum spero in \textit{De}\textit{um} \textbf{me}um.
+
+    \item Multiplicáti sunt super capíllos cápitis \textbf{me}i,\textcolor{red}{~*} qui odé\textit{runt} \textit{me} \textbf{gra}tis.
+
+    \item Confortáti sunt qui persecúti sunt me inimíci mei in\textbf{jús}te:\textcolor{red}{~*} quæ non rápui, tunc \textit{ex}\textit{sol}\textbf{vé}bam.
+
+    \item Deus, tu scis insipiéntiam \textbf{me}am:\textcolor{red}{~*} et delícta mea a te non \textit{sunt} \textit{abs}\textbf{cón}dita.
+
+    \item Non erubéscant in me qui exspéctant te, \textbf{Dó}mine,\textcolor{red}{~*} Dómi\textit{ne} \textit{vir}\textbf{tú}tum
+
+    \item Non confundántur \textbf{su}per me\textcolor{red}{~*} qui quærunt te, \textit{De}\textit{us} \textbf{Is}raël.
+
+    \item Quóniam propter te sustínui op\textbf{pró}brium:\textcolor{red}{~*} opéruit confúsio fá\textit{ci}\textit{em} \textbf{me}am.
+
+    \item Extráneus factus sum frátribus \textbf{me}is,\textcolor{red}{~*} et peregrínus fíliis \textit{ma}\textit{tris} \textbf{me}æ.
+
+    \item Quóniam zelus domus tuæ com\textbf{é}dit me:\textcolor{red}{~*} et oppróbria exprobrántium tibi ceci\textit{dé}\textit{runt} \textbf{su}per me.
+
+    \item Et opérui in jejúnio ánimam \textbf{me}am:\textcolor{red}{~*} et factum est in oppró\textit{bri}\textit{um} \textbf{mi}hi.
+
+    \item Et pósui vestiméntum meum ci\textbf{lí}cium:\textcolor{red}{~*} et factus sum illis \textit{in} \textit{pa}\textbf{rá}bolam.
+
+    \item Advérsum me loquebántur, qui sedébant in \textbf{por}ta:\textcolor{red}{~*} et in me psallébant qui bi\textit{bé}\textit{bant} \textbf{vi}num.
+
+    \item Ego vero oratiónem meam ad te, \textbf{Dó}mine:\textcolor{red}{~*} tempus beneplá\textit{ci}\textit{ti}, \textbf{De}us.
+
+    \item In multitúdine misericórdiæ tuæ ex\textbf{áu}di me,\textcolor{red}{~*} in veritáte sa\textit{lú}\textit{tis} \textbf{tu}æ:
+
+    \item Eripe me de luto, ut non in\textbf{fí}gar:\textcolor{red}{~*} líbera me ab iis, qui odérunt me, et de profún\textit{dis} \textit{a}\textbf{quá}rum.
+
+    \item Non me demérgat tempéstas aquæ,\textcolor{red}{~†} neque absórbeat me pro\textbf{fún}dum:\textcolor{red}{~*} \\ \-\hspace{2cm} neque úrgeat super me púte\textit{us} \textit{os} \textbf{su}um.
+
+    \item Exáudi me, Dómine, quóniam benígna est misericórdia \textbf{tu}a:\textcolor{red}{~*} \\ \-\hspace{2cm} secúndum multitúdinem miseratiónum tuárum ré\textit{spi}\textit{ce} \textbf{in} me.
+
+    \item Et ne avértas fáciem tuam a púero \textbf{tu}o:\textcolor{red}{~*} quóniam tríbulor, velóci\textit{ter} \textit{ex}\textbf{áu}di me.
+
+    \item Inténde ánimæ meæ, et líbera \textbf{e}am:\textcolor{red}{~*} propter inimícos meos \textit{é}\textit{ri}\textbf{pe} me.
+
+    \item Tu scis impropérium meum, et confusiónem \textbf{me}am,\textcolor{red}{~*} et reverén\textit{ti}\textit{am} \textbf{me}am.
+
+    \item In conspéctu tuo sunt omnes qui tríbu\textbf{lant} me:\textcolor{red}{~*} impropérium exspectávit cor meum, \textit{et} \textit{mi}\textbf{sé}riam.
+
+    \item Et sustínui qui simul contristarétur, et non \textbf{fu}it:\textcolor{red}{~*} et qui consolarétur, et \textit{non} \textit{in}\textbf{vé}ni.
+
+    \item Et dedérunt in escam \textbf{me}am fel:\textcolor{red}{~*} et in siti mea potavérunt \textit{me} \textit{a}\textbf{cé}to.
+
+    \item Fiat mensa eórum coram ipsis in \textbf{lá}queum,\textcolor{red}{~*} et in retributiónes, \textit{et} \textit{in} \textbf{scán}dalum.
+
+    \item Obscuréntur óculi eórum ne \textbf{ví}deant:\textcolor{red}{~*} et dorsum eórum sem\textit{per} \textit{in}\textbf{cúr}va.
+
+    \item Effúnde super eos iram \textbf{tu}am:\textcolor{red}{~*} et furor iræ tuæ compre\textit{hén}\textit{dat} \textbf{e}os.
+
+    \item Fiat habitátio eórum de\textbf{sér}ta:\textcolor{red}{~*} et in tabernáculis eórum non sit \textit{qui} \textit{in}\textbf{há}bitet.
+
+    \item Quóniam quem tu percussísti, perse\textbf{cú}ti sunt:\textcolor{red}{~*} et super dolórem vúlnerum meórum \textit{ad}\textit{di}\textbf{dé}runt.
+
+    \item Appóne iniquitátem super iniquitátem e\textbf{ó}rum:\textcolor{red}{~*} et non intrent in justí\textit{ti}\textit{am} \textbf{tu}am.
+
+    \item Deleántur de libro vi\textbf{vén}tium:\textcolor{red}{~*} et cum justis \textit{non} \textit{scri}\textbf{bán}tur.
+
+    \item Ego sum pauper et \textbf{do}lens:\textcolor{red}{~*} salus tua, De\textit{us}, \textit{su}\textbf{scé}pit me.
+
+    \item Laudábo nomen Dei cum \textbf{cán}tico:\textcolor{red}{~*} et magnificábo e\textit{um} \textit{in} \textbf{lau}de:
+
+    \item Et placébit Deo super vítulum no\textbf{vél}lum:\textcolor{red}{~*} córnua producén\textit{tem} \textit{et} \textbf{ún}gulas.
+
+    \item Vídeant páuperes et læ\textbf{tén}tur:\textcolor{red}{~*} quǽrite Deum, et vivet á\textit{ni}\textit{ma} \textbf{ves}tra.
+
+    \item Quóniam exaudívit páuperes \textbf{Dó}minus:\textcolor{red}{~*} et vinctos suos \textit{non} \textit{de}\textbf{spé}xit.
+
+    \item Laudent illum cæli et \textbf{ter}ra,\textcolor{red}{~*} mare et ómnia reptíli\textit{a} \textit{in} \textbf{e}is.
+
+    \item Quóniam Deus salvam fáciet \textbf{Si}on:\textcolor{red}{~*} et ædificabúntur civi\textit{tá}\textit{tes} \textbf{Ju}da.
+
+    \item Et inhabitábunt \textbf{i}bi,\textcolor{red}{~*} et hereditáte ac\textit{quí}\textit{rent} \textbf{e}am.
+
+    \item Et semen servórum ejus possidébit \textbf{e}am:\textcolor{red}{~*} et qui díligunt nomen ejus, habitá\textit{bunt} \textit{in} \textbf{e}a.
+  \end{enumerate}
+
+  \gresetheadercapture{commentary}{grecommentary}{}
+  \gregorioscore{antiennes/an--zelus_domus_tuae--solesmes_1961}
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{O mon Dieu, sauvez-moi, parce que les eaux ont pénétré jusques dans mon âme}
+        \item \textit{Je suis enfoncé dans une boue profonde, où je ne
+        trouve point de fermeté.}
+        \item \textit{Je suis tombé dans la mer profonde ; et la tempête
+        m’a submergé.}
+        \item \textit{Je me suis fatigué en criant, ma gorge en a été enrouée ; mes yeux se sont fermés de faiblesse, tandis que j’espère en mon Dieu.}
+        \item \textit{Ceux qui me haïssent sans sujet, se sont multipliés
+        plus que les cheveux de ma tête.}
+        \item \textit{Mes ennemis qui me persécutaient injustement, se
+        sont fortifiés contre moi ; alors j’ai payé ce que je n’avais pas pris.}
+        \item \textit{Mon Dieu, vous connaissez ma folie, et mes
+        crimes ne vous sont point cachés.}
+        \item \textit{Seigneur, souverain des vertus ; que ceux qui espèrent en vous ne rougissent point à cause de moi.}
+        \item \textit{O Dieu d’Israël, que ceux qui vous cherchent,
+        n’aient point de confusion à mon sujet.}
+        \item \textit{Car c’est à cause de vous que j’ai souffert les opprobres, et que mon visage a été couvert de confusion.}
+        \item \textit{Je suis devenu comme étranger à mes frères, et comme inconnu aux enfants de ma mère ;}
+        \item \textit{Parce que le zèle de votre maison me dévore, et que les opprobres de ceux qui vous ont outragé, sont retombées sur moi.}
+        \item \textit{Je me suis couvert d’un sac pendant mon jeûne, ce qui est devenu pour moi un sujet d’opprobre.} 
+        \item \textit{J’ai pris pour vêtement un cilice, ce qui m’a encore rendu l’objet de leur railleries.}
+        \item \textit{Ceux qui étaient assis à la porte, parlaient contre moi, et ceux qui buvaient du vin se moquaient de moi dans leurs chansons.}
+        \item \textit{Mais pour moi, Seigneur, je vous adressais ma prière ; ô mon Dieu, voici le temps de votre bonté.}
+        \item \textit{Exaucez-moi dans la multitude de votre miséricorde, et dans la vérité des promesses qui regardent mon salut.}
+        \item \textit{Retirez-moi du bourbier, afin que je ne m’y enfonce pas davantage ; délivrez-moi de ceux qui me haïssent, et de la profondeur des eaux.}
+        \item \textit{Que la tempête ne me submerge point, que je ne sois point enseveli dans l’abîme, et que la bouche du puits ne soit point fermée sur moi.}
+        \item \textit{Seigneur, exaucez-moi, car votre miséricorde est bienfaisante et toute remplie de douceur ; regardez-moi favorablement selon la multitude de vos miséricordes.}
+        \item \textit{Ne détournez pas votre visage de dessus votre serviteur ; exaucez- moi promptement, car je suis dans le trouble.}
+        \item \textit{Soyez attentif sur mon âme, et délivrez-la ; sauvez-moi, à cause de mes ennemis.}
+        \item \textit{Vous savez les opprobres où ils m’ont jeté ; vous voyez la confusion et l’ignominie dont je suis couvert.}
+        \item \textit{Tous ceux qui me persécutent sont sous vos yeux ; mon cœur n’a envisagé que l’opprobre et la misère.}
+        \item \textit{J’ai attendu que quelqu’un prit part à ma tristesse, et personne ne s’est présenté ; ou que quelqu’un me consolât, mais je n’en ai point trouvé}
+        \item \textit{Ils m’ont donné du fiel pour ma nourriture, et ils m’ont présenté du vinaigre durant ma soif.}
+        \item \textit{Que leur table soit devant eux comme un piège, et qu’elle leur soit une punition et une pierre de scandale.}
+        \item \textit{Que leurs yeux s’obscurcissent, afin qu’ils ne voient point ; et que leurs dos soient toujours courbés.}
+        \item \textit{Faites tomber sur eux votre colère, et que la fureur de votre indignation les accable.}
+        \item \textit{Que leur maison devienne déserte, et que l’on ne trouve personne qui habite dans leurs tentes.}
+        \item \textit{Car ils ont persécuté celui que vous avez frappé, et ils ont ajouté de nouvelles blessures à mes plaies.}
+        \item \textit{Permettez qu’ils ajoutent iniquité sur iniquité, et qu’ils n’entrent point dans votre justice}
+        \item \textit{Qu’ils soient effacés du livre des vivants, et qu’ils ne soient point écrits parmi les justes.}
+        \item \textit{Je suis pauvre et affligé ; mais, mon Dieu, votre protection m’a soutenu.}
+        \item \textit{Je louerai le nom de Dieu dans mes Cantiques, et je le glorifierai par mes louanges.}
+        \item \textit{Elles seront plus agréables à Dieu que le sacrifice d’un jeune veau, dont les cornes et les ongles commencent à pousser.}
+        \item \textit{Que les pauvres le voient et qu’ils se réjouissent ; cherchez Dieu, et votre âme vivra.}
+        \item \textit{Car le Seigneur a exaucé les pauvres, et il n’a pas méprisé ceux qui étaient dans l’esclavage.}
+        \item \textit{Que les cieux et la terre le louent, aussi bien que la mer et les animaux qu’elle renferme.}
+        \item \textit{Parce que Dieu sauvera Sion, et que les villes de Juda seront bâties.}
+        \item \textit{C’est là qu’ils habiteront, quand ils en seront mis
+        en possession comme d’un héritage.}
+        \item \textit{Et la postérité de ses serviteurs la possèdera, et ceux qui aiment son nom y feront leur demeure.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+  
+\end{document}
