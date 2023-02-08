@@ -1,0 +1,66 @@
+% !TeX program = lualatex
+\documentclass[12pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+  \font\titlefont=lmr12 at 50pt
+  \begin{titlepage}\centering
+    \vspace*{\fill}\
+    \titlefont Office\\
+    \bigskip
+    \LARGE des\\
+    \bigskip
+    \titlefont Ténèbres\\
+    \vspace*{\fill}
+    \begin{figure}[h!]
+      \centering
+      \includegraphics[width=7cm]{../../ordinaires/logo.png}
+    \end{figure}
+
+    \vspace*{\fill}
+    \large\textit{
+      Livret latin-français
+    }
+  \end{titlepage}
+
+  \begin{center}
+    \huge VENDREDI SAINT\\
+    \greseparator{3}{30}\\
+    \bigskip
+    \large L'OFFICE DES TÉNÈBRES.\\
+  \end{center}
+  \bigskip
+  \par  
+  \medskip
+  \par 
+  \medskip
+  \par 
+
+  \newpage
+
+  % \subfile{jeudi.tex}
+\end{document}

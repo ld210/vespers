@@ -1,0 +1,119 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+
+  \begin{center}
+    \large À MATINES.\\
+  \end{center}
+  \medskip
+
+  \begin{center}
+    \large AU PREMIER NOCTURNE.\\
+  \end{center}
+  \medskip
+  \par 
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+
+  % ================ TEMPLATE PSAUMES =========================
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont Z}
+  \gregorioscore{antiennes/an--zelus_domus_tuae--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{ }
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 68.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume68-VIIIc}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    
+  \end{enumerate}
+
+  \gresetheadercapture{commentary}{grecommentary}{}
+  \gregorioscore{antiennes/an--zelus_domus_tuae--solesmes_1961}
+  \gresetheadercapture{commentary}{}{}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{} 
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+        \item \textit{}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  % ===== FIN psaume ===========
+
+  \bigskip
+
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+
+  \par 
+
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}    
+\end{document}
+
