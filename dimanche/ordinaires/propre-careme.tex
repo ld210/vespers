@@ -1,5 +1,5 @@
 % !TeX program = lualatex
-\documentclass[12pt, a5paper]{article}
+\documentclass[12pt, a4paper]{article}
 \usepackage{fullpage}
 \usepackage{subfiles}
 \usepackage{fontspec}
@@ -13,7 +13,7 @@
 \usepackage{enumitem}
 \usepackage[autocompile]{gregoriotex}
 
-\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\geometry{top=2cm, bottom=2cm}
 \pagestyle{empty}
 
 \definecolor{red}{HTML}{C70039}
@@ -27,16 +27,15 @@
 
 \begin{document}
 \gresetlinecolor{gregoriocolor}
-  \small
 
   \begin{center}
-    \begin{large}
+    \begin{LARGE}
       I\textsuperscript{er} Dimanche de Carême
-    \end{large}
+    \end{LARGE}
   \end{center}
-
+  \medskip
   \begin{center}
-    \textcolor{red}{\normalsize{Capitule}}\\
+    \textcolor{red}{\large{Capitule}}\\
     \small\textit{
       II\textsuperscript{e} Épître aux Corinthiens. 6, 1-2.
     }
@@ -44,7 +43,6 @@
 
   \begin{multicols}{2}
     \parindent=0pt
-    \small
     Fratres, Exhortámur vos, ne in vácuum grátiam Dei recipiátis.  \textcolor{red}{†} Ait enim : Témpore
     accépto exaudívi te, \textcolor{red}{*} et un die salútis adjúvi te.\\
     \textcolor{red}{\Rbar.} Deo grátias.
@@ -58,57 +56,54 @@
     }
   \end{multicols}
   
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
+  \medskip
 
   \begin{center}
-    \textcolor{red}{\normalsize{Antienne à Magnificat}}\\
+    \textcolor{red}{\large{Antienne à Magnificat}}\\
   \end{center}
 
   \gresetinitiallines{1}
   \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont E}
   \gregorioscore{careme/an--ecce_nunc_tempus--solesmes_2000s}
-  \smallskip
+  \medskip
   \begin{footnotesize}
     \textit{
       Voici maintenant le temps favorable, voici maintenant le jour du salut :
       montrons-nous donc en ces jours, comme les serviteurs de Dieu, avec une grande patience, dans les les jeûnes, les veilles, et une charité sincère.
     }
   \end{footnotesize}
+  \medskip
 
   \gresetinitiallines{0}
   \gregorioscore{magnificat/magnificat-8g}
   
-  \begin{enumerate}
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
     \setcounter{enumi}{2}
-    \item Quia respéxit humilitátem ancíllæ \textbf{su}æ:\textcolor{red}{~*} \\ \-\hspace{2cm} ecce enim ex hoc beátam me dicent omnes gene\textit{ra}\textit{ti}\textbf{ó}nes.
+    \item Quia respéxit humilitátem ancíllæ \textbf{su}æ:\textcolor{red}{~*} ecce enim ex hoc beátam me dicent omnes gene\textit{ra}\textit{ti}\textbf{ó}nes.
 
-    \item Quia fecit mihi magna qui \textbf{pot}ens est:\textcolor{red}{~*} \\ \-\hspace{2cm} et sanctum \textit{no}\textit{men} \textbf{e}jus.
+    \item Quia fecit mihi magna qui \textbf{pot}ens est:\textcolor{red}{~*} et sanctum \textit{no}\textit{men} \textbf{e}jus.
 
-    \item Et misericórdia ejus a progénie in pro\textbf{gé}nies\textcolor{red}{~*} \\ \-\hspace{2cm} timén\textit{ti}\textit{bus} \textbf{e}um.
+    \item Et misericórdia ejus a progénie in pro\textbf{gé}nies\textcolor{red}{~*} timén\textit{ti}\textit{bus} \textbf{e}um.
 
-    \item Fecit poténtiam in bráchio \textbf{su}o:\textcolor{red}{~*} \\ \-\hspace{2cm} dispérsit supérbos mente \textit{cor}\textit{dis} \textbf{su}i.
+    \item Fecit poténtiam in bráchio \textbf{su}o:\textcolor{red}{~*} dispérsit supérbos mente \textit{cor}\textit{dis} \textbf{su}i.
 
-    \item Depósuit poténtes de \textbf{se}de,\textcolor{red}{~*} \\ \-\hspace{2cm} et exal\textit{tá}\textit{vit} \textbf{hú}miles.
+    \item Depósuit poténtes de \textbf{se}de,\textcolor{red}{~*} et exal\textit{tá}\textit{vit} \textbf{hú}miles.
 
-    \item Esuriéntes implévit \textbf{bo}nis:\textcolor{red}{~*} \\ \-\hspace{2cm} et dívites dimí\textit{sit} \textit{in}\textbf{á}nes.
+    \item Esuriéntes implévit \textbf{bo}nis:\textcolor{red}{~*} et dívites dimí\textit{sit} \textit{in}\textbf{á}nes.
 
-    \item Suscépit Israël púerum \textbf{su}um,\textcolor{red}{~*} \\ \-\hspace{2cm} recordátus misericór\textit{di}\textit{æ} \textbf{su}æ.
+    \item Suscépit Israël púerum \textbf{su}um,\textcolor{red}{~*} recordátus misericór\textit{di}\textit{æ} \textbf{su}æ.
 
-    \item Sicut locútus est ad patres \textbf{nos}tros,\textcolor{red}{~*} \\ \-\hspace{2cm} Abraham et sémini e\textit{jus} \textit{in} \textbf{sǽ}cula.
+    \item Sicut locútus est ad patres \textbf{nos}tros,\textcolor{red}{~*} Abraham et sémini e\textit{jus} \textit{in} \textbf{sǽ}cula.
 
-    \item Glória Patri, et \textbf{Fí}lio,\textcolor{red}{~*} \\ \-\hspace{2cm} et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+    \item Glória Patri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
 
-    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,\textcolor{red}{~*} \\ \-\hspace{2cm} et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
   \end{enumerate}
 
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
+  \medskip
 
   \begin{center}
-    \textcolor{red}{\normalsize{Oraison}}\\
+    \textcolor{red}{\large{Oraison}}\\
   \end{center}
 
   \begin{multicols}{2}
@@ -140,17 +135,25 @@
     }
   \end{multicols}
 
-
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \medskip
+  % \newpage
+  \bigskip
   % ============ Deuxième dimanche de Carême ====================
 
   \begin{center}
-    \begin{large}
+    \begin{LARGE}
       II\textsuperscript{e} Dimanche de Carême
-    \end{large}
+    \end{LARGE}
   \end{center}
 
+  \medskip
+
   \begin{center}
-    \textcolor{red}{\normalsize{Capitule}}\\
+    \textcolor{red}{\large{Capitule}}\\
     \small\textit{
       I\textsuperscript{e} Épître aux Thessaloniciens. 4, 1.
     }
@@ -158,7 +161,6 @@
 
   \begin{multicols}{2}
     \parindent=0pt
-    \small
     Fratres, Rogámus vos et obsecrámus in Dómino Jesu :  \textcolor{red}{†} ut, quemádmodum accepístis a nobis, quómodo opórteat vos ambuláre et placére Deo,  \textcolor{red}{*} sic et ambulétis, ut abundétis magis.\\
     \textcolor{red}{\Rbar.} Deo grátias.
 
@@ -169,13 +171,13 @@
     }
   \end{multicols}
   
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
+  \medskip
 
   \begin{center}
-    \textcolor{red}{\normalsize{Antienne à Magnificat}}\\
+    \textcolor{red}{\large{Antienne à Magnificat}}\\
   \end{center}
+
+  \medskip
 
   \gresetinitiallines{1}
   \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont V}
@@ -190,35 +192,33 @@
   \gresetinitiallines{0}
   \gregorioscore{magnificat/magnificat-1f}
   
-  \begin{enumerate}
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
     \setcounter{enumi}{2}
-    \item Quia respéxit humilitátem an\textbf{cíl}læ \textbf{su}æ:\textcolor{red}{~*} \\ \-\hspace{2cm} ecce enim ex hoc beátam me dicent omnes gene\textit{ra}\textit{ti}\textbf{ó}nes.
+    \item Quia respéxit humilitátem an\textbf{cíl}læ \textbf{su}æ:\textcolor{red}{~*} ecce enim ex hoc beátam me dicent omnes gene\textit{ra}\textit{ti}\textbf{ó}nes.
 
-    \item Quia fecit mihi \textbf{ma}gna qui \textbf{pot}ens est:\textcolor{red}{~*} \\ \-\hspace{2cm} et sanctum \textit{no}\textit{men} \textbf{e}jus.
+    \item Quia fecit mihi \textbf{ma}gna qui \textbf{pot}ens est:\textcolor{red}{~*} et sanctum \textit{no}\textit{men} \textbf{e}jus.
 
-    \item Et misericórdia ejus a progénie \textbf{in} pro\textbf{gé}nies\textcolor{red}{~*} \\ \-\hspace{2cm} timén\textit{ti}\textit{bus} \textbf{e}um.
+    \item Et misericórdia ejus a progénie \textbf{in} pro\textbf{gé}nies\textcolor{red}{~*}  timén\textit{ti}\textit{bus} \textbf{e}um.
 
-    \item Fecit poténtiam in \textbf{brá}chio \textbf{su}o:\textcolor{red}{~*} \\ \-\hspace{2cm} dispérsit supérbos mente \textit{cor}\textit{dis} \textbf{su}i.
+    \item Fecit poténtiam in \textbf{brá}chio \textbf{su}o:\textcolor{red}{~*} dispérsit supérbos mente \textit{cor}\textit{dis} \textbf{su}i.
 
-    \item Depósuit pot\textbf{én}tes de \textbf{se}de,\textcolor{red}{~*} \\ \-\hspace{2cm} et exal\textit{tá}\textit{vit} \textbf{hú}miles.
+    \item Depósuit pot\textbf{én}tes de \textbf{se}de,\textcolor{red}{~*} et exal\textit{tá}\textit{vit} \textbf{hú}miles.
 
-    \item Esuriéntes im\textbf{plé}vit \textbf{bo}nis:\textcolor{red}{~*} \\ \-\hspace{2cm} et dívites dimí\textit{sit} \textit{in}\textbf{á}nes.
+    \item Esuriéntes im\textbf{plé}vit \textbf{bo}nis:\textcolor{red}{~*} et dívites dimí\textit{sit} \textit{in}\textbf{á}nes.
 
-    \item Suscépit Israël \textbf{pú}erum \textbf{su}um,\textcolor{red}{~*} \\ \-\hspace{2cm} recordátus misericór\textit{di}\textit{æ} \textbf{su}æ.
+    \item Suscépit Israël \textbf{pú}erum \textbf{su}um,\textcolor{red}{~*} recordátus misericór\textit{di}\textit{æ} \textbf{su}æ.
 
-    \item Sicut locútus est ad \textbf{pa}tres \textbf{nos}tros,\textcolor{red}{~*} \\ \-\hspace{2cm} Abraham et sémini e\textit{jus} \textit{in} \textbf{sǽ}cula.
+    \item Sicut locútus est ad \textbf{pa}tres \textbf{nos}tros,\textcolor{red}{~*} Abraham et sémini e\textit{jus} \textit{in} \textbf{sǽ}cula.
 
-    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} \\ \-\hspace{2cm} et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
 
-    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} \\ \-\hspace{2cm} et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*}  et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
   \end{enumerate}
 
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
+  \medskip
 
   \begin{center}
-    \textcolor{red}{\normalsize{Oraison}}\\
+    \textcolor{red}{\large{Oraison}}\\
   \end{center}
 
   \begin{multicols}{2}
@@ -247,20 +247,21 @@
     Amen.
     }
   \end{multicols}
-
   \newpage
-
+  % \bigskip
 
   % ============ Troisième dimanche de Carême ====================
 
   \begin{center}
-    \begin{large}
+    \begin{LARGE}
       III\textsuperscript{e} Dimanche de Carême
-    \end{large}
+    \end{LARGE}
   \end{center}
 
+  \medskip
+
   \begin{center}
-    \textcolor{red}{\normalsize{Capitule}}\\
+    \textcolor{red}{\large{Capitule}}\\
     \small\textit{
       Épître aux Éphésiens. 5, 1-2.
     }
@@ -268,7 +269,6 @@
 
   \begin{multicols}{2}
     \parindent=0pt
-    \small
     Fratres, estote imitatores Dei, sicut fílii caríssimi : \textcolor{red}{†} et ambuláte in dilectióne, sicut et Christus dilexit nos, et tradidit semetipsum
     pro nobis, \textcolor{red}{*} oblatiónem, et hostiam Deo in odorem suavitátis.\\
     \textcolor{red}{\Rbar.} Deo grátias.
@@ -280,13 +280,12 @@
     }
   \end{multicols}
   
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
+  \medskip
 
   \begin{center}
-    \textcolor{red}{\normalsize{Antienne à Magnificat}}\\
+    \textcolor{red}{\large{Antienne à Magnificat}}\\
   \end{center}
+  \medskip
 
   \gresetinitiallines{1}
   \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont E}
@@ -301,32 +300,30 @@
   \gresetinitiallines{0}
   \gregorioscore{magnificat/magnificat-8g}
   
-  \begin{enumerate}
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
     \setcounter{enumi}{2}
-    \item Quia respéxit humilitátem ancíllæ \textbf{su}æ:\textcolor{red}{~*} \\ \-\hspace{2cm} ecce enim ex hoc beátam me dicent omnes gene\textit{ra}\textit{ti}\textbf{ó}nes.
+    \item Quia respéxit humilitátem ancíllæ \textbf{su}æ:\textcolor{red}{~*} ecce enim ex hoc beátam me dicent omnes gene\textit{ra}\textit{ti}\textbf{ó}nes.
 
-    \item Quia fecit mihi magna qui \textbf{pot}ens est:\textcolor{red}{~*} \\ \-\hspace{2cm} et sanctum \textit{no}\textit{men} \textbf{e}jus.
+    \item Quia fecit mihi magna qui \textbf{pot}ens est:\textcolor{red}{~*} et sanctum \textit{no}\textit{men} \textbf{e}jus.
 
-    \item Et misericórdia ejus a progénie in pro\textbf{gé}nies\textcolor{red}{~*} \\ \-\hspace{2cm} timén\textit{ti}\textit{bus} \textbf{e}um.
+    \item Et misericórdia ejus a progénie in pro\textbf{gé}nies\textcolor{red}{~*}  timén\textit{ti}\textit{bus} \textbf{e}um.
 
-    \item Fecit poténtiam in bráchio \textbf{su}o:\textcolor{red}{~*} \\ \-\hspace{2cm} dispérsit supérbos mente \textit{cor}\textit{dis} \textbf{su}i.
+    \item Fecit poténtiam in bráchio \textbf{su}o:\textcolor{red}{~*} dispérsit supérbos mente \textit{cor}\textit{dis} \textbf{su}i.
 
-    \item Depósuit poténtes de \textbf{se}de,\textcolor{red}{~*} \\ \-\hspace{2cm} et exal\textit{tá}\textit{vit} \textbf{hú}miles.
+    \item Depósuit poténtes de \textbf{se}de,\textcolor{red}{~*} et exal\textit{tá}\textit{vit} \textbf{hú}miles.
 
-    \item Esuriéntes implévit \textbf{bo}nis:\textcolor{red}{~*} \\ \-\hspace{2cm} et dívites dimí\textit{sit} \textit{in}\textbf{á}nes.
+    \item Esuriéntes implévit \textbf{bo}nis:\textcolor{red}{~*} et dívites dimí\textit{sit} \textit{in}\textbf{á}nes.
 
-    \item Suscépit Israël púerum \textbf{su}um,\textcolor{red}{~*} \\ \-\hspace{2cm} recordátus misericór\textit{di}\textit{æ} \textbf{su}æ.
+    \item Suscépit Israël púerum \textbf{su}um,\textcolor{red}{~*} recordátus misericór\textit{di}\textit{æ} \textbf{su}æ.
 
-    \item Sicut locútus est ad patres \textbf{nos}tros,\textcolor{red}{~*} \\ \-\hspace{2cm} Abraham et sémini e\textit{jus} \textit{in} \textbf{sǽ}cula.
+    \item Sicut locútus est ad patres \textbf{nos}tros,\textcolor{red}{~*} Abraham et sémini e\textit{jus} \textit{in} \textbf{sǽ}cula.
 
-    \item Glória Patri, et \textbf{Fí}lio,\textcolor{red}{~*} \\ \-\hspace{2cm} et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+    \item Glória Patri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
 
-    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,\textcolor{red}{~*} \\ \-\hspace{2cm} et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,\textcolor{red}{~*}  et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
   \end{enumerate}
 
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
+  \medskip
 
   \begin{center}
     \textcolor{red}{\normalsize{Oraison}}\\
@@ -358,14 +355,19 @@
     }
   \end{multicols}
 
-  \newpage
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \medskip
+  \bigskip
 
   % ============ Quatrième dimanche de Carême ====================
 
   \begin{center}
-    \begin{large}
+    \begin{LARGE}
       IV\textsuperscript{e} Dimanche de Carême\\
-    \end{large}
+    \end{LARGE}
     \begin{footnotesize}
       \textit{
         Dimanche de Laetare
@@ -373,8 +375,10 @@
     \end{footnotesize}
   \end{center}
 
+  \medskip
+
   \begin{center}
-    \textcolor{red}{\normalsize{Capitule}}\\
+    \textcolor{red}{\large{Capitule}}\\
     \small\textit{
       Épître aux Galates. 4, 22-24.
     }
@@ -382,7 +386,6 @@
 
   \begin{multicols}{2}
     \parindent=0pt
-    \small
     Fratres, scriptum est : Quóniam Abraham duos fílios habuit : unum de ancílla, et unum de líbera. \textcolor{red}{†} Sed qui de ancílla, secúndum
     carnem natus est : qui autem de líbera, per repromissiónem : \textcolor{red}{*} quæ sunt per allegóriam dicta.\\
     \textcolor{red}{\Rbar.} Deo grátias.
@@ -396,13 +399,13 @@
     }
   \end{multicols}
   
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
+  \medskip
 
   \begin{center}
-    \textcolor{red}{\normalsize{Antienne à Magnificat}}\\
+    \textcolor{red}{\large{Antienne à Magnificat}}\\
   \end{center}
+
+  \medskip
 
   \gresetinitiallines{1}
   \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont S}
@@ -417,35 +420,33 @@
   \gresetinitiallines{0}
   \gregorioscore{magnificat/magnificat-1G}
   
-  \begin{enumerate}
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
     \setcounter{enumi}{2}
-    \item Quia respéxit humilitátem an\textbf{cíl}læ \textbf{su}æ:\textcolor{red}{~*} \\ \-\hspace{2cm} ecce enim ex hoc beátam me dicent omnes gene\textit{ra}\textit{ti}\textbf{ó}nes.
+    \item Quia respéxit humilitátem an\textbf{cíl}læ \textbf{su}æ:\textcolor{red}{~*} ecce enim ex hoc beátam me dicent omnes gene\textit{ra}\textit{ti}\textbf{ó}nes.
 
-    \item Quia fecit mihi \textbf{ma}gna qui \textbf{pot}ens est:\textcolor{red}{~*} \\ \-\hspace{2cm} et sanctum \textit{no}\textit{men} \textbf{e}jus.
+    \item Quia fecit mihi \textbf{ma}gna qui \textbf{pot}ens est:\textcolor{red}{~*} et sanctum \textit{no}\textit{men} \textbf{e}jus.
 
-    \item Et misericórdia ejus a progénie \textbf{in} pro\textbf{gé}nies\textcolor{red}{~*} \\ \-\hspace{2cm} timén\textit{ti}\textit{bus} \textbf{e}um.
+    \item Et misericórdia ejus a progénie \textbf{in} pro\textbf{gé}nies\textcolor{red}{~*}  timén\textit{ti}\textit{bus} \textbf{e}um.
 
-    \item Fecit poténtiam in \textbf{brá}chio \textbf{su}o:\textcolor{red}{~*} \\ \-\hspace{2cm} dispérsit supérbos mente \textit{cor}\textit{dis} \textbf{su}i.
+    \item Fecit poténtiam in \textbf{brá}chio \textbf{su}o:\textcolor{red}{~*} dispérsit supérbos mente \textit{cor}\textit{dis} \textbf{su}i.
 
-    \item Depósuit pot\textbf{én}tes de \textbf{se}de,\textcolor{red}{~*} \\ \-\hspace{2cm} et exal\textit{tá}\textit{vit} \textbf{hú}miles.
+    \item Depósuit pot\textbf{én}tes de \textbf{se}de,\textcolor{red}{~*} et exal\textit{tá}\textit{vit} \textbf{hú}miles.
 
-    \item Esuriéntes im\textbf{plé}vit \textbf{bo}nis:\textcolor{red}{~*} \\ \-\hspace{2cm} et dívites dimí\textit{sit} \textit{in}\textbf{á}nes.
+    \item Esuriéntes im\textbf{plé}vit \textbf{bo}nis:\textcolor{red}{~*} et dívites dimí\textit{sit} \textit{in}\textbf{á}nes.
 
-    \item Suscépit Israël \textbf{pú}erum \textbf{su}um,\textcolor{red}{~*} \\ \-\hspace{2cm} recordátus misericór\textit{di}\textit{æ} \textbf{su}æ.
+    \item Suscépit Israël \textbf{pú}erum \textbf{su}um,\textcolor{red}{~*} recordátus misericór\textit{di}\textit{æ} \textbf{su}æ.
 
-    \item Sicut locútus est ad \textbf{pa}tres \textbf{nos}tros,\textcolor{red}{~*} \\ \-\hspace{2cm} Abraham et sémini e\textit{jus} \textit{in} \textbf{sǽ}cula.
+    \item Sicut locútus est ad \textbf{pa}tres \textbf{nos}tros,\textcolor{red}{~*} Abraham et sémini e\textit{jus} \textit{in} \textbf{sǽ}cula.
 
-    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} \\ \-\hspace{2cm} et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
 
-    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} \\ \-\hspace{2cm} et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*}  et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
   \end{enumerate}
 
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
+  \medskip
 
   \begin{center}
-    \textcolor{red}{\normalsize{Oraison}}\\
+    \textcolor{red}{\large{Oraison}}\\
   \end{center}
 
   \begin{multicols}{2}
@@ -476,17 +477,20 @@
   \end{multicols}
 
   \newpage
+  % \bigskip
 
   % ============ Dimanche de la Passion ====================
 
   \begin{center}
-    \begin{large}
+    \begin{LARGE}
       Dimanche de la Passion
-    \end{large}
+    \end{LARGE}
   \end{center}
 
+  \medskip
+
   \begin{center}
-    \textcolor{red}{\normalsize{Capitule}}\\
+    \textcolor{red}{\large{Capitule}}\\
     \small\textit{
       Épître aux Hébreux. 9, 11.
     }
@@ -494,7 +498,6 @@
 
   \begin{multicols}{2}
     \parindent=0pt
-    \small
     Fratres, Christus assístens Pontifex futurórum bonórum, per ámplius et perféctius
     tabernáculum non manufáctum, id est, non hujus creatiónis : \textcolor{red}{†} neque per sánguinem hircórum aut vitulórum, sed per próprium sánguinem introívit semel in Sancta, \textcolor{red}{*} ætérna redemptióne invénta.\\
     \textcolor{red}{\Rbar.} Deo grátias.
@@ -513,74 +516,15 @@
     }
   \end{multicols}
 
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
-
-  \begin{center}
-    \textcolor{red}{\normalsize{Hymne}}\\
-  \end{center}
-
-  \grechangedim{baselineskip}{65pt}{scalable}
-  \gresetinitiallines{1}
-  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont V}
-  \gregorioscore{hymnes/hy--vexilla_regis_prodeunt--solesmes}
-  \grechangedim{baselineskip}{50pt}{scalable}
-
-  \newpage
-
-  \begin{center}
-    \begin{footnotesize}
-      \textit{
-        \textcolor{red}{1. } L'étendard du Roi s'avance : voici que brille le mystère de la croix ; sur la croix, la vie a subi la mort, et, par la mort, à fait naître la vie.
-      }
-    \end{footnotesize}
-  \end{center}
-
-  \begin{multicols}{2}
-    \begin{footnotesize}
-      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
-        \setcounter{enumi}{1}
-        \item \textit{Là, du côté qu'a blessé la pointe cruelle de la lance, on vit couler, pour nous purifier de souillures de nos crimes, le sang et l'eau.}
-        \item \textit{Voici donc accompli l'oracle que fit entendre le prophète David, disant aux nations : par le bois, Dieu a régné.}
-        \item \textit{Arbre splendide, éblouissant, paré de la pourpre du Roi, tige choisie entre mille pour toucher des membres si saints !}
-      \end{enumerate}
-    \end{footnotesize}
-
-    \columnbreak
-    \begin{footnotesize}
-      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
-        \setcounter{enumi}{4}
-        \item \textit{Ô heureux bois donc les bras ont portés le prix du monde, balance qui pesat ce corps et ravit sa proie aux enfers !}
-        \item \textit{Ô croix, unique espoir, salut : en ces temps de la Passion, comblez de grâce les justes, pardonnez leurs crimes aux pécheurs.}
-        \item \textit{Ô Trinité, source de salut, que toute âme vous glorifie ; par la croix, vous nous donnez la victoire ; ajoutez-y la récompense ! Amen.}
-      \end{enumerate}
-    \end{footnotesize}
-  \end{multicols}
 
   \medskip
 
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
-
-  \gresetinitiallines{0}
-  \gabcsnippet{(c3)<c><v>\Vbar</v>.</c> E(h)ri(h)pe(h) me,(h) Dó(h)mi(h)ne(h) ab(h) hò(h)mi(h)ne(h) mà(h)lo.(g'_) (hvGF'Efgf.) (::) (Z) <c><v>\Rbar</v>.</c> A(h) vì(h)ro(h) in(h)ìquo(h) é(h)ri(h)pe(h) me.(g'_) (hvGF'Efgf.) (::)}
-  \smallskip
-  \begin{center}
-    \textit{\textcolor{red}{\Vbar.} Arrachez-moi , Seigneur, à l’homme mauvais.\\
-    \textcolor{red}{\Rbar.} A l’homme inique, arrachez-moi.}
-  \end{center}
-  
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
-
-  \newpage
 
   \begin{center}
-    \textcolor{red}{\normalsize{Antienne à Magnificat}}\\
+    \textcolor{red}{\large{Antienne à Magnificat}}\\
   \end{center}
+
+  \medskip
 
   \gresetinitiallines{1}
   \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
@@ -595,35 +539,33 @@
   \gresetinitiallines{0}
   \gregorioscore{magnificat/magnificat-2D}
   
-  \begin{enumerate}
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
     \setcounter{enumi}{2}
-    \item Quia respéxit humilitátem ancíllæ \textbf{su}æ:\textcolor{red}{~*} \\ \-\hspace{2cm} ecce enim ex hoc beátam me dicent omnes genera\textit{ti}\textbf{ó}nes.
+    \item Quia respéxit humilitátem ancíllæ \textbf{su}æ:\textcolor{red}{~*} ecce enim ex hoc beátam me dicent omnes genera\textit{ti}\textbf{ó}nes.
 
-    \item Quia fecit mihi magna qui \textbf{pot}ens est:\textcolor{red}{~*} \\ \-\hspace{2cm} et sanctum no\textit{men} \textbf{e}jus.
+    \item Quia fecit mihi magna qui \textbf{pot}ens est:\textcolor{red}{~*} et sanctum no\textit{men} \textbf{e}jus.
 
-    \item Et misericórdia ejus a progénie in pro\textbf{gé}nies\textcolor{red}{~*} \\ \-\hspace{2cm} timénti\textit{bus} \textbf{e}um.
+    \item Et misericórdia ejus a progénie in pro\textbf{gé}nies\textcolor{red}{~*}  timénti\textit{bus} \textbf{e}um.
 
-    \item Fecit poténtiam in bráchio \textbf{su}o:\textcolor{red}{~*} \\ \-\hspace{2cm} dispérsit supérbos mente cor\textit{dis} \textbf{su}i.
+    \item Fecit poténtiam in bráchio \textbf{su}o:\textcolor{red}{~*} dispérsit supérbos mente cor\textit{dis} \textbf{su}i.
 
-    \item Depósuit poténtes de \textbf{se}de,\textcolor{red}{~*} \\ \-\hspace{2cm} et exaltá\textit{vit} \textbf{hú}miles.
+    \item Depósuit poténtes de \textbf{se}de,\textcolor{red}{~*} et exaltá\textit{vit} \textbf{hú}miles.
 
-    \item Esuriéntes implévit \textbf{bo}nis:\textcolor{red}{~*} \\ \-\hspace{2cm} et dívites dimísit \textit{in}\textbf{á}nes.
+    \item Esuriéntes implévit \textbf{bo}nis:\textcolor{red}{~*} et dívites dimísit \textit{in}\textbf{á}nes.
 
-    \item Suscépit Israël púerum \textbf{su}um,\textcolor{red}{~*} \\ \-\hspace{2cm} recordátus misericórdi\textit{æ} \textbf{su}æ.
+    \item Suscépit Israël púerum \textbf{su}um,\textcolor{red}{~*} recordátus misericórdi\textit{æ} \textbf{su}æ.
 
-    \item Sicut locútus est ad patres \textbf{nos}tros,\textcolor{red}{~*} \\ \-\hspace{2cm} Abraham et sémini ejus \textit{in} \textbf{sǽ}cula.
+    \item Sicut locútus est ad patres \textbf{nos}tros,\textcolor{red}{~*} Abraham et sémini ejus \textit{in} \textbf{sǽ}cula.
 
-    \item Glória Patri, et \textbf{Fí}lio,\textcolor{red}{~*} \\ \-\hspace{2cm} et Spirítu\textit{i} \textbf{Sanc}to.
+    \item Glória Patri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spirítu\textit{i} \textbf{Sanc}to.
 
-    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,\textcolor{red}{~*} \\ \-\hspace{2cm} et in sǽcula sæculó\textit{rum}. \textbf{A}men.
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,\textcolor{red}{~*}  et in sǽcula sæculó\textit{rum}. \textbf{A}men.
   \end{enumerate}
 
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
+  \medskip
 
   \begin{center}
-    \textcolor{red}{\normalsize{Oraison}}\\
+    \textcolor{red}{\large{Oraison}}\\
   \end{center}
 
   \begin{multicols}{2}
@@ -651,18 +593,25 @@
     }
   \end{multicols}
 
-  \newpage
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \medskip
+  \bigskip
 
   % ============ Dimanche des Rameaux ====================
 
   \begin{center}
-    \begin{large}
-      Dimanche de la Passion
-    \end{large}
+    \begin{LARGE}
+      Dimanche des Rameaux
+    \end{LARGE}
   \end{center}
 
+  \medskip
+
   \begin{center}
-    \textcolor{red}{\normalsize{Capitule}}\\
+    \textcolor{red}{\large{Capitule}}\\
     \small\textit{
       Épître aux Philippiens. 2, 5-7.
     }
@@ -670,7 +619,6 @@
 
   \begin{multicols}{2}
     \parindent=0pt
-    \small
     Fratres, hoc enim sentíte in vobis, quod et in Christo Jesu: qui, cum in forma Dei esset, non rapínam arbitrátus est esse se æqualem Deo : \textcolor{red}{†} sed semetípsum exinanívit, formam servi accípiens, in similitúdinem hóminum factus, \textcolor{red}{*} et hábitu invéntus ut homo.\\
     \textcolor{red}{\Rbar.} Deo grátias.
 
@@ -686,75 +634,13 @@
     }
   \end{multicols}
 
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
+  \medskip
 
   \begin{center}
-    \textcolor{red}{\normalsize{Hymne}}\\
-  \end{center}
-
-  \grechangedim{baselineskip}{65pt}{scalable}
-  \gresetinitiallines{1}
-  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont V}
-  \gregorioscore{hymnes/hy--vexilla_regis_prodeunt--solesmes}
-
-  \grechangedim{baselineskip}{50pt}{scalable}
-
-  \newpage
-
-  \begin{center}
-    \begin{footnotesize}
-      \textit{
-        \textcolor{red}{1. } L'étendard du Roi s'avance : voici que brille le mystère de la croix ; sur la croix, la vie a subi la mort, et, par la mort, à fait naître la vie.
-      }
-    \end{footnotesize}
-  \end{center}
-
-  \begin{multicols}{2}
-    \begin{footnotesize}
-      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
-        \setcounter{enumi}{1}
-        \item \textit{Là, du côté qu'a blessé la pointe cruelle de la lance, on vit couler, pour nous purifier de souillures de nos crimes, le sang et l'eau.}
-        \item \textit{Voici donc accompli l'oracle que fit entendre le prophète David, disant aux nations : par le bois, Dieu a régné.}
-        \item \textit{Arbre splendide, éblouissant, paré de la pourpre du Roi, tige choisie entre mille pour toucher des membres si saints !}
-      \end{enumerate}
-    \end{footnotesize}
-
-    \columnbreak
-    \begin{footnotesize}
-      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
-        \setcounter{enumi}{4}
-        \item \textit{Ô heureux bois donc les bras ont portés le prix du monde, balance qui pesat ce corps et ravit sa proie aux enfers !}
-        \item \textit{Ô croix, unique espoir, salut : en ces temps de la Passion, comblez de grâce les justes, pardonnez leurs crimes aux pécheurs.}
-        \item \textit{Ô Trinité, source de salut, que toute âme vous glorifie ; par la croix, vous nous donnez la victoire ; ajoutez-y la récompense ! Amen.}
-      \end{enumerate}
-    \end{footnotesize}
-  \end{multicols}
-
-  \begin{center}
-    \rule{2cm}{0.4pt}
+    \textcolor{red}{\large{Antienne à Magnificat}}\\
   \end{center}
 
   \medskip
-
-  \gresetinitiallines{0}
-  \gabcsnippet{(c3)<c><v>\Vbar</v>.</c> E(h)ri(h)pe(h) me,(h) Dó(h)mi(h)ne(h) ab(h) hò(h)mi(h)ne(h) mà(h)lo.(g'_) (hvGF'Efgf.) (::) (Z) <c><v>\Rbar</v>.</c> A(h) vì(h)ro(h) in(h)ìquo(h) é(h)ri(h)pe(h) me.(g'_) (hvGF'Efgf.) (::)}
-  \smallskip
-  \begin{center}
-    \textit{\textcolor{red}{\Vbar.} Arrachez-moi , Seigneur, à l’homme mauvais.\\
-    \textcolor{red}{\Rbar.} A l’homme inique, arrachez-moi.}
-  \end{center}
-  
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
-
-  \newpage
-
-  \begin{center}
-    \textcolor{red}{\normalsize{Antienne à Magnificat}}\\
-  \end{center}
 
   \gresetinitiallines{1}
   \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
@@ -766,38 +652,38 @@
     }
   \end{footnotesize}
 
+  \medskip
+
   \gresetinitiallines{0}
   \gregorioscore{magnificat/magnificat-7a}
   
-  \begin{enumerate}
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
     \setcounter{enumi}{2}
-    \item Quia respéxit humilitátem an\textbf{cíl}læ \textbf{su}æ:\textcolor{red}{~*} \\ \-\hspace{2cm}  ecce enim ex hoc beátam me dicent omnes gene\textbf{ra}ti\textbf{ó}nes.
+    \item Quia respéxit humilitátem an\textbf{cíl}læ \textbf{su}æ:\textcolor{red}{~*} ecce enim ex hoc beátam me dicent omnes gene\textbf{ra}ti\textbf{ó}nes.
 
-    \item Quia fecit mihi \textbf{ma}gna qui \textbf{pot}ens est:\textcolor{red}{~*} \\ \-\hspace{2cm}  et sanctum \textbf{no}men \textbf{e}jus.
+    \item Quia fecit mihi \textbf{ma}gna qui \textbf{pot}ens est:\textcolor{red}{~*} et sanctum \textbf{no}men \textbf{e}jus.
 
-    \item Et misericórdia ejus a progénie \textbf{in} pro\textbf{gé}nies\textcolor{red}{~*} \\ \-\hspace{2cm}  ti\textbf{mén}tibus \textbf{e}um.
+    \item Et misericórdia ejus a progénie \textbf{in} pro\textbf{gé}nies\textcolor{red}{~*}   ti\textbf{mén}tibus \textbf{e}um.
 
-    \item Fecit poténtiam in \textbf{brá}chio \textbf{su}o:\textcolor{red}{~*} \\ \-\hspace{2cm}  dispérsit supérbos mente \textbf{cor}dis \textbf{su}i.
+    \item Fecit poténtiam in \textbf{brá}chio \textbf{su}o:\textcolor{red}{~*} dispérsit supérbos mente \textbf{cor}dis \textbf{su}i.
 
-    \item Depósuit pot\textbf{én}tes de \textbf{se}de,\textcolor{red}{~*} \\ \-\hspace{2cm}  et exal\textbf{tá}vit \textbf{hú}miles.
+    \item Depósuit pot\textbf{én}tes de \textbf{se}de,\textcolor{red}{~*} et exal\textbf{tá}vit \textbf{hú}miles.
 
-    \item Esuriéntes im\textbf{plé}vit \textbf{bo}nis:\textcolor{red}{~*} \\ \-\hspace{2cm}  et dívites di\textbf{mí}sit in\textbf{á}nes.
+    \item Esuriéntes im\textbf{plé}vit \textbf{bo}nis:\textcolor{red}{~*} et dívites di\textbf{mí}sit in\textbf{á}nes.
 
-    \item Suscépit Israël \textbf{pú}erum \textbf{su}um,\textcolor{red}{~*} \\ \-\hspace{2cm}  recordátus miseri\textbf{cór}diæ \textbf{su}æ.
+    \item Suscépit Israël \textbf{pú}erum \textbf{su}um,\textcolor{red}{~*} recordátus miseri\textbf{cór}diæ \textbf{su}æ.
 
-    \item Sicut locútus est ad \textbf{pa}tres \textbf{nos}tros,\textcolor{red}{~*} \\ \-\hspace{2cm}  Abraham et sémini \textbf{e}jus in \textbf{sǽ}cula.
+    \item Sicut locútus est ad \textbf{pa}tres \textbf{nos}tros,\textcolor{red}{~*} Abraham et sémini \textbf{e}jus in \textbf{sǽ}cula.
 
-    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} \\ \-\hspace{2cm}  et Spi\textbf{rí}tui \textbf{Sanc}to.
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spi\textbf{rí}tui \textbf{Sanc}to.
 
-    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} \\ \-\hspace{2cm}  et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*}   et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
   \end{enumerate}
 
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
+  \medskip
 
   \begin{center}
-    \textcolor{red}{\normalsize{Oraison}}\\
+    \textcolor{red}{\large{Oraison}}\\
   \end{center}
 
   \begin{multicols}{2}

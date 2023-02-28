@@ -1,6 +1,7 @@
 name:Vinea mea;
 office-part:Responsorium;
-mode:8;
+annotation: {\color{red}\footnotesize Rép.};
+annotation: {\color{red}\scriptsize VIII.};
 book:The Liber Usualis, 1961, p. 697;
 transcriber:Andrew Hinkley;
 %%

@@ -1,5 +1,5 @@
 % !TeX program = lualatex
-\documentclass[12pt, a5paper]{article}
+\documentclass[12pt, a4paper]{article}
 \usepackage{fullpage}
 \usepackage{subfiles}
 \usepackage{fontspec}
@@ -13,7 +13,7 @@
 \usepackage{enumitem}
 \usepackage[autocompile]{gregoriotex}
 
-\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\geometry{top=2cm, bottom=2cm}
 \pagestyle{empty}
 
 \definecolor{red}{HTML}{C70039}
@@ -27,18 +27,17 @@
 
 \begin{document}
 \gresetlinecolor{gregoriocolor}
-\small
 
 \begin{titlepage}\centering
   \vspace*{\fill}\
   \huge Secondes Vêpres\\
-  \large des dimanches ordinaires\\
   \smallskip
-  \begin{footnotesize}
+  \begin{normalsize}
     \textit{
-      Les dimanches de Carême.\\
+      Depuis les Dimanches de Carême,\\
+      au Dimanche des Rameaux inclusivement.\\
     }
-  \end{footnotesize}
+  \end{normalsize}
   \medskip
   \large et\\
   \medskip
@@ -50,18 +49,16 @@
   \end{figure}
 
   \vspace*{\fill}
-  \large\textit{
+  \normalsize\textit{
     Livret latin-français
   }
 \end{titlepage}
 
-\begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
+\newpage
 
 \vspace{5mm}
 \begin{center}
-  \textcolor{red}{\normalsize{Ouverture.}}
+  \textcolor{red}{\large{Ouverture.}}
 \end{center}
 
 % greillumination: remplace la première lettre, ici par une font ornementale
@@ -103,29 +100,18 @@
 
 % \vspace{5mm}
 \begin{center}
-  \textcolor{red}{\normalsize{Capitule.}}\\
+  \textcolor{red}{\large{Capitule.}}\\
   \footnotesize{
     \emph{Au propre du jour}
   }
 \end{center}
-
-
-% \begin{center}
-%   \rule{2cm}{0.4pt}
-% \end{center}
-
-% \newpage
+\medskip
 
 \begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
-
-\begin{center}
-  \textcolor{red}{\normalsize{Hymne.}}\\
+  \textcolor{red}{\large{Hymne.}}\\
   \begin{footnotesize}
     \textit{
-      Sauf Dimanche de la Passion et Dimanche des Rameaux, \\
-      voir au propre du jour.
+      Les Dimanches de Carême.
     }
   \end{footnotesize}
 \end{center}
@@ -135,7 +121,7 @@
 \gresetinitiallines{1}
 \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
 \gregorioscore{hymnes/hy--audi_benigne_conditor--solesmes}
-\bigskip
+\medskip
 
 \begin{footnotesize}
   \parindent=0pt
@@ -165,359 +151,396 @@
 \end{footnotesize}
 % \grechangedim{baselineskip}{50pt}{scalable}
 
-\begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
+  \medskip
+  \gresetinitiallines{0}
+  \gabcsnippet{(c3)<c><v>\Vbar</v>.</c> An(h)ge(h)lis(h) sù(h)is(h) Dé(h)us(h) man(h)dá(h)vit(h) de(h) te.(g'_) (hvGF'Efgf.) (::) (Z) <c><v>\Rbar</v>.</c> Ut(h) cu(h)stó(h)di(h)ant(h) te(h) in(h) óm(h)ni(h)bus(h) vi(h)is(h) tu(h)is.(g'_) (hvGF'Efgf.) (::)}
+  \smallskip
+  \begin{center}
+    \textit{\textcolor{red}{\Vbar.} Dieu a commandé à ses Anges,\\
+    \textcolor{red}{\Rbar.} De vous garder dans toutes vos voies.}
+  \end{center}
 
-\newpage
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+
+  \begin{center}
+    \textcolor{red}{\large{Hymne}}\\
+    \begin{footnotesize}
+      \textit{
+        du Dimanche de la Passion, et du Dimanche des Rameaux.
+      }
+    \end{footnotesize}
+  \end{center}
+
+  \grechangedim{baselineskip}{65pt}{scalable}
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont V}
+  \gregorioscore{hymnes/hy--vexilla_regis_prodeunt--solesmes}
+  \grechangedim{baselineskip}{50pt}{scalable}
+
+  \begin{center}
+    \begin{footnotesize}
+      \textit{
+        \textcolor{red}{1. } L'étendard du Roi s'avance : voici que brille le mystère de la croix ; sur la croix, la vie a subi la mort, et, par la mort, à fait naître la vie.
+      }
+    \end{footnotesize}
+  \end{center}
+
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \setcounter{enumi}{1}
+        \item \textit{Là, du côté qu'a blessé la pointe cruelle de la lance, on vit couler, pour nous purifier de souillures de nos crimes, le sang et l'eau.}
+        \item \textit{Voici donc accompli l'oracle que fit entendre le prophète David, disant aux nations : par le bois, Dieu a régné.}
+        \item \textit{Arbre splendide, éblouissant, paré de la pourpre du Roi, tige choisie entre mille pour toucher des membres si saints !}
+        \item \textit{Ô heureux bois donc les bras ont portés le prix du monde, balance qui pesat ce corps et ravit sa proie aux enfers !}
+        \item \textit{Ô croix, unique espoir, salut : en ces temps de la Passion, comblez de grâce les justes, pardonnez leurs crimes aux pécheurs.}
+        \item \textit{Ô Trinité, source de salut, que toute âme vous glorifie ; par la croix, vous nous donnez la victoire ; ajoutez-y la récompense ! Amen.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \medskip
+  \gresetinitiallines{0}
+  \gabcsnippet{(c3)<c><v>\Vbar</v>.</c> E(h)ri(h)pe(h) me,(h) Dó(h)mi(h)ne(h) ab(h) hò(h)mi(h)ne(h) mà(h)lo.(g'_) (hvGF'Efgf.) (::) (Z) <c><v>\Rbar</v>.</c> A(h) vì(h)ro(h) in(h)ìquo(h) é(h)ri(h)pe(h) me.(g'_) (hvGF'Efgf.) (::)}
+  \smallskip
+  \begin{center}
+    \textit{\textcolor{red}{\Vbar.} Arrachez-moi , Seigneur, à l’homme mauvais.\\
+    \textcolor{red}{\Rbar.} A l’homme inique, arrachez-moi.}
+  \end{center}
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \medskip
 
 
-\gresetinitiallines{0}
-\gabcsnippet{(c3)<c><v>\Vbar</v>.</c> An(h)ge(h)lis(h) sù(h)is(h) Dé(h)us(h) man(h)dá(h)vit(h) de(h) te.(g'_) (hvGF'Efgf.) (::) (Z) <c><v>\Rbar</v>.</c> Ut(h) cu(h)stó(h)di(h)ant(h) te(h) in(h) óm(h)ni(h)bus(h) vi(h)is(h) tu(h)is.(g'_) (hvGF'Efgf.) (::)}
-\smallskip
-\begin{center}
-  \textit{\textcolor{red}{\Vbar.} Dieu a commandé à ses Anges,\\
-  \textcolor{red}{\Rbar.} De vous garder dans toutes vos voies.}
-\end{center}
+  \newpage
 
-\begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
-
-\begin{center}
-  \textcolor{red}{\normalsize{Cantique de la Bienheureuse Vierge Marie}}\\
-  \footnotesize{
-    \emph{Au propre du jour}
-  }
-\end{center}
-
-\begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
-
-\begin{center}
-  \textcolor{red}{\normalsize{Oraison}}\\
-  \footnotesize{
-    \emph{Au propre du jour}
-  }
-\end{center}
-
-\begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
-
-\begin{center}
-  \textcolor{red}{\normalsize{Conclusion de l'office}}
-\end{center}
+  \begin{center}
+    \textcolor{red}{\large{Cantique de la Bienheureuse Vierge Marie}}\\
+    \footnotesize{
+      \emph{Au propre du jour}
+    }
+  \end{center}
 
 
-\begin{multicols}{2}
-  \parindent=0pt
-  \begin{flushright}
-    \textcolor{red}{\Vbar.} Dominus vobiscum.\\
-    \textcolor{red}{\Rbar.} Et cum spiritu tuo.\\
-  \end{flushright}
+  \bigskip
 
-  \columnbreak
-  
-  \textit{\textcolor{red}{\Vbar.} Le Seigneur soit avec vous.\\
-  \textcolor{red}{\Rbar.} Et avec votre esprit.}\\
-\end{multicols}
+  \begin{center}
+    \textcolor{red}{\large{Oraison}}\\
+    \footnotesize{
+      \emph{Au propre du jour}
+    }
+  \end{center}
 
-\vspace{10pt}
+  \bigskip
 
-\gresetinitiallines{1}
-\greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont B}
-\gregorioscore{benedicamus/or--benedicamus_domino_(sundays_of_advent_and_lent)--solesmes_1961}
-\begin{center}
-  \begin{footnotesize}
-    \textcolor{red}{\textit{Sur un ton très grave : }}
-  \end{footnotesize}
-\end{center}
-\begin{multicols}{2}
-  \parindent=0pt
-  \textcolor{red}{\Vbar.} Fidélium ánimæ per misericórdiam Dei requiéscant in pace.\\
-  \textcolor{red}{\Rbar.} Amen.\\
+  \begin{center}
+    \textcolor{red}{\large{Conclusion de l'office}}
+  \end{center}
 
-  \columnbreak
-  
-  \textit{\textcolor{red}{\Vbar.} Que les âmes des fidèles défunts, par la
-  miséricorde de Dieu, reposent en paix.\\
-  \textcolor{red}{\Rbar.} Amen.}\\
-\end{multicols}
 
-\newpage
+  \begin{multicols}{2}
+    \parindent=0pt
+    \begin{flushright}
+      \textcolor{red}{\Vbar.} Dominus vobiscum.\\
+      \textcolor{red}{\Rbar.} Et cum spiritu tuo.\\
+    \end{flushright}
 
-\begin{center}
-  \textcolor{red}{\normalsize{Salut du Très Saint Sacrement}}\\
-  \textit{Chant d'exposition}
-\end{center}
+    \columnbreak
+    
+    \textit{\textcolor{red}{\Vbar.} Le Seigneur soit avec vous.\\
+    \textcolor{red}{\Rbar.} Et avec votre esprit.}\\
+  \end{multicols}
 
-\smallskip
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=\linewidth]{o-salutaris.jpg}
-\end{figure}
+  \vspace{10pt}
 
-\begin{center}
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont B}
+  \gregorioscore{benedicamus/or--benedicamus_domino_(sundays_of_advent_and_lent)--solesmes_1961}
+  \begin{center}
+    \begin{footnotesize}
+      \textcolor{red}{\textit{Sur un ton très grave : }}
+    \end{footnotesize}
+  \end{center}
+  \begin{multicols}{2}
+    \parindent=0pt
+    \textcolor{red}{\Vbar.} Fidélium ánimæ per misericórdiam Dei requiéscant in pace.\\
+    \textcolor{red}{\Rbar.} Amen.\\
+
+    \columnbreak
+    
+    \textit{\textcolor{red}{\Vbar.} Que les âmes des fidèles défunts, par la
+    miséricorde de Dieu, reposent en paix.\\
+    \textcolor{red}{\Rbar.} Amen.}\\
+  \end{multicols}
+
+  \newpage
+
+  \begin{center}
+    \textcolor{red}{\large{Salut du Très Saint Sacrement}}\\
+    \textit{Chant d'exposition}
+  \end{center}
+
+  \smallskip
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=\linewidth]{o-salutaris.jpg}
+  \end{figure}
+
+  \begin{center}
+    \begin{footnotesize}
+      \textit{
+        Ô réconfortante
+        Hostie, Qui nous
+        ouvres les portes du
+        ciel, les armées ennemies
+        nous poursuivent,
+        Donne-nous la force,
+        porte-nous secours.
+      }
+    \end{footnotesize}
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    \begin{flushright}
+      O vere digna Hostia,\\
+      Spes unica fidelium,\\
+      In te confidit Francia,\\
+      Da pacem, serva lilium.\\
+    \end{flushright}
+    \columnbreak
+    \textit{
+      Ô vraiment digne Hostie,\\
+      Unique espoir des fidèles,\\
+      en toi se confie la France,\\
+      Donne-lui la paix, conserve le lys.\\
+    }
+  \end{multicols}
+  \begin{multicols}{2}
+    \begin{flushright}
+      Uni trinoque Domino\\
+      Sit sempiterna gloria :\\
+      Qui vitam sine termino,\\
+      Nobis donet in patria. Amen.\\
+    \end{flushright}
+    \columnbreak
+    \textit{
+      Au Seigneur unique en trois personnes,\\
+      La gloire éternelle;\\
+      qu'il nous donne en son Royaume\\
+      La vie qui n'aura pas de fin. Amen\\
+    }
+  \end{multicols}
+
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+
+  \newpage
+
+  % \begin{center}
+  %   \textcolor{red}{\normalsize{Antienne à la Sainte Vierge.}}\\
+  % \end{center}
+  \begin{center}
+    \textcolor{red}{\large{Ave Regina caelorum}}\\
+    \begin{footnotesize}
+      \textit{
+      Depuis les Complies du 2 Février inclusivement, jusqu'aux Complies du Mercredi Saint inclusivement.
+      }
+    \end{footnotesize}
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{antiennes-mariales/an--ave_regina_caelorum_(simple_tone)--solesmes}
+  \medskip
   \begin{footnotesize}
     \textit{
-      Ô réconfortante
-      Hostie, Qui nous
-      ouvres les portes du
-      ciel, les armées ennemies
-      nous poursuivent,
-      Donne-nous la force,
-      porte-nous secours.
+      Salut, Reine des cieux ! Salut, Souveraine des Anges ! Salut, Tige, salut, Ô Porte par qui la lumière s'est levée sur le monde. Réjouissez-vous, Vierge glorieuse, qui l'emportez sur toutes en beauté ! Adieu, Ô toute belle, et priez le Christ pour nous.
     }
   \end{footnotesize}
-\end{center}
 
-\begin{multicols}{2}
-  \parindent=0pt
-  \begin{flushright}
-    O vere digna Hostia,\\
-    Spes unica fidelium,\\
-    In te confidit Francia,\\
-    Da pacem, serva lilium.\\
-  \end{flushright}
-  \columnbreak
-  \textit{
-    Ô vraiment digne Hostie,\\
-    Unique espoir des fidèles,\\
-    en toi se confie la France,\\
-    Donne-lui la paix, conserve le lys.\\
-  }
-\end{multicols}
-\begin{multicols}{2}
-  \begin{flushright}
-    Uni trinoque Domino\\
-    Sit sempiterna gloria :\\
-    Qui vitam sine termino,\\
-    Nobis donet in patria. Amen.\\
-  \end{flushright}
-  \columnbreak
-  \textit{
-    Au Seigneur unique en trois personnes,\\
-    La gloire éternelle;\\
-    qu'il nous donne en son Royaume\\
-    La vie qui n'aura pas de fin. Amen\\
-  }
-\end{multicols}
+  \begin{multicols}{2}
+    \parindent=0pt
+    \begin{flushright}
+      \textcolor{red}{\Vbar.} Dignáre me laudáre te, Virgo sacráta.\\
+      \textcolor{red}{\Rbar.} Da mihi virtútem contra hostes tuos.\\
+    \end{flushright}
 
-\begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
+    \columnbreak
+    
+    \textit{\textcolor{red}{\Vbar.} Agréez que j’annonce vos louanges, Vierge
+    sainte.\\
+    \textcolor{red}{\Rbar.} Obtenez-moi la force contre vos ennemis.}\\
+  \end{multicols}
 
-\newpage
+  \begin{multicols}{2}
+    \parindent=0pt
+    Concede, miséricors Deus, fragilitáti nostræ præsídium :   \textcolor{red}{†} ut, qui sanctæ Dei Genitrícis memóriam ágimus ; \textcolor{red}{*} intercessiónis ejus
+    auxílio, a nostris iniquitátibus resurgámus. Per Christum Dóminum nostrum.
+    \textcolor{red}{\Rbar.} Amen.
 
-% \begin{center}
-%   \textcolor{red}{\normalsize{Antienne à la Sainte Vierge.}}\\
-% \end{center}
-\begin{center}
-  \textcolor{red}{\normalsize{Ave Regina caelorum}}\\
-  \begin{footnotesize}
-    \textit{
-    Depuis les Complies du 2 Février inclusivement, jusqu'aux Complies du Mercredi Saint inclusivement.
+    \columnbreak
+
+    \textit{ Accordez, Dieu miséricordieux, à notre faiblesse les
+      secours de votre grâce et comme nous célébrons la
+      mémoire de la sainte Mère de Dieu, faites qu’étant
+      aidés auprès de vous de son intercession, nous nous
+      relevions de nos péchés. Par le Christ notre Seigneur.
+      Amen.
     }
-  \end{footnotesize}
-\end{center}
+  \end{multicols}
 
-\gresetinitiallines{1}
-\greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
-\gregorioscore{antiennes-mariales/an--ave_regina_caelorum_(simple_tone)--solesmes}
-\medskip
-\begin{footnotesize}
-  \textit{
-    Salut, Reine des cieux ! Salut, Souveraine des Anges ! Salut, Tige, salut, Ô Porte par qui la lumière s'est levée sur le monde. Réjouissez-vous, Vierge glorieuse, qui l'emportez sur toutes en beauté ! Adieu, Ô toute belle, et priez le Christ pour nous.
-  }
-\end{footnotesize}
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
 
-\begin{multicols}{2}
-  \parindent=0pt
-  \begin{flushright}
-    \textcolor{red}{\Vbar.} Dignáre me laudáre te, Virgo sacráta.\\
-    \textcolor{red}{\Rbar.} Da mihi virtútem contra hostes tuos.\\
-  \end{flushright}
+  \begin{center}
+    \textcolor{red}{\large{En l'honneur Du Saint Sacrement}}
+  \end{center}
 
-  \columnbreak
-  
-  \textit{\textcolor{red}{\Vbar.} Agréez que j’annonce vos louanges, Vierge
-  sainte.\\
-  \textcolor{red}{\Rbar.} Obtenez-moi la force contre vos ennemis.}\\
-\end{multicols}
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont T}
+  \gregorioscore{hy--tantum_ergo--solesmes}
 
-\begin{multicols}{2}
-  \parindent=0pt
-  Concede, miséricors Deus, fragilitáti nostræ præsídium :   \textcolor{red}{†} ut, qui sanctæ Dei Genitrícis memóriam ágimus ; \textcolor{red}{*} intercessiónis ejus
-  auxílio, a nostris iniquitátibus resurgámus. Per Christum Dóminum nostrum.
-  \textcolor{red}{\Rbar.} Amen.
+  \begin{center}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Devant un sacrement si grand, prosternons-nous, adorons ; et que les symboles anciens s'effacent devant le rite nouveau ; que la foi vienne suppléer à la faiblesse de nos sens.}
+        \item \textit{Au Père et au Fils louanges et acclamations, gloire honneur et puissance ainsi que bénédictions. A Celui qui de tous deux procède offrons une égale louange.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{center}
 
-  \columnbreak
+  \medskip
 
-  \textit{ Accordez, Dieu miséricordieux, à notre faiblesse les
-    secours de votre grâce et comme nous célébrons la
-    mémoire de la sainte Mère de Dieu, faites qu’étant
-    aidés auprès de vous de son intercession, nous nous
-    relevions de nos péchés. Par le Christ notre Seigneur.
+  \begin{multicols}{2}
+    \parindent=0pt
+    \textcolor{red}{\Vbar.} Panem de caelo praestitisti eis.\\
+    \textcolor{red}{\Rbar.} Omne delectamentum in se habentem.\\
+    
+    \textit{\textcolor{red}{\Vbar.} Tu leur a donné le pain du ciel.\\
+    \textcolor{red}{\Rbar.} Toute saveur se trouve en lui.}\\
+    
+  \end{multicols}
+
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+
+  \begin{center}
+    \textcolor{red}{\large{Oraison}}
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Deus, qui nobis sub sacramento mirabili
+    passionis tuæ memoriam reliquisti : \textcolor{red}{~†}
+    tribue, quæsumus, ita nos Corporis et
+    Sanguinis tui sacra mysteria venerari, \textcolor{red}{~*} ut
+    redemptionis tuæ fructum in nobis
+    jugiter sentiamus.\\
+    Qui vivis et regnas
+    cum Deo Patre in unitate Spiritus Sancti,
+    Deus, per omnia sæcula sæculorum.
     Amen.
-  }
-\end{multicols}
+    \columnbreak
 
-\begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
+    \textit{
+      Seigneur Jésus Christ, dans cet admirable
+      sacrement tu nous a laissé le mémorial de
+      ta passion ; donne-nous de vénérer d’un si
+      grand amour le mystère de ton Corps et de
+      ton Sang, que nous puissions recueillir
+      sans cesse le fruit de ta rédemption. Toi
+      qui règnes avec le Père et le Saint Esprit
+      pour les siècles des siècles.
+      Amen. 
+    }
+  \end{multicols}
 
-\begin{center}
-  \textcolor{red}{\normalsize{En l'honneur Du Saint Sacrement}}
-\end{center}
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
 
-\gresetinitiallines{1}
-\greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont T}
-\gregorioscore{hy--tantum_ergo--solesmes}
 
-\begin{center}
+  \begin{center}
+    \textcolor{red}{\large{Louanges divines}}
+  \end{center}
+
+
+  \begin{normalsize}
+    \parindent=0pt
+    Dieu soit béni.\\
+    Béni soit son Saint Nom.\\
+    Béni soit Jésus-Christ, vrai Dieu et vrai homme.\\
+    Béni soit le Nom de Jésus.\\
+    Béni soit son Sacré Cœur.\\
+    Béni soit son précieux Sang.\\
+    Béni soit Jésus dans le très Saint Sacrement de l’autel.\\
+    Béni soit l’Esprit Saint Consolateur.\\
+    Bénie soit l’auguste Mère de Dieu, la très Sainte Vierge Marie.\\
+    Bénie soit sa Sainte et Immaculée Conception.\\
+    Bénie soit sa glorieuse Assomption.\\
+    Béni soit le nom de Marie, Vierge et Mère.\\
+    Béni soit Saint Joseph, son très chaste époux.\\
+    Béni soit Dieu dans ses anges et dans ses saints.\\
+    Seigneur, donnez-nous des prêtres.\\
+    Seigneur, donnez-nous de saints prêtres.\\
+    Seigneur, donnez-nous beaucoup de saints prêtres.\\
+    Seigneur, donnez-nous beaucoup de saintes vocations religieuses.\\
+  \end{normalsize}
+
+
+  \newpage
+
+  \begin{center}
+    \textcolor{red}{\large{Déposition}}\\
+    \textit{Psaume 116}
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont L}
+  \gregorioscore{ps--laudate_dominum_omnes_gentes_(psalmus_116)--solesmes}
+  \bigskip
   \begin{footnotesize}
-    \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
-      \item \textit{Devant un sacrement si grand, prosternons-nous, adorons ; et que les symboles anciens s'effacent devant le rite nouveau ; que la foi vienne suppléer à la faiblesse de nos sens.}
-      \item \textit{Au Père et au Fils louanges et acclamations, gloire honneur et puissance ainsi que bénédictions. A Celui qui de tous deux procède offrons une égale louange.}
-    \end{enumerate}
+    \textit{
+      Louez le Seigneur, tous les
+      peuples ;
+      Fêtez-Le, tous les pays !
+      Son Amour envers nous
+      S'est montré le plus fort ;
+      Eternelle est la Fidélité du
+      Seigneur !
+      Gloire au Père, au Fils
+      Et au Saint-Esprit,
+      Comme il était au
+      commencement,
+      Maintenant et toujours,
+      Pour les siècles des siècles,
+      amen.
+    }
   \end{footnotesize}
-\end{center}
 
-\medskip
+  \newpage
 
-\begin{multicols}{2}
-  \parindent=0pt
-  \textcolor{red}{\Vbar.} Panem de caelo praestitisti eis.\\
-  \textcolor{red}{\Rbar.} Omne delectamentum in se habentem.\\
-  
-  \textit{\textcolor{red}{\Vbar.} Tu leur a donné le pain du ciel.\\
-  \textcolor{red}{\Rbar.} Toute saveur se trouve en lui.}\\
-  
-\end{multicols}
+  \begin{titlepage}\centering
+    \vspace*{\fill}
+    \LARGE Propre du temps.
+    \vspace*{\fill}
+  \end{titlepage}
 
-\begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
+  \newpage
 
-\newpage
+  \grechangedim{baselineskip}{50pt}{scalable}
 
-\begin{center}
-  \textcolor{red}{\normalsize{Oraison}}
-\end{center}
-
-\begin{multicols}{2}
-  \parindent=0pt
-  Deus, qui nobis sub sacramento mirabili
-  passionis tuæ memoriam reliquisti : \textcolor{red}{~†}
-  tribue, quæsumus, ita nos Corporis et
-  Sanguinis tui sacra mysteria venerari, \textcolor{red}{~*} ut
-  redemptionis tuæ fructum in nobis
-  jugiter sentiamus.\\
-  Qui vivis et regnas
-  cum Deo Patre in unitate Spiritus Sancti,
-  Deus, per omnia sæcula sæculorum.
-  Amen.
-  \columnbreak
-
-  \textit{
-    Seigneur Jésus Christ, dans cet admirable
-    sacrement tu nous a laissé le mémorial de
-    ta passion ; donne-nous de vénérer d’un si
-    grand amour le mystère de ton Corps et de
-    ton Sang, que nous puissions recueillir
-    sans cesse le fruit de ta rédemption. Toi
-    qui règnes avec le Père et le Saint Esprit
-    pour les siècles des siècles.
-    Amen. 
-  }
-\end{multicols}
-
-\begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
-
-
-\begin{center}
-  \textcolor{red}{\normalsize{Louanges divines}}
-\end{center}
-
-
-\begin{normalsize}
-  \parindent=0pt
-  Dieu soit béni.\\
-  Béni soit son Saint Nom.\\
-  Béni soit Jésus-Christ, vrai Dieu et vrai homme.\\
-  Béni soit le Nom de Jésus.\\
-  Béni soit son Sacré Cœur.\\
-  Béni soit son précieux Sang.\\
-  Béni soit Jésus dans le très Saint Sacrement de l’autel.\\
-  Béni soit l’Esprit Saint Consolateur.\\
-  Bénie soit l’auguste Mère de Dieu, la très Sainte Vierge Marie.\\
-  Bénie soit sa Sainte et Immaculée Conception.\\
-  Bénie soit sa glorieuse Assomption.\\
-  Béni soit le nom de Marie, Vierge et Mère.\\
-  Béni soit Saint Joseph, son très chaste époux.\\
-  Béni soit Dieu dans ses anges et dans ses saints.\\
-  Seigneur, donnez-nous des prêtres.\\
-  Seigneur, donnez-nous de saints prêtres.\\
-  Seigneur, donnez-nous beaucoup de saints prêtres.\\
-  Seigneur, donnez-nous beaucoup de saintes vocations religieuses.\\
-\end{normalsize}
-
-\begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
-
-\newpage
-
-\begin{center}
-  \textcolor{red}{\normalsize{Déposition}}\\
-  \textit{Psaume 116}
-\end{center}
-
-\gresetinitiallines{1}
-\greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont L}
-\gregorioscore{ps--laudate_dominum_omnes_gentes_(psalmus_116)--solesmes}
-\bigskip
-\begin{footnotesize}
-  \textit{
-    Louez le Seigneur, tous les
-    peuples ;
-    Fêtez-Le, tous les pays !
-    Son Amour envers nous
-    S'est montré le plus fort ;
-    Eternelle est la Fidélité du
-    Seigneur !
-    Gloire au Père, au Fils
-    Et au Saint-Esprit,
-    Comme il était au
-    commencement,
-    Maintenant et toujours,
-    Pour les siècles des siècles,
-    amen.
-  }
-\end{footnotesize}
-
-\begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
-
-\newpage
-
-\begin{titlepage}\centering
-  \vspace*{\fill}
-  \LARGE Propre du temps.
-  \vspace*{\fill}
-\end{titlepage}
-
-\newpage
-
-\grechangedim{baselineskip}{50pt}{scalable}
-
-\subfile{propre-careme.tex}
-% \newpage
-% \subfile{vierge-marie.tex}
+  \subfile{propre-careme.tex}
+  % \newpage
+  % \subfile{vierge-marie.tex}
 
 \end{document}
