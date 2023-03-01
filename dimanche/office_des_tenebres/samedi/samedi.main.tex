@@ -1,0 +1,70 @@
+% !TeX program = lualatex
+\documentclass[12pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[autocompile]{gregoriotex}
+
+% \geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\geometry{top=2cm, bottom=2cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+  \font\titlefont=lmr12 at 50pt
+  \begin{titlepage}\centering
+    \vspace*{\fill}\
+    \titlefont Office\\
+    \bigskip
+    \LARGE des\\
+    \bigskip
+    \titlefont Ténèbres\\
+    \vspace*{\fill}
+    \begin{figure}[h!]
+      \centering
+      \includegraphics[width=7cm]{../../ordinaires/logo.png}
+    \end{figure}
+
+    \vspace*{\fill}
+    \large\textit{
+      Livret latin-français
+    }
+  \end{titlepage}
+
+  \begin{center}
+    \huge SAMEDI SAINT\\
+    \greseparator{3}{30}\\
+    \bigskip
+    \large L'OFFICE DES TÉNÈBRES.\\
+  \end{center}
+  \bigskip
+  \par  Séparée du corps auquel la divinité reste unie, l'âme de Jésus, également unie à la divinité, \textit{descendit aux enfers}. Ces mots du symbole désignent, non l'enfer où souffrent éternellement les démons et les réprouvés, mais les \textit{lieux bas de la terre} ou \textit{limbes}, séjour des âmes des justes de l'Ancien Testament. Jésus Christ y descend pour délivrer les justes de leur triste captivité et leur communiquer les fruits de sa Passion. Sa seule présence répand immédiatement au milieu d'eux une lumière resplendissante, les remplit d'une joie ineffable et les mets en possession de la béatitude éternelle, qui est la vision de Dieu.
+  \medskip
+  \par L'OFFICE DES TÉNÈBRES de cette nuit sacrée est tout rempli d'allusions au séjour de l'âme de Jésus dans les \textit{enfers} ou \textit{limbes}, tandis que son corps repose dans la paix, en attendant sa glorieuse résurrection. Cet Office est vraiment consacré à rendre de dignes honneurs à la sépulture du Sauveur : c'est comme une pieuse Vigile ou sainte veillée auprès de son tombeau.
+  \medskip
+  \par 
+
+  \newpage
+
+  \subfile{premier-nocturne.tex}
+  % \subfile{deuxieme-nocturne.tex}
+  % \subfile{troisieme-nocturne.tex}
+  % \subfile{laudes.tex}
+\end{document}
