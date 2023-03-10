@@ -1,0 +1,613 @@
+% !TeX program = lualatex
+\documentclass[12pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=2cm, bottom=2cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+  \begin{center}
+    \large A LAUDES.\\
+  \end{center}
+  \medskip
+  
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont O}
+  \gregorioscore{antiennes/an--o_mors--solesmes}
+  \begin{center}
+    \footnotesize{
+      \textit{O mort, je serai ta mort : enfer, je serai ta morsure.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 50.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume50-IVc}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Et secúndum multitúdinem miseratió\textit{num} \textit{tu}\textbf{á}rum,\textcolor{red}{~*} dele iniquitátem \textbf{me}am.
+
+    \item Amplius lava me ab iniqui\textit{tá}\textit{te} \textbf{me}a:\textcolor{red}{~*} et a peccáto meo \textbf{mun}da me.
+
+    \item Quóniam iniquitátem meam e\textit{go} \textit{co}\textbf{gnós}co:\textcolor{red}{~*} et peccátum meum contra me est \textbf{sem}per.
+
+    \item Tibi soli peccávi, et malum co\textit{ram} \textit{te} \textbf{fe}ci:\textcolor{red}{~*} ut justificéris in sermónibus tuis, et vincas cum judi\textbf{cá}ris.
+
+    \item Ecce enim in iniquitáti\textit{bus} \textit{con}\textbf{cép}tus sum:\textcolor{red}{~*} et in peccátis concépit me mater \textbf{me}a.
+
+    \item Ecce enim veritátem \textit{di}\textit{le}\textbf{xís}ti:\textcolor{red}{~*} incérta et occúlta sapiéntiæ tuæ manifestásti \textbf{mi}hi.
+
+    \item Aspérges me hyssópo, \textit{et} \textit{mun}\textbf{dá}bor:\textcolor{red}{~*} lavábis me, et super nivem deal\textbf{bá}bor.
+
+    \item Audítui meo dabis gáudium \textit{et} \textit{læ}\textbf{tí}tiam:\textcolor{red}{~*} et exsultábunt ossa humili\textbf{á}ta.
+
+    \item Avérte fáciem tuam a pec\textit{cá}\textit{tis} \textbf{me}is:\textcolor{red}{~*} et omnes iniquitátes meas \textbf{de}le.
+
+    \item Cor mundum crea \textit{in} \textit{me}, \textbf{De}us:\textcolor{red}{~*} et spíritum rectum ínnova in viscéribus \textbf{me}is.
+
+    \item Ne projícias me a fá\textit{ci}\textit{e} \textbf{tu}a:\textcolor{red}{~*} et spíritum sanctum tuum ne áuferas \textbf{a} me.
+
+    \item Redde mihi lætítiam salu\textit{tá}\textit{ris} \textbf{tu}i:\textcolor{red}{~*} et spíritu principáli con\textbf{fír}ma me.
+
+    \item Docébo iníquos \textit{vi}\textit{as} \textbf{tu}as:\textcolor{red}{~*} et ímpii ad te conver\textbf{tén}tur.
+
+    \item Líbera me de sanguínibus, Deus, Deus sa\textit{lú}\textit{tis} \textbf{me}æ:\textcolor{red}{~*} et exsultábit lingua mea justítiam \textbf{tu}am.
+
+    \item Dómine, lábia me\textit{a} \textit{a}\textbf{pé}ries:\textcolor{red}{~*} et os meum annuntiábit laudem \textbf{tu}am.
+
+    \item Quóniam si voluísses sacrifícium, de\textit{dís}\textit{sem} \textbf{ú}tique:\textcolor{red}{~*} holocáustis non delec\textbf{tá}beris.
+
+    \item Sacrifícium Deo spíritus con\textit{tri}\textit{bu}\textbf{lá}tus:\textcolor{red}{~*} cor contrítum et humiliátum, Deus, non de\textbf{spí}cies.
+
+    \item Benígne fac, Dómine, in bona voluntáte \textit{tu}\textit{a} \textbf{Si}on:\textcolor{red}{~*} ut ædificéntur muri Je\textbf{rú}salem.
+
+    \item Tunc acceptábis sacrifícium justítiæ, oblatiónes, et \textit{ho}\textit{lo}\textbf{cáus}ta:\textcolor{red}{~*} tunc impónent super altáre tuum \textbf{ví}tulos.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) O(h_i) mors,(i.) (,) e(h')ro(i) mors(j_h) tu(i.)a :(i.) (;) mor(f_i)sus(h_g) tu(f_e)us(f_e) (,) e(d_e)ro,(f') <nlba>in(h)fér(f.)ne.</nlba>(f.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Ayez pitié de moi, mon Dieu, selon votre grande miséricorde.}
+        \item \textit{Et selon la multitude de vos bontés, effacez mon iniquité.}
+        \item \textit{Lavez-moi de plus en plus de mon iniquité, et
+        purifiez-moi de mon péché ;}
+        \item \textit{Parce que je connais mon iniquité, et que mon
+        péché est toujours présent devant moi.}
+        \item \textit{J’ai péché contre vous seul, j’ai fait le mal en votre
+        présence ; afin que vous soyez reconnu juste dans
+        vos paroles, et victorieux dans vos jugements.}
+        \item \textit{Car j’ai été formé dans l’iniquité, et ma mère
+        m’a conçu dans le péché.}
+        \item \textit{Car vous avez aimé la vérité, et vous m’avez manifesté les secrets et les mystères de votre sagesse.}
+        \item \textit{Vous m’arroserez avec l’hysope, et je serai pur ;
+        lavez-moi, et je serai plus blanc que la neige.}
+        \item \textit{Vous me ferez entendre des paroles de joie et de
+        consolation ; et mes os humiliés seront dans la joie.}
+        \item \textit{Détournez votre visage de dessus mes péchés, et
+        effacez toutes mes iniquités.} 
+        \item \textit{Mon Dieu, créez en moi un cœur pur, et renouvelez l’esprit de droiture jusques dans mes entrailles}
+        \item \textit{Ne me rejetez pas de devant votre face, et ne retirez pas de moi votre Saint-Esprit.}
+        \item \textit{Rendez-moi la joie de votre salut, et rassurez-moi
+        par la force de votre Esprit.}
+        \item \textit{J’enseignerai vos voies aux pécheurs, et les impies
+        se convertiront à vous.}
+        \item \textit{O Dieu, mon Dieu, auteur de mon salut, délivrez-moi du sang que j’ai répandu, et ma langue annoncera avec joie votre justice.}
+        \item \textit{Seigneur, vous ouvrirez mes lèvres, et ma bouche
+        annoncera vos louanges.}
+        \item \textit{Car si vous eussiez voulu un sacrifice, je vous
+        l’aurai offert ; mais les holocaustes ne vous sont
+        pas agréables.}
+        \item \textit{Un esprit pénétré de douleur, est un sacrifice que
+        Dieu agrée : mon Dieu, vous ne mépriserez pas un
+        cœur contrit et humilié.}
+        \item \textit{Seigneur, faites sentir à Sion les effets de votre
+        bonté ; afin que les murs de Jérusalem soient bâtis.}
+        \item \textit{Alors vous accepterez le sacrifice de justice, les offrandes et les holocaustes : alors on offrira des veaux sur votre autel}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+
+  \par Le Psaume 91 fait partie de l'Office des Laudes du Samedi. Déjà chez les juifs il se chantait le jour du Sabbat. Il convient spécialement au jour consacré à célébrer les louanges de Dieu, Créateur et Providence de cet univers, dont la justice punit et récompense selon les mérites. L'œuvre divine par excellence, c'est la Rédemption par Jésus Christ, salut des justes et condamnation des impies.
+  \medskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont P}
+  \gregorioscore{antiennes/an--plangent_eum--solesmes}
+  \begin{center}
+    \footnotesize{
+      \textit{Ils le pleureront comme un fils unique, parce que le Seigneur, étant innocent, a été mis à mort.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 91.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume91-IVA}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Ad annuntiándum mane misericór\textit{di}\textit{am} \textbf{tu}am:\textcolor{red}{~*} et veritátem \textit{tu}\textit{am} \textit{per} \textbf{noc}tem.
+
+    \item In decachór\textit{do}, \textit{psal}\textbf{té}rio:\textcolor{red}{~*} cum cán\textit{ti}\textit{co}, \textit{in} \textbf{cí}thara.
+
+    \item Quia delectásti me, Dómine, in fac\textit{tú}\textit{ra} \textbf{tu}a:\textcolor{red}{~*} et in opéribus mánuum tuá\textit{rum} \textit{ex}\textit{sul}\textbf{tá}bo.
+
+    \item Quam magnificáta sunt ópera \textit{tu}\textit{a}, \textbf{Dó}mine!\textcolor{red}{~*} nimis profúndæ factæ sunt cogita\textit{ti}\textit{ó}\textit{nes} \textbf{tu}æ.
+
+    \item Vir insípiens \textit{non} \textit{co}\textbf{gnó}scet:\textcolor{red}{~*} et stultus non \textit{in}\textit{tél}\textit{li}\textbf{get} hæc.
+
+    \item Cum exórti fúerint peccatóres \textit{sic}\textit{ut} \textbf{fe}num:\textcolor{red}{~*} et apparúerint omnes, qui operántur \textit{in}\textit{i}\textit{qui}\textbf{tá}tem.
+
+    \item Ut intéreant in sǽ\textit{cu}\textit{lum} \textbf{sǽ}culi:\textcolor{red}{~*} tu autem Altíssimus in \textit{æ}\textit{tér}\textit{num}, \textbf{Dó}mine.
+
+    \item Quóniam ecce inimíci tui, Dómine,\textcolor{red}{~†} quóniam ecce inimíci tu\textit{i} \textit{per}\textbf{í}bunt:\textcolor{red}{~*} et dispergéntur omnes, qui operántur \textit{in}\textit{i}\textit{qui}\textbf{tá}tem.
+
+    \item Et exaltábitur sicut unicórnis \textit{cor}\textit{nu} \textbf{me}um:\textcolor{red}{~*} et senéctus mea in miseri\textit{cór}\textit{di}\textit{a} \textbf{ú}beri.
+
+    \item Et despéxit óculus meus ini\textit{mí}\textit{cos} \textbf{me}os:\textcolor{red}{~*} et in insurgéntibus in me malignántibus áudi\textit{et} \textit{au}\textit{ris} \textbf{me}a.
+
+    \item Justus, ut pal\textit{ma} \textit{flo}\textbf{ré}bit:\textcolor{red}{~*} sicut cedrus Líbani \textit{mul}\textit{ti}\textit{pli}\textbf{cá}bitur.
+
+    \item Plantáti in \textit{do}\textit{mo} \textbf{Dó}mini,\textcolor{red}{~*} in átriis domus Dei \textit{nos}\textit{tri} \textit{flo}\textbf{ré}bunt.
+
+    \item Adhuc multiplicabúntur in se\textit{néc}\textit{ta} \textbf{ú}beri:\textcolor{red}{~*} et bene patiéntes e\textit{runt}, \textit{ut} \textit{an}\textbf{nún}tient:
+
+    \item Quóniam rectus Dóminus, \textit{De}\textit{us} \textbf{nos}ter:\textcolor{red}{~*} et non est iní\textit{qui}\textit{tas} \textit{in} \textbf{e}o.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) Plan(e')gent(f) e(h_i)um(i.) (,) qua(h')si(i) u(j)ni(ih)gé(i')ni(i)tum,(i.) (;) qui(f_i)a(h_g) ín(f')no(e)cens(f_e) (,) Dó(d')mi(e)nus(f') oc(h)cí(f')sus(f) est.(f.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Il est bon de louer le Seigneur, et de célécbrer votre nom, Ô Très Haut ;}
+        \item \textit{Il est bon de publier le matin votre miséricorde, et votre fidélité pendant la nuit.}
+        \item \textit{Sur l'instrument à dix cordes et sur la lyre, avec les accords de la harpe.}
+        \item \textit{Car vous me réjouissez, Seigneur, par vos œuvres, et je tressaille d'allégresse devant l'ouvrage de vos mains.}
+        \item \textit{Que vos œuvres sont grandes, Seigneur, que vos pensées sont profondes !}
+        \item \textit{L'homme stupide n'y connait rien, et l'insensé n'y peut rien comprendre.}
+        \item \textit{Quand les méchants croissent comme l'herbe, et que fleurissent ceux qui font le mal,}
+        \item \textit{C'est pour être exterminés à jamais. Mais vous, Seigneur, vous êtes le Très Haut pour l'éternité.}
+        \item \textit{Car voici que vos ennemis, Seigneur, voici que vos ennemis périssent ; tous ceux qui font le mal ont disparu.}
+        \item \textit{Et vous élevez ma puissance comme celle de la licorne et l'abondance de votre miséricorde réjouira encore ma vieillesse.}
+        \item \textit{Mon oeil contemple mes ennemis abattus, et mon oreille entend les cris de détresse des méchants qui s'élèvaient contre moi.}
+        \item \textit{Le juste fleurira comme le palmier, il croîtra comme le cêdre du Liban.}
+        \item \textit{Plantés dans la maison du Seigneur, ils fleuriront dans les parvis de notre Dieu.} 
+        \item \textit{Ils porteront encore des fruits dans une vieillesse pleine de sève et de vigueur,}
+        \item \textit{Pour publier que le Seigneur notre Dieu est juste, et qu'il n'y a point d'injustice en lui.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+
+  \par Les saints Pères ont fait l'application du Psaume 63 au Messie, poursuivi par la haine et les calomnies de ses ennemis. Saint Augustin, le commentant dans les leçons lues plus haut au second Nocturne, montre comment Dieu a fait tourner les perfides machinations du Sanhedrin à leur confusion en même temps qu'au triomphe du Sauveur.
+  \medskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{antiennes/an--attendite_universi--solesmes}
+  \begin{center}
+    \footnotesize{
+      \textit{Considérez, peuples de toute la terre, et voyez ma douleur.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 63.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume63-VIIb}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Protexísti me a convéntu \textit{ma}\textit{li}\textbf{gnán}tium:\textcolor{red}{~*} a multitúdine operántium \textit{in}\textit{i}\textit{qui}\textbf{tá}tem.
+
+    \item Quia exacuérunt ut gládium \textit{lin}\textit{guas} \textbf{su}as:\textcolor{red}{~*} intendérunt arcum rem amáram, ut sagíttent in occúltis \textit{im}\textit{ma}\textit{cu}\textbf{lá}tum.
+
+    \item Súbito sagittábunt eum, et \textit{non} \textit{ti}\textbf{mé}bunt:\textcolor{red}{~*} firmavérunt sibi \textit{ser}\textit{mó}\textit{nem} \textbf{ne}quam.
+
+    \item Narravérunt ut abscón\textit{de}\textit{rent} \textbf{lá}queos:\textcolor{red}{~*} dixérunt: Quis \textit{vi}\textit{dé}\textit{bit} \textbf{e}os?
+
+    \item Scrutáti sunt in\textit{i}\textit{qui}\textbf{tá}tes:\textcolor{red}{~*} defecérunt scru\textit{tán}\textit{tes} \textit{scru}\textbf{tí}nio.
+
+    \item Accédet homo \textit{ad} \textit{cor} \textbf{al}tum:\textcolor{red}{~*} et exal\textit{tá}\textit{bi}\textit{tur} \textbf{De}us.
+
+    \item Sagíttæ parvulórum factæ sunt pla\textit{gæ} \textit{e}\textbf{ó}rum:\textcolor{red}{~*} et infirmátæ sunt contra eos \textit{lin}\textit{guæ} \textit{e}\textbf{ó}rum.
+
+    \item Conturbáti sunt omnes qui vi\textit{dé}\textit{bant} \textbf{e}os:\textcolor{red}{~*} et tímu\textit{it} \textit{om}\textit{nis} \textbf{ho}mo.
+
+    \item Et annuntiavérunt ó\textit{pe}\textit{ra} \textbf{De}i,\textcolor{red}{~*} et facta ejus \textit{in}\textit{tel}\textit{le}\textbf{xé}runt.
+
+    \item Lætábitur justus in Dómino, et sperá\textit{bit} \textit{in} \textbf{e}o:\textcolor{red}{~*} et laudabúntur om\textit{nes} \textit{rec}\textit{ti} \textbf{cor}de.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) At(g)tén(ig/ij)di(i)te(i'_[oh:h]) (,) u(i)ni(g)vér(ij)si(i) pó(h_i)pu(h)li,(e.) (;) et(h) vi(h)dé(hih)te(hgh) <nlba>do(f)ló(f_h)rem</nlba>(g) me(e.)um.(e.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Ô Dieu, écoutez ma prière, lorsque je vous implore ; défendez ma vie contre un ennemi qui m'épouvante.}
+        \item \textit{Protégez-moi contre les complots des méchants, contre la troupe furieuse des hommes d'iniquité.}
+        \item \textit{Ils aiguisent leur langue comme un glaive, ils mettent à leur arc des flèches empoisonnées, pour les décocher dans l'ombre contre l'innocent.}
+        \item \textit{Ils les lancent contre lui à l'improviste, sans qu'aucune crainte les retiennent. Ils s'affermissent dans leur desseins pervers.}
+        \item \textit{Ils se concertent pour cacher leur piège ; ils disent : qui les verra ?}
+        \item \textit{Ils ne méditent que forfaits ; ils s'épuisent à combiner leurs plans.}
+        \item \textit{L'homme descendra dans la profondeur de son cœur pour perdre le juste ; mais Dieu va manifester sa gloire.}
+        \item \textit{Les flèches des insensés n'ont fait que les blesser eux-même, et leurs calomnies, se retournant contre eux, ont amené leur ruine.}
+        \item \textit{Tous ceux qui les ont vus ont été dans la consternation, et tous les hommes saisis d'épouvante.}
+        \item \textit{Ils publient l'œuvre de Dieu, ils comprennent ce qu'il a fait.}
+        \item \textit{Le juste se réjouie dans le Seigneur et espère en lui, et tous ceux qui ont le cœur droit seront glorifiés.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+
+  \par Le roi Ézéchias, menacé d'une mort prochaine, supplie Dieu de lui conserver la vie ; touché par ses supplications, le Seigneur exauce sa prière. Les paroles de ce beau cantique se réalisent en Jésus Christ, le fil de sa vie est déjà coupé, il est dans le sépulcre, mais il espère encore, et bientôt vivant il célébrera la gloire de Dieu.
+  \medskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{antiennes/an--a_porta_inferi--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Délivrez mon âme, Seigneur, de la porte de l’enfer.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Cantique d'Ézéchias.}\\
+    \begin{footnotesize}
+      \textit{Isaïe 38, 10-20.}
+    \end{footnotesize}
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/cantique-ezechias-IID}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Quæsívi resíduum annórum me\textbf{ó}rum.\textcolor{red}{~*} Dixi: Non vidébo Dóminum Deum in terra \textit{vi}\textbf{vén}tium.
+
+    \item Non aspíciam hóminem \textbf{ul}tra,\textcolor{red}{~*} et habitatórem \textit{qui}\textbf{é}tis.
+
+    \item Generátio mea abláta est, et convolúta est \textbf{a} me,\textcolor{red}{~*} quasi tabernáculum \textit{pas}\textbf{tó}rum.
+
+    \item Præcísa est velut a texénte, vita mea:\textcolor{red}{~†} dum adhuc ordírer, suc\textbf{cí}dit me:\textcolor{red}{~*} de mane usque ad vésperam fí\textit{ni}\textbf{es} me.
+
+    \item Sperábam usque ad \textbf{ma}ne,\textcolor{red}{~*} quasi leo sic contrívit ómnia os\textit{sa} \textbf{me}a:
+
+    \item De mane usque ad vésperam fínies me:\textcolor{red}{~†} sicut pullus hirúndinis sic cla\textbf{má}bo,\textcolor{red}{~*} meditábor ut \textit{co}\textbf{lúm}ba:
+
+    \item Attenuáti sunt óculi \textbf{me}i,\textcolor{red}{~*} suspiciéntes in \textit{ex}\textbf{cél}sum.
+
+    \item Dómine, vim pátior, respónde \textbf{pro} me.\textcolor{red}{~*} Quid dicam, aut quid respondébit mihi, cum ip\textit{se} \textbf{fé}cerit?
+
+    \item Recogitábo tibi omnes annos \textbf{me}os\textcolor{red}{~*} in amaritúdine áni\textit{mæ} \textbf{me}æ.
+
+    \item Dómine, si sic vívitur, et in tálibus vita spíritus mei,\textcolor{red}{~†} corrípies me, et vivifi\textbf{cá}bis me.\textcolor{red}{~*} Ecce, in pace amaritúdo mea a\textit{ma}\textbf{rís}sima:
+
+    \item Tu autem eruísti ánimam meam ut non per\textbf{í}ret:\textcolor{red}{~*} projecísti post tergum tuum ómnia peccá\textit{ta} \textbf{me}a.
+
+    \item Quia non inférnus confitébitur tibi,\textcolor{red}{~†} neque mors lau\textbf{dá}bit te:\textcolor{red}{~*} non exspectábunt qui descéndunt in lacum, veritá\textit{tem} \textbf{tu}am.
+
+    \item Vivens vivens ipse confitébitur tibi, sicut et ego \textbf{hó}die:\textcolor{red}{~*} pater fíliis notam fáciet veritá\textit{tem} \textbf{tu}am.
+
+    \item Dómine, salvum \textbf{me} fac\textcolor{red}{~*} et psalmos nostros cantábimus cunctis diébus vitæ nostræ in do\textit{mo} \textbf{Dó}mini.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(f3) A(f) por(e_[uh:l]f)ta(h_g) ín(f)fe(g)ri(f_e) (,) é(h_i)ru(j)e,(i) Dó(j)mi(i)ne,(h.) (,) á(h_i)ni(g')mam(h) me(f.)am.(f.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{J’ai dit, n’étant qu’à la moitié de mes jours, irai-je aux portes de l’enfer ?}
+        \item \textit{J’ai cherché en vain le reste de mes années, j’ai dit :
+        Je ne verrai point le Seigneur Dieu dans la terre des
+        vivants.}
+        \item \textit{Je ne verrai plus aucun homme, ni aucun de ceux
+        qui habitent dans le repos.}
+        \item \textit{Le temps de ma demeure sur la terre est expiré : je
+        suis comme la tente d’un berger, qu’on plie pour emporter.}
+        \item \textit{Ma vie a été coupée comme la trame d’un tisseran :
+        il m’a retranché ; du matin jusqu’au soir mes jours
+        finiront.}
+        \item \textit{J’espérais de vivre jusqu’au lendemain : comme un
+        lion, il a brisé tous mes os.}
+        \item \textit{Du matin jusqu’au soir mes jours finiront : je crierai vers vous comme le petit de l’hirondelle ; je gémirai comme la colombe.}
+        \item \textit{Mes yeux se sont atténués, à force de regarder en
+        haut.}
+        \item \textit{Seigneur, je souffre violence ; répondez pour moi :
+        que dirai-je, ou que me répondra-t-il, puisque c’est
+        lui-même qui fait que je souffre}
+        \item \textit{Je vous rappellerai toutes mes années, dans
+        l’amertume de mon âme.}
+        \item \textit{Seigneur, si l’on vit ainsi, et si la vie de mon esprit
+        consiste en cela, vous me châtierez, et me donnerez
+        la vie : je trouverai la paix dans mon affliction la
+        plus amère.}
+        \item \textit{Mais vous avez délivré mon âme, vous l’avez empêchée de périr : vous avez jeté derrière votre dos mes
+        péchés.}
+        \item \textit{Car on ne vous louera point dans l’enfer ; les morts
+        ne vous béniront point ; ceux qui descendent dans la
+        fosse n’attendront point votre vérité.} 
+        \item \textit{Mais les vivants, les vivants vous loueront comme je
+        fais aujourd’hui : le père enseignera votre vérité à ses
+        enfants.}
+        \item \textit{Seigneur, sauvez-moi, et nous chanterons nos cantiques tous les jours de notre vie dans la maison du
+        Seigneur}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \newpage
+
+  \par Le Psaume 150, le dernier du Psautier, en est comme la conclusion ou Doxologie finale.Que tous les instruments alors en usage unissent leurs accords aux louanges de tout ce qui respire, en particulier aux voix de toutes les créatures régénérées pour remercier Dieu de nous avoir donné le salut par son Christ !
+  \medskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont O}
+  \gregorioscore{antiennes/an--o_vos_omnes--solesmes}
+  \begin{center}
+    \footnotesize{
+      \textit{O vous tous qui passez par ce chemin, considérez et voyez, s’il y a une douleur semblable à la mienne.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 150.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume150-VIIIc}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Laudáte eum in virtútibus \textbf{e}jus:\textcolor{red}{~*} laudáte eum secúndum multitúdinem magnitú\textit{di}\textit{nis} \textbf{e}jus.
+
+    \item Laudáte eum in sono \textbf{tu}bæ:\textcolor{red}{~*} laudáte eum in psaltéri\textit{o}, \textit{et} \textbf{cí}thara.
+
+    \item Laudáte eum in týmpano, et \textbf{cho}ro:\textcolor{red}{~*} laudáte eum in chor\textit{dis}, \textit{et} \textbf{ór}gano.
+
+    \item Laudáte eum in cýmbalis benesonántibus:\textcolor{red}{~†} laudáte eum in cýmbalis jubilati\textbf{ó}nis:\textcolor{red}{~*} omnis spíritus \textit{lau}\textit{det} \textbf{Dó}minum.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) O(h_f) vos(g_[oh:h]f) o(e_[uh:l]f)mnes,(e.) (,) qui(d) trans(f')í(h)tis(hg) per(f) vi(h_i)am,(i.) (;) at(i_[uh:l]k)tén(k)di(jk)te,(h'_) (,) et(h) vi(h)dé(h_2h_)te(e.) (;) si(f) est(h) do(hih)lor(hgh) (,) sic(hg)ut(f) do(h_f)lor(g_[oh:h]f) me(e.)us.(e.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Louez le Seigneur dans son Sanctuaire ; louez-le
+        dans le firmament où éclate sa vertu toute-puissante.}
+        \item \textit{Louez-le dans toutes ses vertus divines : louez-le
+        selon l’immensité de sa grandeur.}
+        \item \textit{Louez-le au son des trompettes ; louez-le sur le
+        psaltérion et la guitare.}
+        \item \textit{Louez-le avec des tambours et dans les concerts :louez-le sur l’orgue et avec des instruments
+        à cordes.}
+        \item \textit{Louez-le sur des cymbales les plus harmonieuses :
+        louez-le avec des cymbales de joie : que tout esprit
+        loue le Seigneur.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+
+  \begin{center}
+    \begin{footnotesize}
+      \textcolor{red}{\textit{On chante le verset debout.}}
+    \end{footnotesize}
+    \begin{minipage}{0.8\linewidth}
+      \gresetinitiallines{0}
+      \large
+      \gabcsnippet{(c4)<c><v>\Vbar</v>.</c> Cá(h)ro(h) mé(h)a(h) re(h)qui(h)é(i')scet(h) in(g.) spe.(g.) (::) (Z) <c><v>\Rbar</v>.</c> Et(h) non(h) dá(h)bis(h) Sán(h)ctum(h) tú(h)um(h) vi(h)dé(h)re(h) co(h)rru(i')pti(h)ó(g.)nem.(g.) (::)}
+      \bigskip
+      \normalsize
+      \begin{center}
+        \textit{\textcolor{red}{\Vbar.} Ma chair reposera dans l’espérance.}\\
+        \textit{\textcolor{red}{\Rbar.} Et vous ne permettrez pas que votre Saint éprouve la corruption.}
+      \end{center}
+    \end{minipage}
+  \end{center}
+  \normalsize
+
+  \bigskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont M}
+  \gregorioscore{antiennes/an--mulieres_sedentes--solesmes}
+  \begin{center}
+    \footnotesize{
+      \textit{ }
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Cantique de Zacharie.}\\
+    \small\textit{Luc, I, 68-79.}\\
+    \normalsize
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{../vendredi/psaumes/zacharie-Ig}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Et eréxit cornu sa\textbf{lú}tis \textbf{no}bis:\textcolor{red}{~*} in domo David, pú\textit{e}\textit{ri} \textbf{su}i.
+
+    \item Sicut locútus est per \textbf{os} sanc\textbf{tó}rum,\textcolor{red}{~*} qui a sǽculo sunt, prophe\textit{tá}\textit{rum} \textbf{e}jus:
+
+    \item Salútem ex ini\textbf{mí}cis \textbf{nos}tris,\textcolor{red}{~*} et de manu ómnium, \textit{qui} \textit{o}\textbf{dé}runt nos.
+
+    \item Ad faciéndam misericórdiam cum \textbf{pá}tribus \textbf{nos}tris:\textcolor{red}{~*} et memorári testaménti \textit{su}\textit{i} \textbf{sanc}ti.
+
+    \item Jusjurándum, quod jurávit ad Abraham \textbf{pa}trem \textbf{nos}trum,\textcolor{red}{~*} datú\textit{rum} \textit{se} \textbf{no}bis:
+
+    \item Ut sine timóre, de manu inimicórum nostrórum \textbf{li}be\textbf{rá}ti,\textcolor{red}{~*} servi\textit{á}\textit{mus} \textbf{il}li.
+
+    \item In sanctitáte, et justítia \textbf{co}ram \textbf{ip}so,\textcolor{red}{~*} ómnibus di\textit{é}\textit{bus} \textbf{nos}tris.
+
+    \item Et tu, puer, Prophéta Altíssi\textbf{mi} vo\textbf{cá}beris:\textcolor{red}{~*} præíbis enim ante fáciem Dómini, paráre \textit{vi}\textit{as} \textbf{e}jus:
+
+    \item Ad dandam sciéntiam salútis \textbf{ple}bi \textbf{e}jus:\textcolor{red}{~*} in remissiónem peccató\textit{rum} \textit{e}\textbf{ó}rum:
+
+    \item Per víscera misericórdiæ \textbf{De}i \textbf{nos}tri:\textcolor{red}{~*} in quibus visitávit nos, óri\textit{ens} \textit{ex} \textbf{al}to:
+
+    \item Illumináre his, qui in ténebris, et in umbra \textbf{mor}tis \textbf{se}dent:\textcolor{red}{~*} ad dirigéndos pedes nostros in \textit{vi}\textit{am} \textbf{pa}cis.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) Mu(c)lí(d)e(ixdh'!iv)res(h'_) (,) se(h)dén(h)tes(h') ad(h) mo(h)nu(h')mén(h_)tum(ixhg/hiHG'g) (;) <nlba>la(f_g)men(h)ta(gf)bán(g)tur,</nlba>(d!ewf_) (,) flen(g)tes(fe) Dó(d)mi(d)num.(d.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Béni soit le Seigneur le Dieu d’Israël ; parce qu’il a visité et racheté son peuple.}
+        \item \textit{Et qu’il a suscité un puissant Sauveur, dans la
+        maison de son serviteur David,}
+        \item \textit{Ainsi qu’il l’avait promis par la bouche de ses
+        saints Prophètes, qui ont vécu dans les siècles passés.}
+        \item \textit{De nous délivrer de nos ennemis, et des mains de
+        tous ceux qui nous haïssent ;}
+        \item \textit{En usant de miséricorde envers nos pères, et en se
+        souvenant de sa sainte alliance :}
+        \item \textit{Suivant la promesse faite avec serment à Abraham notre père, qu’il se donnerait à nous,}
+        \item \textit{Afin qu’étant délivrés de la main de nos ennemis,
+        nous le servions sans crainte,}
+        \item \textit{Dans la sainteté et la justice, nous tenants en sa
+        présence tous les jours de notre vie.}
+        \item \textit{Et vous petits enfants ; vous serez appelé le Prophète du Très-Haut : vous marcherez devant la face du Seigneur, pour lui préparer ses voies ;}
+        \item \textit{En donnant à son peuple la connaissance du salut, pour la rémission de leurs péchés,}
+        \item \textit{Par les entrailles de la miséricorde de notre Dieu,
+        qui a fait qu’un soleil levant nous a visités d’enhaut,}
+        \item \textit{Pour éclairer ceux qui sont dans les ténèbres et
+        dans l’ombre de la mort, et pour conduire nos
+        pieds dans le chemin de la paix.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+
+  \begin{center}
+    \begin{footnotesize}
+      \textcolor{red}{\textit{Après la répétition de l'Antienne à Benedictus, on chante à genoux :}}
+    \end{footnotesize}
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont C}
+  \gregorioscore{antiennes/an--christus_factus_est--solesmes}
+  \normalsize
+
+  \begin{center}
+    \textit{Le Christ s’est fait pour nous obéissant jusqu’à la mort.}\\
+    \textit{Et la mort de la croix.}\\
+    \textit{C'est pourquoi Dieu l'a exalté, et lui a donné le Nom qui est au-dessus de tout nom.}\\
+  \end{center}
+
+  \par \textcolor{red}{Après l'Antienne \textit{Christus factus est}, on dit le \textit{Pater noster} entièrement en silence.}\\
+  \bigskip
+  \par On ajoute, sans dire \textit{Orémus}, l'oraison suivante :
+
+  \setlength{\columnsep}{2pc}
+  \def\columnseprulecolor{\color{red}}
+  \setlength{\columnseprule}{0.4pt}
+
+  \begin{multicols}{2}
+    \par Concéde, quaésumus, omnípotens Deus : † ut, qui Fílii tui resurrectiónem devóta exspectatióne praevenímus ; * eiúsdem resurectiónis glóriam consequámur.
+    % \par \hspace{\fill}
+    \columnbreak
+    \par \textit{Dieu tout-puissant, puisque notre prière attend avec ferveur la Resurrection de votre Fils, faites-nous obtenir la gloire de cette Resurrection.}
+  \end{multicols}
+  \setlength\columnseprule{0pt}
+  \setlength{\columnsep}{0pc}
+
+  \medskip
+  \par On récite ensuite la conclusion : 
+
+  \setlength{\columnsep}{2pc}
+  \def\columnseprulecolor{\color{red}}
+  \setlength{\columnseprule}{0.4pt}
+
+  \begin{multicols}{2}
+    \par Per eúndem Dóminum...
+    % \par \hspace{\fill}
+    \columnbreak
+    \par \textit{Par le même Jésus Christ...}
+  \end{multicols}
+  \setlength\columnseprule{0pt}
+  \setlength{\columnsep}{0pc}
+
+  \smallskip
+  \par \textcolor{red}{On fait ensuite grand bruit (symbole qui figure le désordre de la nature à la mort du Sauveur, Lumière du monde.). Puis, tous se lèvent et se retirent.}
+\end{document}

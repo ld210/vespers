@@ -1,5 +1,5 @@
 % !TeX program = lualatex
-\documentclass[12pt, a5paper]{article}
+\documentclass[12pt, a4paper]{article}
 \usepackage{fullpage}
 \usepackage{subfiles}
 \usepackage{fontspec}
@@ -10,9 +10,10 @@
 \usepackage{multicol}
 \usepackage{multicolrule}
 \usepackage{graphicx}
+\usepackage{enumitem}
 \usepackage[autocompile]{gregoriotex}
 
-\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\geometry{top=2cm, bottom=2cm}
 \pagestyle{empty}
 
 \definecolor{red}{HTML}{C70039}
@@ -26,7 +27,6 @@
 \gresetlinecolor{gregoriocolor}
 
 \begin{document}
-\small
 
   % ===== DEBUT Antienne =========
   \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont D}
@@ -53,9 +53,9 @@
   \end{center}
 
   \gregorioscore{psaumes/psaume109-VIIC2}
-  \begin{enumerate}
+  \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
     \setcounter{enumi}{2}
-    \item Virgam virtútis tuæ emíttet Dómi\textbf{nus} ex \textbf{Si}on:\textcolor{red}{~*} \\ \-\hspace{2cm} domináre in médio inimi\textbf{có}rum tu\textbf{ó}rum.
+    \item Virgam virtútis tuæ emíttet Dómi\textbf{nus} ex \textbf{Si}on:\textcolor{red}{~*} domináre in médio inimi\textbf{có}rum tu\textbf{ó}rum.
 
     \item Tecum princípium in die virtútis tuæ in splendóri\textbf{bus} sanc\textbf{tó}rum:\textcolor{red}{~*}\\ \-\hspace{2cm}  ex útero ante lucíferum \textbf{gé}nu\textbf{i} te.
 
@@ -72,12 +72,24 @@
 
     \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
   \end{enumerate}
+  \medskip
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) Di(g)xit(h) Dó(i')mi(j)nus(i.) Dó(i_h)mi(f)no(h) me(g_f)o(e.) :() (;) Se(f)de(f_) a(d) dex(fh)tris(g) me(e.)is.(e.) (::)}
+  \medskip
 
-  \begin{footnotesize}
-    \textit{
-      \textcolor{red}{2. }Jusqu'à ce que je mette tes ennemis pour le marchepied de tes pieds. \textcolor{red}{3. }L'Éternel enverra de Sion la verge de ta force: Domine au milieu de tes ennemis! \textcolor{red}{4. }Ton peuple sera un peuple de franche volonté, au jour de ta puissance, en sainte magnificence. Du sein de l'aurore te viendra la rosée de ta jeunesse. \textcolor{red}{5. }L'Éternel a juré, et il ne se repentira point: Tu es sacrificateur pour toujours, selon l'ordre de Melchisédec. \textcolor{red}{6. }Le Seigneur, à ta droite, brisera les rois au jour de sa colère. \textcolor{red}{7. }Il jugera parmi les nations, il remplira tout de corps morts, il brisera le chef d'un grand pays. \textcolor{red}{8. }Il boira du torrent dans le chemin, c'est pourquoi il lèvera haut la tête.
-    }
-  \end{footnotesize}
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Jusqu'à ce que je mette tes ennemis pour le marchepied de tes pieds.}
+        \item \textit{L'Éternel enverra de Sion la verge de ta force: Domine au milieu de tes ennemis!}
+        \item \textit{Ton peuple sera un peuple de franche volonté, au jour de ta puissance, en sainte magnificence. Du sein de l'aurore te viendra la rosée de ta jeunesse.}
+        \item \textit{L'Éternel a juré, et il ne se repentira point: Tu es sacrificateur pour toujours, selon l'ordre de Melchisédec.}
+        \item \textit{Le Seigneur, à ta droite, brisera les rois au jour de sa colère.}
+        \item \textit{Il jugera parmi les nations, il remplira tout de corps morts, il brisera le chef d'un grand pays.}
+        \item \textit{Il boira du torrent dans le chemin, c'est pourquoi il lèvera haut la tête.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
 
   % ===== FIN psaume =========
 
@@ -110,25 +122,25 @@
 
   \gregorioscore{psaumes/psaume110-IIIb}
 
-  \begin{enumerate}
+  \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
     \setcounter{enumi}{1}
     \item Magna \textbf{ó}pera \textbf{Dó}\textbf{mi}ni:\textcolor{red}{~*} exquisíta in omnes voluntá\textit{tes} \textbf{e}jus.
 
-    \item Conféssio et magnificéntia \textbf{o}pus \textbf{e}jus:\textcolor{red}{~*}\\ \-\hspace{2cm} et justítia ejus manet in sǽcu\textit{lum} \textbf{sǽ}culi.
+    \item Conféssio et magnificéntia \textbf{o}pus \textbf{e}jus:\textcolor{red}{~*} et justítia ejus manet in sǽcu\textit{lum} \textbf{sǽ}culi.
 
-    \item Memóriam fecit mirabílium suórum,\textcolor{red}{~†} miséricors et mise\textbf{rá}tor \textbf{Dó}\textbf{mi}nus:\textcolor{red}{~*} \\ \-\hspace{2cm} escam dedit timén\textit{ti}\textbf{bus} se.
+    \item Memóriam fecit mirabílium suórum,\textcolor{red}{~†} miséricors et mise\textbf{rá}tor \textbf{Dó}\textbf{mi}nus:\textcolor{red}{~*}\\ \-\hspace{2cm} escam dedit timén\textit{ti}\textbf{bus} se.
 
-    \item Memor erit in sǽculum testa\textbf{mén}ti \textbf{su}i:\textcolor{red}{~*} \\ \-\hspace{2cm} virtútem óperum suórum annuntiábit pópu\textit{lo} \textbf{su}o:
+    \item Memor erit in sǽculum testa\textbf{mén}ti \textbf{su}i:\textcolor{red}{~*} virtútem óperum suórum annuntiábit pópu\textit{lo} \textbf{su}o:
 
     \item Ut det illis heredi\textbf{tá}tem \textbf{gén}\textbf{ti}um:\textcolor{red}{~*} ópera mánuum ejus véritas, et \textit{ju}\textbf{dí}cium.
 
-    \item Fidélia ómnia mandáta ejus:\textcolor{red}{~†} confirmáta in \textbf{sǽ}culum \textbf{sǽ}\textbf{cu}li,\textcolor{red}{~*} \\ \-\hspace{2cm} facta in veritáte et æ\textit{qui}\textbf{tá}te.
+    \item Fidélia ómnia mandáta ejus:\textcolor{red}{~†} confirmáta in \textbf{sǽ}culum \textbf{sǽ}\textbf{cu}li,\textcolor{red}{~*}\\ \-\hspace{2cm} facta in veritáte et æ\textit{qui}\textbf{tá}te.
 
     \item Redemptiónem misit \textbf{pó}pulo \textbf{su}o:\textcolor{red}{~*} mandávit in ætérnum testamén\textit{tum} \textbf{su}um.
 
     \item Sanctum, et terríbile \textbf{no}men \textbf{e}jus:\textcolor{red}{~*} inítium sapiéntiæ ti\textit{mor} \textbf{Dó}mini.
 
-    \item Intelléctus bonus ómnibus faci\textbf{én}tibus \textbf{e}um:\textcolor{red}{~*} \\ \-\hspace{2cm} laudátio ejus manet in sǽcu\textit{lum} \textbf{sǽ}culi.
+    \item Intelléctus bonus ómnibus faci\textbf{én}tibus \textbf{e}um:\textcolor{red}{~*}\\ \-\hspace{2cm} laudátio ejus manet in sǽcu\textit{lum} \textbf{sǽ}culi.
 
     \item Glória \textbf{Pa}tri, et \textbf{Fí}\textbf{li}o,\textcolor{red}{~*} et Spirítu\textit{i} \textbf{Sanc}to.
 
@@ -136,13 +148,27 @@
   \end{enumerate}
 
   \medskip
-  \begin{footnotesize}
-    \textit{
-      \textcolor{red}{1. }De tout cœur je rendrai grâce au Seigneur dans l'assemblée, parmi les justes.
-      \textcolor{red}{2. }Grandes sont les œuvres du Seigneur ; tous ceux qui les aiment s'en instruisent. \textcolor{red}{3. }Noblesse et beauté dans ses actions : à jamais se maintiendra sa justice. \textcolor{red}{4. }De ses merveilles il a laissé un mémorial ; le Seigneur est tendresse et pitié, il a donné des vivres à ses fidèles, \textcolor{red}{5. }Gardant toujours mémoire de son
-      alliance, il a montré sa force à son peuple. \textcolor{red}{6. }Lui donnant le domaine des nations. Justesse et sûreté les œuvres de ses mains. \textcolor{red}{7. }Sécurité, toutes ses lois, établies pour toujours et à jamais, accomplies avec droiture et sûreté ! \textcolor{red}{8. }Il apporte la délivrance à son peuple ; son alliance est promulguée pour toujours. \textcolor{red}{9. }Saint, redoutable est son nom, la sagesse commence avec la crainte du Seigneur. \textcolor{red}{10. }Qui accomplit sa volonté en est éclairé. A jamais se maintiendra sa louange.
-    }
-  \end{footnotesize}
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) Ma(g_j)gna(ji) ó(h')pe(g)ra(h') Dó(i)mi(hg)ni,(g.) (;) ex(h)qui(g)sí(e_0!fg)ta(g') in(e) o(f')mnes(d) vo(e')lun(f)tá(g_h)tes(gf) e(e.)jus.(e.) (::)}
+  \medskip
+
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{De tout cœur je rendrai grâce au Seigneur dans l'assemblée, parmi les justes.}
+        \item \textit{Grandes sont les œuvres du Seigneur ; tous ceux qui les aiment s'en instruisent.}
+        \item \textit{Noblesse et beauté dans ses actions : à jamais se maintiendra sa justice.}
+        \item \textit{De ses merveilles il a laissé un mémorial ; le Seigneur est tendresse et pitié, il a donné des vivres à ses fidèles,}
+        \item \textit{Gardant toujours mémoire de son
+        alliance, il a montré sa force à son peuple.}
+        \item \textit{Lui donnant le domaine des nations. Justesse et sûreté les œuvres de ses mains.}
+        \item \textit{Sécurité, toutes ses lois, établies pour toujours et à jamais, accomplies avec droiture et sûreté ! }
+        \item \textit{Il apporte la délivrance à son peuple ; son alliance est promulguée pour toujours.}
+        \item \textit{Saint, redoutable est son nom, la sagesse commence avec la crainte du Seigneur.}
+        \item \textit{Qui accomplit sa volonté en est éclairé. A jamais se maintiendra sa louange.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
 
   \begin{center}
     \rule{2cm}{0.4pt}
@@ -180,7 +206,7 @@
   % \smallskip
   \grechangedim{baselineskip}{50pt}{scalable}
   \gregorioscore{psaumes/psaume111-IVG}
-  \begin{enumerate}
+  \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
     \setcounter{enumi}{1}
     \item Potens in terra erit \textit{se}\textit{men} \textbf{e}jus:\textcolor{red}{~*}  generátio rectórum benedi\textbf{cé}tur.
 
@@ -188,7 +214,7 @@
 
     \item Exórtum est in ténebris \textit{lu}\textit{men} \textbf{rec}tis:\textcolor{red}{~*}  miséricors, et miserátor, et \textbf{jus}tus.
     
-    \item Jucúndus homo qui miserétur et cómmodat,\textcolor{red}{~†} dispónet sermónes suos \textit{in} \textit{ju}\textbf{dí}cio:\textcolor{red}{~*}  quia in ætérnum non commo\textbf{vé}bitur.
+    \item Jucúndus homo qui miserétur et cómmodat,\textcolor{red}{~†} dispónet sermónes suos \textit{in} \textit{ju}\textbf{dí}cio:\textcolor{red}{~*} \\ \-\hspace{2cm}  quia in ætérnum non commo\textbf{vé}bitur.
 
     \item In memória ætérna \textit{e}\textit{rit} \textbf{jus}tus:\textcolor{red}{~*}  ab auditióne mala non ti\textbf{mé}bit.
 
@@ -202,34 +228,41 @@
 
     \item Sicut erat in princípio, et \textit{nunc}, \textit{et} \textbf{sem}per,\textcolor{red}{~*}  et in sǽcula sæculórum. \textbf{A}men.
   \end{enumerate}
+
   \medskip
-  \begin{footnotesize}
-    \textit{
-      \textcolor{red}{1. }Heureux l’homme qui craint le Seigneur, qui aime entièrement sa volonté !
-      \textcolor{red}{2. }Sa lignée sera puissante sur la terre ; la
-      race des justes est bénie.
-      \textcolor{red}{3. }Les richesses affluent dans sa maison : à
-      jamais se maintiendra sa justice.
-      \textcolor{red}{4. }Lumière des cœurs droits, il s'est levé
-      dans les ténèbres, l’homme de justice, de
-      tendresse et de pitié.
-      \textcolor{red}{5. }L'homme de bien a pitié, il partage ; il
-      mène ses affaires avec droiture, cet
-      homme jamais ne tombera ;
-      \textcolor{red}{6. }Toujours on fera mémoire du juste, il ne
-      craint pas l'annonce d'un malheur :
-      \textcolor{red}{7. }Le cœur ferme, il s'appuie sur le
-      Seigneur. Son cœur est confiant, il ne
-      craint pas : il verra ce que valaient ses
-      oppresseurs.
-      \textcolor{red}{8. }A pleines mains, il donne au pauvre ; à
-      jamais se maintiendra sa justice, sa
-      puissance grandira, et sa gloire !
-      \textcolor{red}{9. }L'impie le voit et s'irrite ; il grince des
-      dents et se détruit. L'ambition des impies
-      se perdra.
-    }
-  \end{footnotesize}
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) Qui(g) ti(e')met(f) Dó(g)mi(h)num,(g'_) (,) in(g) man(gh)dá(h)tis(g') e(g)jus(e_f) cu(gf)pit(de) ni(e.)mis.(e.) (::)}
+  \medskip
+
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Heureux l’homme qui craint le Seigneur, qui aime entièrement sa volonté !}
+        \item \textit{Sa lignée sera puissante sur la terre ; la
+        race des justes est bénie.}
+        \item \textit{Les richesses affluent dans sa maison : à
+        jamais se maintiendra sa justice.}
+        \item \textit{Lumière des cœurs droits, il s'est levé
+        dans les ténèbres, l’homme de justice, de
+        tendresse et de pitié.}
+        \item \textit{L'homme de bien a pitié, il partage ; il
+        mène ses affaires avec droiture, cet
+        homme jamais ne tombera ;}
+        \item \textit{Toujours on fera mémoire du juste, il ne
+        craint pas l'annonce d'un malheur :}
+        \item \textit{Le cœur ferme, il s'appuie sur le
+        Seigneur. Son cœur est confiant, il ne
+        craint pas : il verra ce que valaient ses
+        oppresseurs.}
+        \item \textit{A pleines mains, il donne au pauvre ; à
+        jamais se maintiendra sa justice, sa
+        puissance grandira, et sa gloire !}
+        \item \textit{L'impie le voit et s'irrite ; il grince des
+        dents et se détruit. L'ambition des impies
+        se perdra.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
 
   % ===== FIN psaume =========
 
@@ -266,7 +299,7 @@
 
   \gregorioscore{psaumes/psaume112-VIIC}
 
-  \begin{enumerate}
+  \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
     \setcounter{enumi}{1}
     \item Sit nomen Dómini \textbf{be}ne\textbf{díc}tum,\textcolor{red}{~*}  ex hoc nunc, et \textbf{us}que in \textbf{sǽ}culum.
 
@@ -288,25 +321,31 @@
   \end{enumerate}
 
   \medskip
-  \begin{footnotesize}
-    \textit{
-      \textcolor{red}{1. }Louez, serviteurs du Seigneur, louez le nom du Seigneur !
-      \textcolor{red}{2. }Béni soit le nom du Seigneur, maintenant et
-      pour les siècles des siècles !
-      \textcolor{red}{3. }Du levant au couchant du soleil, loué soit le
-      nom du Seigneur !
-      \textcolor{red}{4. }Le Seigneur domine tous les peuples, sa gloire
-      domine les cieux.
-      \textcolor{red}{5. }Qui est semblable au Seigneur notre Dieu ?
-      Lui, il siège là-haut, mais il abaisse son regard vers le ciel et vers la terre.
-      \textcolor{red}{6. }De la poussière il relève le faible, il retire le
-      pauvre de la cendre
-      \textcolor{red}{7. }Pour qu'il siège parmi les princes, parmi les
-      princes de son peuple.
-      \textcolor{red}{8. }Il installe en sa maison la femme stérile,
-      heureuse mère au milieu de ses fils.
-    }
-  \end{footnotesize}
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) Sit(ii) no(g)men(h) Dó(ij)mi(i)ni(h.) (,) be(hg)ne(f)dí(g_[uh:l]h)ctum(ih) in(f) saé(e')cu(e)la.(e.) (::)}
+  \medskip
+
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Louez, serviteurs du Seigneur, louez le nom du Seigneur !}
+        \item \textit{Béni soit le nom du Seigneur, maintenant et
+        pour les siècles des siècles !}
+        \item \textit{Du levant au couchant du soleil, loué soit le
+        nom du Seigneur !}
+        \item \textit{Le Seigneur domine tous les peuples, sa gloire
+        domine les cieux.}
+        \item \textit{Qui est semblable au Seigneur notre Dieu ?
+        Lui, il siège là-haut, mais il abaisse son regard vers le ciel et vers la terre.}
+        \item \textit{De la poussière il relève le faible, il retire le
+        pauvre de la cendre}
+        \item \textit{Pour qu'il siège parmi les princes, parmi les
+        princes de son peuple.}
+        \item \textit{Il installe en sa maison la femme stérile,
+        heureuse mère au milieu de ses fils.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
 
   % ===== FIN psaume =========
 
@@ -343,7 +382,7 @@
   % gresetinitiallines : avec le parametre à 0, supprime l'ornement
   \gresetinitiallines{0}
   \gregorioscore{psaumes/psaume113-tPer}
-  \begin{enumerate}
+  \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
     \setcounter{enumi}{1}
     \item Facta est Judǽa sanctifi\textit{cá}\textit{ti}\textit{o} \textbf{e}jus,\textcolor{red}{~*}  Israël potés\textit{tas} \textbf{e}jus.
 
@@ -402,73 +441,53 @@
     \item Sicut erat in princípio, \textit{et} \textit{nunc}, \textit{et} \textbf{sem}per,\textcolor{red}{~*}  et in sǽcula sæculó\textit{rum}. \textbf{A}men.
   \end{enumerate}
 
-  \smallskip
+  \medskip
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) De(c')us(d) au(f')tem(e) no(fg)ster(g) in(gh) cae(fe)lo:(d.) (;) ó(f')mni(g)a(h') quae(ixi)cúm(h)que(gf) vó(g')lu(f)it,(gh) fe(g.)cit.(g.) (::)}
+  \medskip
 
-  \gresetinitiallines{0}
-  % \grechangestyle{commentary}{\scriptsize\textit}
-  \gresetheadercapture{commentary}{grecommentary}{}
-  \gregorioscore{antiennes/an--deus_autem_noster--solesmes}
-
-  \bigskip
-
-  \begin{footnotesize}
-    \textit{
-      \textcolor{red}{1. }Quand Israël sortit d'Égypte, et Jacob, de chez un peuple étranger,
-      \textcolor{red}{2. }Juda fut pour Dieu un sanctuaire, Israël
-      devint son domaine.
-      \textcolor{red}{3. }La mer voit et s'enfuit, le Jourdain retourne
-      en arrière.
-      \textcolor{red}{4. }Comme des béliers, bondissent les montagnes,
-      et les collines, comme des agneaux.
-      \textcolor{red}{5. }Qu'as-tu, mer, à t'enfuir, Jourdain, à
-      retourner en arrière ?
-      \textcolor{red}{6. }Montagnes, pourquoi bondir comme des
-      béliers, collines, comme des agneaux ?
-      \textcolor{red}{7. }Tremble, terre, devant le Maître, devant la
-      face du Dieu de Jacob,
-      \textcolor{red}{8. }Lui qui change le rocher en source et la pierre
-      en fontaine d’eau vive.
-      \textcolor{red}{9. }Non pas à nous, Seigneur, non pas à nous,
-      mais à ton nom donne la gloire.
-      \textcolor{red}{10. }Pour ton amour et ta vérité.
-      \textcolor{red}{11. }Pourquoi les païens diraient-ils : « Où donc
-      est leur Dieu ? »
-      \textcolor{red}{12. }Notre Dieu, il est au ciel ; tout ce qu'il veut,
-      il le fait.
-      \textcolor{red}{13. }Leurs idoles : or et argent, ouvrages de mains
-      humaines.
-      \textcolor{red}{14. }Elles ont une bouche et ne parlent pas, des
-      yeux et ne voient pas,
-      \textcolor{red}{15. }Des oreilles et n'entendent pas, des narines et
-      ne sentent pas.
-      \textcolor{red}{16. }Leurs mains ne peuvent toucher, leurs pieds
-      ne peuvent marcher, pas un son ne sort de
-      leur gosier !
-      \textcolor{red}{17. }Qu'ils deviennent comme elles, tous ceux qui
-      les font, ceux qui mettent leur foi en elles.
-      \textcolor{red}{18. }Israël, mets ta foi dans le Seigneur : le
-      secours, le bouclier, c'est lui !
-      \textcolor{red}{19. }Famille d'Aaron, mets ta foi dans le
-      Seigneur : le secours, le bouclier, c'est lui !
-      \textcolor{red}{20. }Vous qui le craignez, ayez foi dans le
-      Seigneur : le secours, le bouclier, c'est lui !
-      \textcolor{red}{21. }Le Seigneur se souvient de nous : il bénira !
-      Il bénira la famille d'Israël, et la famille
-      d'Aaron
-      \textcolor{red}{22. }Il bénira tous ceux qui craignent le Seigneur,
-      du plus grand au plus petit.
-      \textcolor{red}{23. }Que le Seigneur multiplie ses bienfaits pour
-      vous et vos enfants !
-      \textcolor{red}{24. }Soyez bénis par le Seigneur qui a fait le ciel
-      et la terre !
-      \textcolor{red}{25. }Le ciel, c'est le ciel du Seigneur ; aux
-      hommes, il a donné la terre.
-      \textcolor{red}{26. }Les morts ne louent pas le Seigneur, ni ceux
-      qui descendent au silence.
-      \textcolor{red}{27. }Nous, les vivants, bénissons le Seigneur,
-      maintenant et pour les siècles des siècles
-    }
-  \end{footnotesize}
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Quand Israël sortit d'Égypte, et Jacob, de chez un peuple étranger,}
+        \item \textit{Juda fut pour Dieu un sanctuaire, Israël devint son domaine.}
+        \item \textit{La mer voit et s'enfuit, le Jourdain retourne en arrière.}
+        \item \textit{Comme des béliers, bondissent les montagnes, et les collines, comme des agneaux.}
+        \item \textit{Qu'as-tu, mer, à t'enfuir, Jourdain, à retourner en arrière ?}
+        \item \textit{Montagnes, pourquoi bondir comme des béliers, collines, comme des agneaux ?}
+        \item \textit{Tremble, terre, devant le Maître, devant la face du Dieu de Jacob,}
+        \item \textit{Lui qui change le rocher en source et la pierre en fontaine d’eau vive.}
+        \item \textit{Non pas à nous, Seigneur, non pas à nous, mais à ton nom donne la gloire.}
+        \item \textit{Pour ton amour et ta vérité.}
+        \item \textit{Pourquoi les païens diraient-ils : « Où donc est leur Dieu ? »}
+        \item \textit{Notre Dieu, il est au ciel ; tout ce qu'il veut, il le fait.}
+        \item \textit{Leurs idoles : or et argent, ouvrages de mains humaines.} 
+        \item \textit{Elles ont une bouche et ne parlent pas, des yeux et ne voient pas,}
+        \item \textit{Des oreilles et n'entendent pas, des narines et ne sentent pas.}
+        \item \textit{Leurs mains ne peuvent toucher, leurs pieds ne peuvent marcher, pas un son ne sort de leur gosier !}
+        \item \textit{Qu'ils deviennent comme elles, tous ceux qui les font, ceux qui mettent leur foi en elles.}
+        \item \textit{Israël, mets ta foi dans le Seigneur : le secours, le bouclier, c'est lui !}
+        \item \textit{Famille d'Aaron, mets ta foi dans le Seigneur : le secours, le bouclier, c'est lui !}
+        \item \textit{Vous qui le craignez, ayez foi dans le
+        Seigneur : le secours, le bouclier, c'est lui !}
+        \item \textit{Le Seigneur se souvient de nous : il bénira !
+        Il bénira la famille d'Israël, et la famille
+        d'Aaron}
+        \item \textit{Il bénira tous ceux qui craignent le Seigneur,
+        du plus grand au plus petit.}
+        \item \textit{Que le Seigneur multiplie ses bienfaits pour
+        vous et vos enfants !}
+        \item \textit{Soyez bénis par le Seigneur qui a fait le ciel
+        et la terre !}
+        \item \textit{Le ciel, c'est le ciel du Seigneur ; aux
+        hommes, il a donné la terre.}
+        \item \textit{Les morts ne louent pas le Seigneur, ni ceux
+        qui descendent au silence.}
+        \item \textit{Nous, les vivants, bénissons le Seigneur,
+        maintenant et pour les siècles des siècles}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
 
   \begin{center}
     \rule{2cm}{0.4pt}

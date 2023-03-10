@@ -1,0 +1,469 @@
+% !TeX program = lualatex
+\documentclass[12pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[autocompile]{gregoriotex}
+
+% \geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+
+  \begin{center}
+    \large AU TROISIÈME NOCTURNE.\\
+  \end{center}
+  \medskip
+  \par Le premier Psaume de ce Nocturne, qui rappelait hier les souffrances de Jésus Christ, nous indique aujourd'hui sa victoire sur la mort. Dieu a fait éclater sa puissance, l'âme du Sauveur a repris possession de son corps, ses ennemis n'ont plus sur lui aucune puissance.
+
+  \medskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont D}
+  \gregorioscore{antiennes/an--deus_adjuvat_me--solesmes}
+  \begin{center}
+    \footnotesize{
+      \textit{Dieu vient à mon aide, le Seigneur est le soutien de ma vie.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 53.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume53-VIIIG}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Deus, exáudi oratiónem \textbf{me}am:\textcolor{red}{~*} áuribus pércipe verba \textit{o}\textit{ris} \textbf{me}i.
+
+    \item Quóniam aliéni insurrexérunt advérsum me,\textcolor{red}{~†} et fortes quæsiérunt ánimam \textbf{me}am:\textcolor{red}{~*} et non proposuérunt Deum ante con\textit{spéc}\textit{tum} \textbf{su}um.
+
+    \item Ecce enim Deus ádju\textbf{vat} me:\textcolor{red}{~*} et Dóminus suscéptor est á\textit{ni}\textit{mæ} \textbf{me}æ.
+
+    \item Avérte mala inimícis \textbf{me}is:\textcolor{red}{~*} et in veritáte tua dis\textit{pér}\textit{de} \textbf{il}los.
+
+    \item Voluntárie sacrificábo \textbf{ti}bi,\textcolor{red}{~*} et confitébor nómini tuo, Dómine: quón\textit{i}\textit{am} \textbf{bo}num est:
+
+    \item Quóniam ex omni tribulatióne eripu\textbf{ís}ti me:\textcolor{red}{~*} et super inimícos meos despéxit ó\textit{cu}\textit{lus} \textbf{me}us.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) De(g')us(h) ád(gf~)ju(g')vat(h) me,(g.) (,) et(f) Dó(g')mi(h)nus(j') sus(i)cé(h')ptor(j) est(i_[oh:h]h) <nlba>á(g')ni(h)mae</nlba>(h) me(g.)ae.(g.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Ò Dieu, sauvez-moi par votre nom, et rendez-moi justice par votre puissance.}
+        \item \textit{Ò Dieu, écoutez ma prière, prêtez l'oreille aux paroles de ma bouche.}
+        \item \textit{Car des étrangers se sont levés contre moi et des hommes violent en veulent à ma vie ; ils ne mettent pas Dieu devant leurs yeux.}
+        \item \textit{Voici que Dieu vient à mon aide, le Seigneur est le soutien de ma vie.}
+        \item \textit{Faites retomber le mal sur mes adversaires, et dans votre vérité anéantissez-les !}
+        \item \textit{De tout cœur je vous offrirai des sacrifices, et je louerai votre nom, Seigneur, car il est bon.}
+        \item \textit{Vous me délivrez de toutes mes afflictions, et mon oeil s'arrête avec confiance sur mes ennemis.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+
+  \par Le Psaume 75 se rapporte au repos du Seigneur dans le tombeau. L'œvre impie des méchants est terminée ; mais elle ne servira qu'à la gloire du divin Ressuscité, et bientôt son nom sera grand dans Israël, c'est à dire dans l'Église, l'Israël de Dieu.
+  \medskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont I}
+  \gregorioscore{antiennes/an--in_pace_factus_est--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Il a établi le lieu de son repos, et sa demeure est dans Sion.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 75.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume75-VIIa}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Et factus est in pace \textbf{lo}cus \textbf{e}jus:\textcolor{red}{~*} et habitátio \textbf{e}jus in \textbf{Si}on.
+
+    \item Ibi confrégit pot\textbf{én}tias \textbf{ár}cuum:\textcolor{red}{~*} scutum, gládi\textbf{um}, et \textbf{bel}lum.
+
+    \item Illúminans tu mirabíliter a mónti\textbf{bus} æ\textbf{tér}nis:\textcolor{red}{~*} turbáti sunt omnes insipi\textbf{én}tes \textbf{cor}de.
+
+    \item Dormiérunt \textbf{som}num \textbf{su}um:\textcolor{red}{~*} et nihil invenérunt omnes viri divitiárum in \textbf{má}nibus \textbf{su}is.
+
+    \item Ab increpatióne tua, \textbf{De}us \textbf{Ja}cob,\textcolor{red}{~*} dormitavérunt qui ascen\textbf{dé}runt \textbf{e}quos.
+
+    \item Tu terríbilis es, et quis re\textbf{sís}tet \textbf{ti}bi?\textcolor{red}{~*} ex tunc \textbf{i}ra \textbf{tu}a.
+
+    \item De cælo audítum fe\textbf{cís}ti ju\textbf{dí}cium:\textcolor{red}{~*} terra trémuit \textbf{et} qui\textbf{é}vit.
+
+    \item Cum exsúrgeret in ju\textbf{dí}cium \textbf{De}us,\textcolor{red}{~*} ut salvos fáceret omnes mansu\textbf{é}tos \textbf{ter}ræ.
+
+    \item Quóniam cogitátio hóminis confi\textbf{té}bitur \textbf{ti}bi:\textcolor{red}{~*} et relíquiæ cogitatiónis diem festum \textbf{a}gent \textbf{ti}bi.
+
+    \item Vovéte, et réddite Dómino \textbf{De}o \textbf{ves}tro:\textcolor{red}{~*} omnes, qui in circúitu ejus af\textbf{fér}tis \textbf{mú}nera.
+
+    \item Terríbili et ei qui aufert \textbf{spí}ritum \textbf{prín}cipum,\textcolor{red}{~*} terríbili apud \textbf{re}ges \textbf{ter}ræ.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) In(e) pa(g')ce(h) fa(i')ctus(j) est(i.)(,) lo(hg)cus(f) e(hhi)jus,(h.) (;) et(h) in(i') Si(h)on(e.) (,) <nlba>ha(f)bi(h)tá(h_f)ti(g)o</nlba>(f) e(e.)jus.(e.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Dieu s'est fait connaitre en Judas ; son nom est grand dans Israël.}
+        \item \textit{Il a établi le lieu de son repos, sa demeure dans Sion.}
+        \item \textit{C'est là qu'il a brisé la puissance de l'arc, le bouclier, l'épée et la guerre.}
+        \item \textit{L'éclat merveilleux de votre lumière a jailli des montagnes éternelles, et tous les insensés ont été frappés de consternation.}
+        \item \textit{Ils dorment maintenant leur dernier sommeil, les mains vides des dépouilles dont ils s'étaient enrichis.}
+        \item \textit{À votre menace, Ô Dieu de Jacob, la mort a arrêtés ces intrépides cavaliers.}
+        \item \textit{Vous êtes redoutable, et qui peut se tenir devant vous au jour de votre colêre ?}
+        \item \textit{Du haut du ciel, vous avez proclamé la sentence ; la terre a tremblé et s'est tue.}
+        \item \textit{Lorsque Dieu s'est levé pour faire justice, pour sauver tous les humbles de la terre.}
+        \item \textit{Ainsi les desseins de l'homme tournent à votre gloire, et de ses derniers efforts il restera un jour de fête en votre honneur.}
+        \item \textit{Faites des vœux et acquittez-les au Seigneur votre Dieu ; que tous les peuples d'alentour apportent des dons au Dieu terrible !}
+        \item \textit{Il abat l'orgueil des puissants ; il est redoutable aux rois de la terre.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+
+  \par Le dernier Psaume des Matines reporte la pensée sur les souffrances du Christ, car l'heure de la Résurrection n'est pas encore arrivée. Mais dans son sépulcre il racontera la miséricorde de Dieu, et du fond des ténèbres qui l'enveloppent, il sortira lumineux, rayonnant des splendeurs de la divinité. 
+  \medskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont F}
+  \gregorioscore{antiennes/an--factus_sum--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Je suis comme un homme, sans secours, délaissé parmi les morts.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+  \newpage
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 87.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume87-IVd}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Intret in conspéctu tuo orá\textit{ti}\textit{o} \textbf{me}a:\textcolor{red}{~*} inclína aurem tuam \textit{ad} \textit{pre}\textit{cem} \textbf{me}am:
+
+    \item Quia repléta est malis á\textit{ni}\textit{ma} \textbf{me}a:\textcolor{red}{~*} et vita mea inférno \textit{ap}\textit{pro}\textit{pin}\textbf{quá}vit.
+
+    \item Æstimátus sum cum descendénti\textit{bus} \textit{in} \textbf{la}cum:\textcolor{red}{~*} factus sum sicut homo sine adjutório, inter \textit{mór}\textit{tu}\textit{os} \textbf{li}ber.
+
+    \item Sicut vulneráti dormiéntes in sepúlcris, quorum non es \textit{me}\textit{mor} \textbf{ám}plius:\textcolor{red}{~*} et ipsi de manu \textit{tu}\textit{a} \textit{re}\textbf{púl}si sunt.
+
+    \item Posuérunt me in lacu in\textit{fe}\textit{ri}\textbf{ó}ri:\textcolor{red}{~*} in tenebrósis, et \textit{in} \textit{um}\textit{bra} \textbf{mor}tis.
+
+    \item Super me confirmátus est \textit{fu}\textit{ror} \textbf{tu}us:\textcolor{red}{~*} et omnes fluctus tuos in\textit{du}\textit{xís}\textit{ti} \textbf{su}per me.
+
+    \item Longe fecísti notos \textit{me}\textit{os} \textbf{a} me:\textcolor{red}{~*} posuérunt me abomina\textit{ti}\textit{ó}\textit{nem} \textbf{si}bi.
+
+    \item Tráditus sum, et non e\textit{gre}\textit{di}\textbf{é}bar:\textcolor{red}{~*} óculi mei langué\textit{runt} \textit{præ} \textit{in}\textbf{ó}pia.
+
+    \item Clamávi ad te, Dómine, \textit{to}\textit{ta} \textbf{di}e:\textcolor{red}{~*} expándi ad \textit{te} \textit{ma}\textit{nus} \textbf{me}as.
+
+    \item Numquid mórtuis fácies \textit{mi}\textit{ra}\textbf{bí}lia:\textcolor{red}{~*} aut médici suscitábunt, et confi\textit{te}\textit{bún}\textit{tur} \textbf{ti}bi?
+
+    \item Numquid narrábit áliquis in sepúlcro misericór\textit{di}\textit{am} \textbf{tu}am,\textcolor{red}{~*} et veritátem tuam in \textit{per}\textit{di}\textit{ti}\textbf{ó}ne?
+
+    \item Numquid cognoscéntur in ténebris mirabí\textit{li}\textit{a} \textbf{tu}a,\textcolor{red}{~*} et justítia tua in terra \textit{ob}\textit{li}\textit{vi}\textbf{ó}nis?
+
+    \item Et ego ad te, Dómi\textit{ne}, \textit{cla}\textbf{má}vi:\textcolor{red}{~*} et mane orátio mea \textit{præ}\textit{vé}\textit{ni}\textbf{et} te.
+
+    \item Ut quid, Dómine, repéllis orati\textit{ó}\textit{nem} \textbf{me}am:\textcolor{red}{~*} avértis fáci\textit{em} \textit{tu}\textit{am} \textbf{a} me?
+
+    \item Pauper sum ego, et in labóribus a juven\textit{tú}\textit{te} \textbf{me}a:\textcolor{red}{~*} exaltátus autem, humiliátus sum \textit{et} \textit{con}\textit{tur}\textbf{bá}tus.
+
+    \item In me transiérunt \textit{i}\textit{ræ} \textbf{tu}æ:\textcolor{red}{~*} et terróres tui \textit{con}\textit{tur}\textit{ba}\textbf{vé}runt me.
+
+    \item Circumdedérunt me sicut aqua \textit{to}\textit{ta} \textbf{di}e:\textcolor{red}{~*} circumde\textit{dé}\textit{runt} \textit{me} \textbf{si}mul.
+
+    \item Elongásti a me amí\textit{cum} \textit{et} \textbf{pró}ximum:\textcolor{red}{~*} et notos me\textit{os} \textit{a} \textit{mi}\textbf{sé}ria.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) Fa(h)ctus(hi) sum(ii) (,) sic(h_i)ut(j_h) ho(i.)mo(i.) (;) si(f')ne(i) ad(h')ju(g)tó(f')ri(e)o,(f_e) (,) in(d)ter(e) mór(gxf_g)tu(h')os(g) li(f.)ber.(f.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Seigneur, Dieu de mon salut, le jour je vous invoque, et la nuit je suis devant vous.}
+        \item \textit{Que ma prière arrive en votre présence ; prêtez l'oreille à mes supplications.}
+        \item \textit{Car mon âme est abreuvée de maux, et ma vie défaillante touche au séjour des morts.}
+        \item \textit{On me compte parmi ceux qui descendent dans la fosse, je suis comme un homme à bout de force ; delaissés parmi les morts,}
+        \item \textit{Pareil aux victimes du glaive, qui dorment dans les sépulcres, dont vous ne gardez plus le souvenir et qui sont repoussées de votre main.}
+        \item \textit{On m'a mis dans la fosse profonde, dans les lieux ténébreux et dans l'ombre de la mort.}
+        \item \textit{Sur moi s'appesantit votre colère, et vous faites passer sur ma tête tous les flots de votre indignation.}
+        \item \textit{Vous avez éloigné de moi mes amis ; je suis devenu pour eux un objet d'horreur.}
+        \item \textit{Je suis emprisonné sans pouvoir sortir, mes yeux se consumment dans la souffrance ;}
+        \item \textit{Je crie vers vous, Seigneur, tout le jour ; vers vous j'étends les mains.}
+        \item \textit{Ferez-vous un miracle pour rendre les morts à la vie ? L'art de l'homme les ranimera-t-il pour qu'ils chantent vos louanges ?}
+        \item \textit{Publie-t-on vos miséricordes dans le sépulcre, votre fidélité dans l'abîme ?}
+        \item \textit{Vos prodiges sont-ils connus dans la région des ténèbres, et votre justice dans la terre de l'oubli ?} 
+        \item \textit{Et moi, Seigneur, je crie vers vous ; dès le matin ma prière va au devant de vous.}
+        \item \textit{Pourquoi, Seigneur, repoussez-vous mes supplications ? Pourquoi détournez-vous de moi votre visage ?}
+        \item \textit{Je suis malheureux et dans la souffrance depuis ma jeunesse ; si je veux m'élever au-dessus, je retombe humilié et bouleversé.}
+        \item \textit{Les flots de votre colère ont passés sur moi ; vos terreurs me jettent dans un trouble affreux.}
+        \item \textit{Comme des eaux débordées, elles m'environnent tout le jour, elles m'assiègent toutes ensemble.}
+        \item \textit{Vous avez éloigné de moi mes amis et mes proches ; mes compagnons s'enfuient de ma misère.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+
+  \begin{center}
+    \begin{footnotesize}
+      \textcolor{red}{\textit{On chante le verset debout.}}
+    \end{footnotesize}
+    \begin{minipage}{0.8\linewidth}
+      \gresetinitiallines{0}
+      \large
+      \gabcsnippet{(c4)<c><v>\Vbar</v>.</c> In(h) pá(h)ce(h) fá(h)ctus(h) est(h) ló(i')cus(h) é(g.)jus.(g.) (::) (Z) <c><v>\Rbar</v>.</c> Et(h) in(h) Sí(h)on(h) ha(h)bi(h)tá(i')ti(h)o(h) é(g.)jus.(g.) (::)}
+      \bigskip
+      \normalsize
+      \begin{center}
+        \textit{\textcolor{red}{\Vbar.} Il a établi le lieu de son repos.}\\
+        \textit{\textcolor{red}{\Rbar.} Et sa demeure dans Sion.}
+      \end{center}
+    \end{minipage}
+  \end{center}
+  \normalsize
+  \medskip
+  \par \textit{On dit le }Pater Noster \textit{tout bas.}
+  \medskip
+  \begin{center}
+    \rule{4cm}{0.4pt}
+  \end{center}
+  \medskip
+  \par Les Leçons du troisième Nocturne sont tirées de l'Épître de Saint Paul aux Hébreux, dans laquelle l'Apôtre se propse principalement de prouver aux juifs la divinité de Jésus Christ, montrant que les figures de l'Ancien Testament sont accomplies en lui. Dans le passage que l'Église lit ici, l'Apôtre explique comment le Christ par l'effusion de son sang est devenu le Pontife de la Loi nouvelle.
+
+  \newpage
+
+  \begin{center}
+    \large Leçon VII.\\
+    \normalsize
+  \end{center}
+  \medskip
+
+  \setlength{\columnsep}{2pc}
+  \def\columnseprulecolor{\color{red}}
+  \setlength{\columnseprule}{0.4pt}
+
+  \begin{multicols}{2}
+    \begin{center}
+      De Epistola B. Pauli Apóstoli\\ ad Hébraéos.
+    \end{center}
+
+    \par Christus assístens Póntifex futurórum
+    bonórum, per ámplius et perféctius tabernáculum, non manufáctum, id est,
+    non hujus creatiónis : neque per
+    sánguinem hircórum aut vitulórum,
+    sed per próprium sánguinem introívit
+    semel in Sancta, ætérna redemptióne
+    invénta. Si enim sanguis hircórum et
+    taurórum, et cinis vítulæ aspérsus inquinátos sanctíficat ad emundatiónem
+    carnis : quanto magis sanguis Christi,
+    qui per Spíritum Sanctum semetípsum
+    óbtulit immaculátum Deo, emundábit
+    consciéntiam nostram ab opéribus
+    mórtuis, ad serviéndum Deo vivénti ?
+    \par \hspace{\fill}
+    \columnbreak
+
+    \begin{center}
+      De l'Épître du bienheureux Paul Apôtre\\ aux Hébreux.\\
+      \begin{footnotesize}
+        \textit{Chap. 9, 11-22.}
+      \end{footnotesize}
+    \end{center}
+    \par \textit{Le Christ étant venu pour être le Pontife des biens
+    à venir, est entré une fois dans le Sanctuaire, par
+    un Tabernacle plus excellent et plus parfait ; qui
+    n’est point l’ouvrage des créatures, c’est-à-dire, qui
+    n’est point comme les autres édifices. Il y est entré
+    non avec le sang des boucs ou des taureaux, mais
+    avec son propre sang, nous ayant acquis une rédemption éternelle. Car si le sang des boucs et des
+    taureaux, et les cendres répandues d’une génisse,
+    sanctifie ceux qui ont été souillés en purifiant leurs
+    corps ; combien plus le Sang du Christ, qui étant
+    sans tache, s’est offert lui-même à Dieu par le
+    Saint-Esprit, purifiera-t-il notre âme des œuvres
+    mortes, afin que nous servions le Dieu vivant ?}
+  \end{multicols}
+  \setlength\columnseprule{0pt}
+
+  \medskip
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{repons/re--astiterunt_reges--solesmes_1961}
+
+  \small
+  \begin{multicols}{2}
+    \par\textcolor{red}{\textit{\Rbar}.} \textit{Les Rois de la terre se sont élevés, et les
+    princes se sont assemblés, \\ \textcolor{red}{*} Contre le Seigneur, et contre son Christ.}
+    \columnbreak
+    \par\textcolor{red}{\textit{\Vbar}.} \textit{Pourquoi les nations se sont-elles émues ; et
+    pourquoi les peuples ont-ils formé de vains projets ?\\
+    \textcolor{red}{*} Contre le Seigneur, et contre son Christ}
+  \end{multicols}
+  \normalsize
+
+  \newpage
+
+  \begin{center}
+    \large Leçon VIII.\\
+    \normalsize
+  \end{center}
+  \medskip
+
+  \setlength{\columnsep}{2pc}
+  \def\columnseprulecolor{\color{red}}
+  \setlength{\columnseprule}{0.4pt}
+
+  \begin{multicols}{2}
+    \par Et ideo novi Testaménti mediátor est :
+    ut morte intercedénte, in redemptiónem eárum prævaricatiónum, quæ
+    erant sub prióri testaménto, repromissiónem accípiant qui vocáti sunt ætérnæ hereditátis.
+    \par  Ubi enim testaméntum
+    est, mors necésse est intercédat testatóris. Testaméntum enim in mórtuis
+    confirmátum est : alióquin nondum
+    valet, dum vivit qui testátus est. Unde
+    nec primum quidem sine sánguine dedicátum est.
+    \par \hspace{\fill}
+    \columnbreak
+
+    \par \textit{Et c’est pour cela qu’il est le médiateur du Testament nouveau ; afin que par sa mort, expiant les
+    péchés commis sous le premier Testament, ceux qui
+    ont été appelés, reçoivent l’héritage éternel qui leur
+    a été promis.}
+    \par \textit{Car où il y a un Testament, il faut nécessairement
+    que la mort du Testateur intervienne, parce que le
+    Testament ne peut être exécuté qu’après la mort
+    du Testateur ; n’ayant aucune force tant qu’il est
+    en vie. C’est pourquoi le premier même ne fut
+    point rendu authentique sans effusion de sang.}
+  \end{multicols}
+  \setlength\columnseprule{0pt}
+
+  \medskip
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{repons/re--aestimatus_sum--solesmes_1961}
+
+  \small
+  \begin{multicols}{2}
+    \par\textcolor{red}{\textit{\Rbar}.} \textit{J’ai été mis au nombre de ceux qui descendent
+    dans la fosse. \\ \textcolor{red}{*} Je suis devenu comme un homme
+    sans ressource, qui est libre entre les morts.}
+    \columnbreak
+    \par\textcolor{red}{\textit{\Vbar}.} \textit{Ils m’ont mis dans une fosse profonde, dans les
+    ténèbres et dans l’ombre de la mort.\\
+    \textcolor{red}{*} Je suis devenu comme un homme sans ressource,
+    qui est libre entre les morts.}
+  \end{multicols}
+  \normalsize
+
+  \newpage
+  \begin{center}
+    \large Leçon IX.\\
+    \normalsize
+  \end{center}
+  \medskip
+
+  \setlength{\columnsep}{2pc}
+  \def\columnseprulecolor{\color{red}}
+  \setlength{\columnseprule}{0.4pt}
+
+  \begin{multicols}{2}
+    \par Lecto enim omni mandáto legis a
+    Móyse univérso pópulo, accípiens
+    sánguinem vitulórum et hircórum cum
+    aqua, et lana coccínea, et hyssópo, ipsum quoque librum, et omnem pópulum aspérsit, dicens : Hic sanguis Testaménti, quod mandávit ad vos Deus.
+    Étiam tabernáculum et ómnia vasa
+    ministérii sánguine simíliter aspérsit et
+    ómnia pene in sánguine secúndum legem mundántur : et sine sánguinis effusióne non fit remíssio.
+    \columnbreak
+
+    \par \textit{Car après que Moïse eut lu à tout le peuple, tous
+    les commandements de la loi, il prit le sang des
+    taureaux et des boucs, avec de l’eau, de la laine
+    teinte en écarlate et de l’hyssope, et en jeta sur le
+    livre même et sur tout le peuple, en disant : C’est
+    là le sang du Testament que Dieu m’a ordonné de faire en votre faveur.Il jeta aussi du sang sur le
+    Tabernacle, et sur tous les vases qui servaient au
+    culte de Dieu, et presque toutes les choses, selon la
+    loi, se purifient par le sang ; et aucun péché ne se
+    remet sans effusion de sang.}
+  \end{multicols}
+  \setlength\columnseprule{0pt}
+
+  \medskip
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont S}
+  \gregorioscore{repons/re--sepulto_domino--solesmes_1961}
+
+  \small
+  \begin{multicols}{2}
+    \par\textcolor{red}{\textit{\Rbar}.} \textit{Après que le Seigneur eut été mis dans le sépulchre, on roula une pierre pour en fermer l’entrée ; on scella son tombeau. \\ \textcolor{red}{*}  Ils y mirent des soldats pour le garder.}
+    \columnbreak
+    \par\textcolor{red}{\textit{\Vbar}.} \textit{ Les princes des prêtres allèrent trouver Pilate, pour lui demander permission.\\
+    \textcolor{red}{*} Ils y mirent des soldats pour le garder}
+  \end{multicols}
+  \normalsize
+
+  \medskip
+  \begin{center}
+    \rule{4cm}{0.4pt}
+  \end{center}
+  \medskip
+
+\end{document}

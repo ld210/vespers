@@ -1,0 +1,1496 @@
+% !TeX program = lualatex
+\documentclass[12pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=2cm, bottom=2cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+  \begin{center}
+    \begin{LARGE}
+      Dimanche de Pâques
+    \end{LARGE}
+  \end{center}
+  \medskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{antiennes/an--angelus_autem_domini--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Un ange du Seigneur descendit du ciel et, s'approchant, il renversa la pierre et s'assit dessus,\\ allelúia, allelúia.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 109.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume109-VIIIG}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Donec ponam inimícos \textbf{tu}os,\textcolor{red}{~*} scabéllum pe\textit{dum} \textit{tu}\textbf{ó}rum.
+
+    \item Virgam virtútis tuæ emíttet Dóminus ex \textbf{Si}on:\textcolor{red}{~*} domináre in médio inimicó\textit{rum} \textit{tu}\textbf{ó}rum.
+
+    \item Tecum princípium in die virtútis tuæ in splendóribus sanc\textbf{tó}rum:\textcolor{red}{~*} ex útero ante lucíferum \textit{gé}\textit{nu}\textbf{i} te.
+
+    \item Jurávit Dóminus, et non pœnitébit \textbf{e}um:\textcolor{red}{~*} Tu es sacérdos in ætérnum secúndum órdi\textit{nem} \textit{Mel}\textbf{chí}sedech.
+
+    \item Dóminus a dextris \textbf{tu}is,\textcolor{red}{~*} confrégit in die iræ \textit{su}\textit{æ} \textbf{re}ges.
+
+    \item Judicábit in natiónibus, implébit ru\textbf{í}nas:\textcolor{red}{~*} conquassábit cápita in ter\textit{ra} \textit{mul}\textbf{tó}rum.
+
+    \item De torrénte in via \textbf{bi}bet:\textcolor{red}{~*} proptérea exal\textit{tá}\textit{bit} \textbf{ca}put.
+
+    \item Glória Patri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) An(g_[uh:l]j)ge(h)lus(h) au(hg~)tem(f) Dó(ghg___)mi(fg)ni(g.) (,) de(i')scén(j)dit(k) de(jh) cae(jj)lo,(i.) (;) et(j) ac(j)cé(jkj)dens(jij') (,) re(j)vól(ji~)vit(h) lá(i_[uh:l]j)pi(i)dem,(g.) (;) et(h) se(g')dé(h)bat(f') su(g)per(h) e(j.)um,(i'_[oh:h]) (,) al(g)le(i_[uh:l]j)lú(h){ia},(gf) al(gh)le(h)lú(g.){ia}.(g.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{L'Éternel a dit à mon Seigneur: Assieds-toi à ma droite.}
+        \item \textit{Jusqu'à ce que je mette tes ennemis pour le marchepied de tes pieds.}
+        \item \textit{L'Éternel enverra de Sion la verge de ta force: Domine au milieu de tes ennemis!}
+        \item \textit{Ton peuple sera un peuple de franche volonté, au jour de ta puissance, en sainte magnificence. Du sein de l'aurore te viendra la rosée de ta jeunesse.}
+        \item \textit{L'Éternel a juré, et il ne se repentira point: Tu es sacrificateur pour toujours, selon l'ordre de Melchisédec.}
+        \item \textit{Le Seigneur, à ta droite, brisera les rois au jour de sa colère.}
+        \item \textit{Il jugera parmi les nations, il remplira tout de corps morts, il brisera le chef d'un grand pays.}
+        \item \textit{Il boira du torrent dans le chemin, c'est pourquoi il lèvera haut la tête.}
+        \item \textit{Gloire au Père, au Fils, et au Saint Esprit.}
+        \item \textit{Comme il était au commencement, maintenant et toujours, et pour les siècles des siècles. Amen.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont E}
+  \gregorioscore{antiennes/an--et_ecce_terraemotus--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Et voilà qu'il se fit un grand tremblement de terre, car un ange du Seigneur descendit du ciel, allelúia.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 110.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume110-VIIc}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Magna \textbf{ó}pera \textbf{Dó}mini:\textcolor{red}{~*} exquisíta in omnes volun\textbf{tá}tes \textbf{e}jus.
+
+    \item Conféssio et magnificéntia \textbf{o}pus \textbf{e}jus:\textcolor{red}{~*} et justítia ejus manet in \textbf{sǽ}culum \textbf{sǽ}culi.
+
+    \item Memóriam fecit mirabílium suórum,\textcolor{red}{~†} miséricors et mise\textbf{rá}tor \textbf{Dó}minus:\textcolor{red}{~*} escam dedit ti\textbf{mén}ti\textbf{bus} se.
+
+    \item Memor erit in sǽculum testa\textbf{mén}ti \textbf{su}i:\textcolor{red}{~*} virtútem óperum suórum annuntiábit \textbf{pó}pulo \textbf{su}o:
+
+    \item Ut det illis heredi\textbf{tá}tem \textbf{gén}tium:\textcolor{red}{~*} ópera mánuum ejus véritas, \textbf{et} ju\textbf{dí}cium.
+
+    \item Fidélia ómnia mandáta ejus:\textcolor{red}{~†} confirmáta in \textbf{sǽ}culum \textbf{sǽ}culi,\textcolor{red}{~*} facta in veritáte et \textbf{æ}qui\textbf{tá}te.
+
+    \item Redemptiónem misit \textbf{pó}pulo \textbf{su}o:\textcolor{red}{~*} mandávit in ætérnum testa\textbf{mén}tum \textbf{su}um.
+
+    \item Sanctum, et terríbile \textbf{no}men \textbf{e}jus:\textcolor{red}{~*} inítium sapiéntiæ \textbf{ti}mor \textbf{Dó}mini.
+
+    \item Intelléctus bonus ómnibus faci\textbf{én}tibus \textbf{e}um:\textcolor{red}{~*} laudátio ejus manet in \textbf{sǽ}culum \textbf{sǽ}culi.
+
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spi\textbf{rí}tui \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) Et(i) ec(i')ce(g) ter(i')rae(j)mó(i.)tus(i.) (,) fa(h_i)ctus(j) est(ih) ma(i.)gnus :(i.) (;) An(i)ge(f')lus(i) e(g')nim(h) Dó(f')mi(e)ni(f_e) (,) de(d')scén(e)dit(f') de(h) cae(f)lo,(ed) al(ef)le(f)lú(e.){ia}.(e.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{De tout cœur je rendrai grâce au Seigneur dans l'assemblée, parmi les justes.}
+        \item \textit{Grandes sont les œuvres du Seigneur ; tous ceux qui les aiment s'en instruisent.}
+        \item \textit{Noblesse et beauté dans ses actions : à jamais se maintiendra sa justice.}
+        \item \textit{De ses merveilles il a laissé un mémorial ; le Seigneur est tendresse et pitié, il a donné des vivres à ses fidèles,}
+        \item \textit{Gardant toujours mémoire de son
+        alliance, il a montré sa force à son peuple.}
+        \item \textit{Lui donnant le domaine des nations. Justesse et sûreté les œuvres de ses mains.}
+        \item \textit{Sécurité, toutes ses lois, établies pour toujours et à jamais, accomplies avec droiture et sûreté ! }
+        \item \textit{Il apporte la délivrance à son peuple ; son alliance est promulguée pour toujours.}
+        \item \textit{Saint, redoutable est son nom, la sagesse commence avec la crainte du Seigneur.}
+        \item \textit{Qui accomplit sa volonté en est éclairé. A jamais se maintiendra sa louange.}
+        \item \textit{Gloire au Père, au Fils, et au Saint Esprit.}
+        \item \textit{Comme il était au commencement, maintenant et toujours, et pour les siècles des siècles. Amen.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont E}
+  \gregorioscore{antiennes/an--erat_autem_aspectus--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Son visage était comme l'éclair et ses vêtements comme la neige, allelúia, allelúia.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 111.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume111-VIIIc}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Potens in terra erit semen \textbf{e}jus:\textcolor{red}{~*} generátio rectórum be\textit{ne}\textit{di}\textbf{cé}tur.
+
+    \item Glória, et divítiæ in domo \textbf{e}jus:\textcolor{red}{~*} et justítia ejus manet in sǽ\textit{cu}\textit{lum} \textbf{sǽ}culi.
+
+    \item Exórtum est in ténebris lumen \textbf{rec}tis:\textcolor{red}{~*} miséricors, et miserá\textit{tor}, \textit{et} \textbf{jus}tus.
+
+    \item Jucúndus homo qui miserétur et cómmodat,\textcolor{red}{~†} dispónet sermónes suos in ju\textbf{dí}cio:\textcolor{red}{~*} quia in ætérnum non \textit{com}\textit{mo}\textbf{vé}bitur.
+
+    \item In memória ætérna erit \textbf{jus}tus:\textcolor{red}{~*} ab auditióne mala \textit{non} \textit{ti}\textbf{mé}bit.
+
+    \item Parátum cor ejus speráre in Dómino,\textcolor{red}{~†} confirmátum est cor \textbf{e}jus:\textcolor{red}{~*} non commovébitur donec despíciat ini\textit{mí}\textit{cos} \textbf{su}os.
+
+    \item Dispérsit, dedit paupéribus:\textcolor{red}{~†} justítia ejus manet in sǽculum \textbf{sǽ}culi,\textcolor{red}{~*} cornu ejus exaltábi\textit{tur} \textit{in} \textbf{gló}ria.
+
+    \item Peccátor vidébit, et irascétur,\textcolor{red}{~†} déntibus suis fremet et ta\textbf{bé}scet:\textcolor{red}{~*} desidérium peccató\textit{rum} \textit{per}\textbf{í}bit.
+
+    \item Glória Patri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) E(h)rat(h) au(hihh)tem(e'_[oh:h]) (,) a(g)spé(i)ctus(h') e(i)jus(h.) (,) sic(hg)ut(fh) ful(hih)gur :(hgh.) (;) ve(h)sti(h)mén(h')ta(h) e(g_[oh:h]f)jus(e'_[oh:h]) sic(g_[oh:h])ut(e_[oh:h]) nix,(f'_) (,) al(f)le(e)lú(c'){ia},(d) al(ef)le(f)lú(e.){ia}.(e.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Heureux l’homme qui craint le Seigneur, qui aime entièrement sa volonté !}
+        \item \textit{Sa lignée sera puissante sur la terre ; la
+        race des justes est bénie.}
+        \item \textit{Les richesses affluent dans sa maison : à
+        jamais se maintiendra sa justice.}
+        \item \textit{Lumière des cœurs droits, il s'est levé
+        dans les ténèbres, l’homme de justice, de
+        tendresse et de pitié.}
+        \item \textit{L'homme de bien a pitié, il partage ; il
+        mène ses affaires avec droiture, cet
+        homme jamais ne tombera ;}
+        \item \textit{Toujours on fera mémoire du juste, il ne
+        craint pas l'annonce d'un malheur :}
+        \item \textit{Le cœur ferme, il s'appuie sur le
+        Seigneur. Son cœur est confiant, il ne
+        craint pas : il verra ce que valaient ses
+        oppresseurs.}
+        \item \textit{A pleines mains, il donne au pauvre ; à
+        jamais se maintiendra sa justice, sa
+        puissance grandira, et sa gloire !}
+        \item \textit{L'impie le voit et s'irrite ; il grince des
+        dents et se détruit. L'ambition des impies
+        se perdra.}
+        \item \textit{Gloire au Père, au Fils, et au Saint Esprit.}
+        \item \textit{Comme il était au commencement, maintenant et toujours, et pour les siècles des siècles. Amen.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont P}
+  \gregorioscore{antiennes/an--prae_timore_autem--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Les gardes en furent saisis de frayeur, et ils devinrent comme morts, allelúia.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 112.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume112-VIIc}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Sit nomen Dómini \textbf{be}ne\textbf{díc}tum,\textcolor{red}{~*} ex hoc nunc, et \textbf{us}que in \textbf{sǽ}culum.
+
+    \item A solis ortu usque \textbf{ad} oc\textbf{cá}sum,\textcolor{red}{~*} laudábile \textbf{no}men \textbf{Dó}mini.
+
+    \item Excélsus super omnes \textbf{gen}tes \textbf{Dó}minus,\textcolor{red}{~*} et super cælos \textbf{gló}ria \textbf{e}jus.
+
+    \item Quis sicut Dóminus, Deus noster, qui in \textbf{al}tis \textbf{há}bitat,\textcolor{red}{~*} et humília réspicit in cælo \textbf{et} in \textbf{ter}ra?
+
+    \item Súscitans a \textbf{ter}ra \textbf{ín}opem,\textcolor{red}{~*} et de stércore \textbf{é}rigens \textbf{páu}perem:
+
+    \item Ut cóllocet eum \textbf{cum} prin\textbf{cí}pibus,\textcolor{red}{~*} cum princípibus \textbf{pó}puli \textbf{su}i.
+
+    \item Qui habitáre facit stéri\textbf{lem} in \textbf{do}mo,\textcolor{red}{~*} matrem fili\textbf{ó}rum læ\textbf{tán}tem.
+
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spi\textbf{rí}tui \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) Præ(e') ti(e)mó(g')re(h) au(i)tem(g_[uh:l]h) e(i_[uh:l]j)jus(i'_[oh:h]) (,) ex(i)tér(j')ri(i)ti(g) sunt(h_i) cu(f)stó(e.)des,(e.) (;) et(e) fa(h')cti(h) sunt(h) ve(h')lut(h) mór(f')tu(h)i,(gv_[oh:h]FE) al(fg)le(f)lú(e.){ia}.(e.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Louez, serviteurs du Seigneur, louez le nom du Seigneur !}
+        \item \textit{Béni soit le nom du Seigneur, maintenant et
+        pour les siècles des siècles !}
+        \item \textit{Du levant au couchant du soleil, loué soit le
+        nom du Seigneur !}
+        \item \textit{Le Seigneur domine tous les peuples, sa gloire
+        domine les cieux.}
+        \item \textit{Qui est semblable au Seigneur notre Dieu ?
+        Lui, il siège là-haut, mais il abaisse son regard vers le ciel et vers la terre.}
+        \item \textit{De la poussière il relève le faible, il retire le
+        pauvre de la cendre}
+        \item \textit{Pour qu'il siège parmi les princes, parmi les
+        princes de son peuple.}
+        \item \textit{Il installe en sa maison la femme stérile,
+        heureuse mère au milieu de ses fils.}
+        \item \textit{Gloire au Père, au Fils, et au Saint Esprit.}
+        \item \textit{Comme il était au commencement, maintenant et toujours, et pour les siècles des siècles. Amen.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont R}
+  \gregorioscore{antiennes/an--respondens_autem_angelus--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Mais l'ange, s'adressant aux femmes, leur dit : "n'ayez point de crainte, car je sais que c'est Jésus que vous cherchez", allelúia.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 113.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume113-VIIIG}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Facta est Judǽa sanctificátio \textbf{e}jus,\textcolor{red}{~*} Israël pot\textit{és}\textit{tas} \textbf{e}jus.
+
+    \item Mare vidit, et \textbf{fu}git:\textcolor{red}{~*} Jordánis convérsus \textit{est} \textit{re}\textbf{trór}sum.
+
+    \item Montes exsultavérunt ut a\textbf{rí}etes,\textcolor{red}{~*} et colles sicut \textit{a}\textit{gni} \textbf{ó}vium.
+
+    \item Quid est tibi, mare, quod fu\textbf{gís}ti:\textcolor{red}{~*} et tu, Jordánis, quia convérsus \textit{es} \textit{re}\textbf{trór}sum?
+
+    \item Montes, exsultástis sicut a\textbf{rí}etes,\textcolor{red}{~*} et colles, sicut \textit{a}\textit{gni} \textbf{ó}vium.
+
+    \item A fácie Dómini mota est \textbf{ter}ra,\textcolor{red}{~*} a fácie \textit{De}\textit{i} \textbf{Ja}cob.
+
+    \item Qui convértit petram in stagna a\textbf{quá}rum,\textcolor{red}{~*} et rupem in fon\textit{tes} \textit{a}\textbf{quá}rum.
+
+    \item Non nobis, Dómine, non \textbf{no}bis:\textcolor{red}{~*} sed nómini tu\textit{o} \textit{da} \textbf{gló}riam.
+
+    \item Super misericórdia tua, et veritáte \textbf{tu}a:\textcolor{red}{~*} nequándo dicant gentes: Ubi est De\textit{us} \textit{e}\textbf{ó}rum?
+
+    \item Deus autem noster in \textbf{cæ}lo:\textcolor{red}{~*} ómnia quæcúmque vó\textit{lu}\textit{it}, \textbf{fe}cit.
+
+    \item Simulácra géntium argéntum, et \textbf{au}rum,\textcolor{red}{~*} ópera má\textit{nu}\textit{um} \textbf{hó}minum.
+
+    \item Os habent, et non lo\textbf{quén}tur:\textcolor{red}{~*} óculos habent, et \textit{non} \textit{vi}\textbf{dé}bunt.
+
+    \item Aures habent, et non \textbf{áu}dient:\textcolor{red}{~*} nares habent, et non \textit{o}\textit{do}\textbf{rá}bunt.
+
+    \item Manus habent, et non palpábunt:\textcolor{red}{~†} pedes habent, et non ambu\textbf{lá}bunt:\textcolor{red}{~*} non clamábunt in gút\textit{tu}\textit{re} \textbf{su}o.
+
+    \item Símiles illis fiant qui fáciunt \textbf{e}a:\textcolor{red}{~*} et omnes qui confí\textit{dunt} \textit{in} \textbf{e}is.
+
+    \item Domus Israël sperávit in \textbf{Dó}mino:\textcolor{red}{~*} adjútor eórum et protéc\textit{tor} \textit{e}\textbf{ó}rum est,
+
+    \item Domus Aaron sperávit in \textbf{Dó}mino:\textcolor{red}{~*} adjútor eórum et protéc\textit{tor} \textit{e}\textbf{ó}rum est,
+
+    \item Qui timent Dóminum, speravérunt in \textbf{Dó}mino:\textcolor{red}{~*} adjútor eórum et protéc\textit{tor} \textit{e}\textbf{ó}rum est.
+
+    \item Dóminus memor fuit \textbf{nos}tri:\textcolor{red}{~*} et bene\textit{dí}\textit{xit} \textbf{no}bis:
+
+    \item Benedíxit dómui \textbf{Is}raël:\textcolor{red}{~*} benedíxit dó\textit{mu}\textit{i} \textbf{A}aron.
+
+    \item Benedíxit ómnibus, qui timent \textbf{Dó}minum,\textcolor{red}{~*} pusíllis \textit{cum} \textit{ma}\textbf{jó}ribus.
+
+    \item Adjíciat Dóminus \textbf{su}per vos:\textcolor{red}{~*} super vos, et super fí\textit{li}\textit{os} \textbf{ves}tros.
+
+    \item Benedícti vos a \textbf{Dó}mino,\textcolor{red}{~*} qui fecit cæ\textit{lum}, \textit{et} \textbf{ter}ram.
+
+    \item Cælum cæli \textbf{Dó}mino:\textcolor{red}{~*} terram autem dedit fí\textit{li}\textit{is} \textbf{hó}minum.
+
+    \item Non mórtui laudábunt te, \textbf{Dó}mine:\textcolor{red}{~*} neque omnes, qui descéndunt \textit{in} \textit{in}\textbf{fér}num.
+
+    \item Sed nos qui vívimus, benedícimus \textbf{Dó}mino,\textcolor{red}{~*} ex hoc nunc et us\textit{que} \textit{in} \textbf{sǽ}culum.
+
+    \item Glória Patri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) Re(e)spón(eh)dens(f) au(fe~)tem(d) An(efe___)ge(de)lus(e.) (,) di(g')xit(h) mu(i)li(hf)é(h')ri(h)bus :(g.) (;) No(h)lí(h)te(h') ti(h)mé(g_[oh:h]f)re :(e.) (;) sci(g)o(fe) e(f_g)nim(f.) (,) quod(g') Je(h)sum(i_[uh:l]j) quaé(i)ri(h)tis,(g_[uh:l]h) al(i')le(f)lú(e.){ia}.(e.) (::) }
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Quand Israël sortit d'Égypte, et Jacob, de chez un peuple étranger,}
+        \item \textit{Juda fut pour Dieu un sanctuaire, Israël devint son domaine.}
+        \item \textit{La mer voit et s'enfuit, le Jourdain retourne en arrière.}
+        \item \textit{Comme des béliers, bondissent les montagnes, et les collines, comme des agneaux.}
+        \item \textit{Qu'as-tu, mer, à t'enfuir, Jourdain, à retourner en arrière ?}
+        \item \textit{Montagnes, pourquoi bondir comme des béliers, collines, comme des agneaux ?}
+        \item \textit{Tremble, terre, devant le Maître, devant la face du Dieu de Jacob,}
+        \item \textit{Lui qui change le rocher en source et la pierre en fontaine d’eau vive.}
+        \item \textit{Non pas à nous, Seigneur, non pas à nous, mais à ton nom donne la gloire.}
+        \item \textit{Pour ton amour et ta vérité.}
+        \item \textit{Pourquoi les païens diraient-ils : « Où donc est leur Dieu ? »}
+        \item \textit{Notre Dieu, il est au ciel ; tout ce qu'il veut, il le fait.}
+        \item \textit{Leurs idoles : or et argent, ouvrages de mains humaines.} 
+        \item \textit{Elles ont une bouche et ne parlent pas, des yeux et ne voient pas,}
+        \item \textit{Des oreilles et n'entendent pas, des narines et ne sentent pas.}
+        \item \textit{Leurs mains ne peuvent toucher, leurs pieds ne peuvent marcher, pas un son ne sort de leur gosier !}
+        \item \textit{Qu'ils deviennent comme elles, tous ceux qui les font, ceux qui mettent leur foi en elles.}
+        \item \textit{Israël, mets ta foi dans le Seigneur : le secours, le bouclier, c'est lui !}
+        \item \textit{Famille d'Aaron, mets ta foi dans le Seigneur : le secours, le bouclier, c'est lui !}
+        \item \textit{Vous qui le craignez, ayez foi dans le
+        Seigneur : le secours, le bouclier, c'est lui !}
+        \item \textit{Le Seigneur se souvient de nous : il bénira !
+        Il bénira la famille d'Israël, et la famille
+        d'Aaron}
+        \item \textit{Il bénira tous ceux qui craignent le Seigneur,
+        du plus grand au plus petit.}
+        \item \textit{Que le Seigneur multiplie ses bienfaits pour
+        vous et vos enfants !}
+        \item \textit{Soyez bénis par le Seigneur qui a fait le ciel
+        et la terre !}
+        \item \textit{Le ciel, c'est le ciel du Seigneur ; aux
+        hommes, il a donné la terre.}
+        \item \textit{Les morts ne louent pas le Seigneur, ni ceux
+        qui descendent au silence.}
+        \item \textit{Nous, les vivants, bénissons le Seigneur,
+        maintenant et pour les siècles des siècles}
+        \item \textit{Gloire au Père, au Fils, et au Saint Esprit.}
+        \item \textit{Comme il était au commencement, maintenant et toujours, et pour les siècles des siècles. Amen.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \bigskip
+
+  \par\textcolor{red}{\textit{Il n'y a pas de capitule, ni d'hymne, ni de verset, mais on chante l'antienne}} Hæc dies.
+
+  \bigskip
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont H}
+  \gregorioscore{antiennes/an--haec_dies_quam_fecit--solesmes}
+  \begin{footnotesize}
+    \textit{Voici le jour que fit le Seigneur, jour d'allégresse et jour de joie.}
+  \end{footnotesize}
+
+  \bigskip
+
+  \begin{center}
+    \textcolor{red}{\large{Antienne à Magnificat}}\\
+  \end{center}
+
+  \medskip
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont V}
+  \gregorioscore{antiennes/an--et_respicientes--solesmes_1961}
+  \smallskip
+
+  \gresetinitiallines{0}
+  \gregorioscore{magnificat/magnificat-IIIa}
+  
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{2}
+    \item Quia respéxit humilitátem an\textbf{cíl}læ \textbf{su}æ:\textcolor{red}{~*} ecce enim ex hoc beátam me dicent omnes genera\textit{ti}\textbf{ó}nes.
+
+    \item Quia fecit mihi \textbf{ma}gna qui \textbf{pot}\textbf{ens} est:\textcolor{red}{~*} et sanctum no\textit{men} \textbf{e}jus.
+
+    \item Et misericórdia ejus a progénie \textbf{in} pro\textbf{gé}\textbf{ni}es\textcolor{red}{~*} timénti\textit{bus} \textbf{e}um.
+
+    \item Fecit poténtiam in \textbf{brá}chio \textbf{su}o:\textcolor{red}{~*} dispérsit supérbos mente cor\textit{dis} \textbf{su}i.
+
+    \item Depósuit pot\textbf{én}tes de \textbf{se}de,\textcolor{red}{~*} et exaltá\textit{vit} \textbf{hú}miles.
+
+    \item Esuriéntes im\textbf{plé}vit \textbf{bo}nis:\textcolor{red}{~*} et dívites dimísit \textit{in}\textbf{á}nes.
+
+    \item Suscépit Israël \textbf{pú}erum \textbf{su}um,\textcolor{red}{~*} recordátus misericórdi\textit{æ} \textbf{su}æ.
+
+    \item Sicut locútus est ad \textbf{pa}tres \textbf{nos}tros,\textcolor{red}{~*} Abraham et sémini ejus \textit{in} \textbf{sǽ}cula.
+
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}\textbf{li}o,\textcolor{red}{~*} et Spirítu\textit{i} \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæculó\textit{rum}. \textbf{A}men.
+  \end{enumerate}
+
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) ET(e) re(e)spi(eh)ci(f)én(e/f'hf~)tes(g/hhg.) (,) <c>*</c> vi(g_[uh:l]h)dé(i)runt(j') re(i)vo(h)lú(hg)tum(f) lá(e')pi(f)dem :(e.) (;) e(e)rat(g) quip(e_[uh:l]f)pe(f') ma(f)gnus(ed) val(c')de,(d) al(e)le(ed)lú(c.){ia}.(c.) (::)}
+
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Oraison}}
+  \end{center}
+  \medskip
+  \begin{multicols}{2}
+    \parindent=0pt
+    \begin{flushright}
+      \textcolor{red}{\Vbar.} Dominus vobiscum.\\
+      \textcolor{red}{\Rbar.} Et cum spiritu tuo.\\
+    \end{flushright}
+  
+    \columnbreak
+    
+    \textit{\textcolor{red}{\Vbar.} Le Seigneur soit avec vous.\\
+    \textcolor{red}{\Rbar.} Et avec votre esprit.}\\
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Deus, qui hodiérna die per Unigénitum tuum, æternitátis nobis áditum devícta morte reserásti : \textcolor{red}{†} vota nostra, quæ præveniéndo aspíras, \textcolor{red}{*} étiam adjuvándo proséquere.\\ Per eumdem.
+    \textcolor{red}{\Rbar.} Amen.
+
+    \columnbreak
+  
+    \textit{ Dieu qui en ce jour, par votre Fils unique, vainqueur de la mort, nous avez ouvert les portes de l'éternité, daignez seconder de votre aide le vœux que d'avance vous nous inspirez. Amen.
+    }
+  \end{multicols}
+
+  \bigskip
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont B}
+  \gregorioscore{benedicamus/or--benedicamus_domino_(in_octavam_paschae)--sandhofe}
+
+  \medskip
+  \begin{center}
+    \rule{4cm}{0.4pt}
+  \end{center}
+  \medskip
+
+  \begin{center}
+    \begin{LARGE}
+      Dimanche de Quasimodo
+    \end{LARGE}
+  \end{center}
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Capitule}}\\
+    \small\textit{
+      I. Jean 5.
+    }
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Caríssimi : Omne quod natum est ex Deo, vincit mundum : \textcolor{red}{†} et hæc est victória, quæ vincit mundum,\textcolor{red}{*} fides nostra.\\
+    \textcolor{red}{\Rbar.} Deo grátias.
+
+    \columnbreak
+
+    \textit{ Frères bien-aimés, tout ce qui est né de Dieu est
+    vainqueur du monde, et la victoire qui a vaincu le
+    monde, c’est notre foi.\\
+    \textcolor{red}{\Rbar.} Rendons grâce à Dieu.
+    }
+  \end{multicols}
+
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Antienne à Magnificat}}\\
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont P}
+  \gregorioscore{antiennes/an--post_dies_octo--solesmes_1961}
+  \medskip
+  \begin{center}
+    \footnotesize{\textit{
+      Huit jours après, les portes étant fermées, le Seigneur entra, et dit à ses disciples : Paix à vous, alléluia, alléluia.
+    }}
+  \end{center}
+  \medskip
+
+  \gresetinitiallines{0}
+  \gregorioscore{magnificat/magnificat-VIIIc}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{2}
+    \item Quia respéxit humilitátem ancíllæ \textbf{su}æ:~* ecce enim ex hoc beátam me dicent omnes gene\textit{ra}\textit{ti}\textbf{ó}nes.
+
+    \item Quia fecit mihi magna qui \textbf{pot}ens est:~* et sanctum \textit{no}\textit{men} \textbf{e}jus.
+
+    \item Et misericórdia ejus a progénie in pro\textbf{gé}nies~* timén\textit{ti}\textit{bus} \textbf{e}um.
+
+    \item Fecit poténtiam in bráchio \textbf{su}o:~* dispérsit supérbos mente \textit{cor}\textit{dis} \textbf{su}i.
+
+    \item Depósuit poténtes de \textbf{se}de,~* et exal\textit{tá}\textit{vit} \textbf{hú}miles.
+
+    \item Esuriéntes implévit \textbf{bo}nis:~* et dívites dimí\textit{sit} \textit{in}\textbf{á}nes.
+
+    \item Suscépit Israël púerum \textbf{su}um,~* recordátus misericór\textit{di}\textit{æ} \textbf{su}æ.
+
+    \item Sicut locútus est ad patres \textbf{nos}tros,~* Abraham et sémini e\textit{jus} \textit{in} \textbf{sǽ}cula.
+
+    \item Glória Patri, et \textbf{Fí}lio,~* et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,~* et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+  \end{enumerate}
+
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) Post(h) di(h)es(h) o(hih)cto,(hgh) (,) já(hg)nu(f)is(h) clau(g_[oh:h]f)sis,(e.) (;) in(f)grés(d')sus(f) Dó(h)mi(g)nus(e_[uh:l]f) (,) di(d')xit(f) e(h)is :(h.) (;) Pax(g') vo(h)bis,(f'_) (,) al(f)le(e')lú(f){ia},(g') al(f)le(d)lú(ff){ia}.(e.) (::)}
+
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Oraison}}\\
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    \begin{flushright}
+      \textcolor{red}{\Vbar.} Dominus vobiscum.\\
+      \textcolor{red}{\Rbar.} Et cum spiritu tuo.\\
+    \end{flushright}
+
+    \columnbreak
+    
+    \textit{\textcolor{red}{\Vbar.} Le Seigneur soit avec vous.\\
+    \textcolor{red}{\Rbar.} Et avec votre esprit.}\\
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Præsta, quæsumus, omnípotens Deus :  \textcolor{red}{†} ut,
+    qui paschália festa perégimus, \textcolor{red}{*} hæc, te largiénte, móribus et vita teneámus.\\ Per Dóminum nostrum...
+    \textcolor{red}{\Rbar.} Amen.
+
+    \columnbreak
+
+    \textit{ Accordez-nous, Dieu tout-puissant, qu’après avoir
+    célébré les fêtes pascales, nous les fassions par
+    votre grâce passer dans nos mœurs et notre vie. Par notre même Seigneur Jésus-Christ...
+    Amen.
+    }
+  \end{multicols}
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \medskip
+  
+  \begin{center}
+    \begin{LARGE}
+      II\textsuperscript{e} Dimanche après Pâques
+    \end{LARGE}
+  \end{center}
+  \medskip
+  \begin{center}
+    \textcolor{red}{\large{Capitule}}\\
+    \small\textit{
+      I. Pierre. II, 21-22.
+    }
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Caríssimi : Christus passus est pro nobis, \textcolor{red}{†} vobis relínquens exémplum, ut sequámini vestígia ejus. \textcolor{red}{*} * Qui peccátum non fecit, nec
+    invéntus est dolus in ore ejus.\\
+    \textcolor{red}{\Rbar.} Deo grátias.
+
+    \columnbreak
+
+    \textit{ Frères bien-aimés, le Christ a souffert pour vous,
+    vous laissant un exemple afin que vous suiviez ses
+    traces. Lui qui n’a point commis le péché, et dans
+    sa bouche il ne s’est pas trouvé de mensonge.\\
+    \textcolor{red}{\Rbar.} Rendons grâce à Dieu.
+    }
+  \end{multicols}
+
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Antienne à Magnificat}}\\
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont E}
+  \gregorioscore{antiennes/an--ego_sum_pastor_bonus--solesmes_1961}
+  \medskip
+  \begin{center}
+    \footnotesize{\textit{
+      Moi je suis le bon pasteur, qui nourris ses brebis, et pour mes brebis je donne ma vie, alléluia.
+    }}
+  \end{center}
+  \medskip
+
+  \gresetinitiallines{0}
+  \gregorioscore{magnificat/magnificat-IIIa}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{2}
+    \item Quia respéxit humilitátem an\textbf{cíl}læ \textbf{su}æ:~* ecce enim ex hoc beátam me dicent omnes genera\textit{ti}\textbf{ó}nes.
+
+    \item Quia fecit mihi \textbf{ma}gna qui \textbf{pot}\textbf{ens} est:~* et sanctum no\textit{men} \textbf{e}jus.
+
+    \item Et misericórdia ejus a progénie \textbf{in} pro\textbf{gé}\textbf{ni}es~* timénti\textit{bus} \textbf{e}um.
+
+    \item Fecit poténtiam in \textbf{brá}chio \textbf{su}o:~* dispérsit supérbos mente cor\textit{dis} \textbf{su}i.
+
+    \item Depósuit pot\textbf{én}tes de \textbf{se}de,~* et exaltá\textit{vit} \textbf{hú}miles.
+
+    \item Esuriéntes im\textbf{plé}vit \textbf{bo}nis:~* et dívites dimísit \textit{in}\textbf{á}nes.
+
+    \item Suscépit Israël \textbf{pú}erum \textbf{su}um,~* recordátus misericórdi\textit{æ} \textbf{su}æ.
+
+    \item Sicut locútus est ad \textbf{pa}tres \textbf{nos}tros,~* Abraham et sémini ejus \textit{in} \textbf{sǽ}cula.
+
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}\textbf{li}o,~* et Spirítu\textit{i} \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,~* et in sǽcula sæculó\textit{rum}. \textbf{A}men.
+  \end{enumerate}
+
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) E(g)go(hj) sum(j') () pa(j)stor(hj~) bo(ji)nus,(g'_[oh:h]) (,) qui(g) pa(g)sco(hi) o(h)ves(g) me(e!fwg)as,(g.) (;) et(g) pro(hj) ó(j)vi(h')bus(j) me(ih)is(g'_[oh:h]) (,) po(h)no(g') á(f)ni(g)mam(g') me(e)am,(e_[uh:l]f) al(g)le(gf)lú(e.){ia}.(e.) (::)}
+
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Oraison}}\\
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    \begin{flushright}
+      \textcolor{red}{\Vbar.} Dominus vobiscum.\\
+      \textcolor{red}{\Rbar.} Et cum spiritu tuo.\\
+    \end{flushright}
+
+    \columnbreak
+    
+    \textit{\textcolor{red}{\Vbar.} Le Seigneur soit avec vous.\\
+    \textcolor{red}{\Rbar.} Et avec votre esprit.}\\
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Deus, qui in Fílii tui humilitáte jacéntem mundum erexísti : \textcolor{red}{†} fidélibus tuis perpétuam concéde lætítiam ; \textcolor{red}{*} ut, quos perpétuæ mortis eripuísti cásibus, gáudiis fácias pérfrui sempitérnis.\\ Per Dóminum nostrum...
+    \textcolor{red}{\Rbar.} Amen.
+
+    \columnbreak
+
+    \textit{ Dieu qui par l’humilité de votre Fils a relevé le
+    monde déchu, accordez à vos fidèles une joie
+    perpétuelle ; qu’après les avoir arrachés à la mort
+    éternelle, vous les fassiez profiter du bonheur sans
+    fin. Par Notre Seigneur...
+    Amen.
+    }
+  \end{multicols}
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \bigskip
+
+  \begin{center}
+    \begin{LARGE}
+      III\textsuperscript{e} Dimanche après Pâques
+    \end{LARGE}
+  \end{center}
+  \medskip
+  \begin{center}
+    \textcolor{red}{\large{Capitule}}\\
+    \small\textit{
+      I. Pierre. II, 11.
+    }
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Caríssimi : Obsecro vos tamquam ádvenas et peregrínos, \textcolor{red}{†} abstinére vos a carnálibus desidériis, \textcolor{red}{*} quæ mílitant advérsus ánimam.\\
+    \textcolor{red}{\Rbar.} Deo grátias.
+
+    \columnbreak
+
+    \textit{ Frères bien-aimés, je vous exhorte, en votre qualité
+    d’étrangers et de voyageurs, à vous abstenir des
+    convoitises de la chair qui font la guerre à l’âme.\\
+    \textcolor{red}{\Rbar.} Rendons grâce à Dieu.
+    }
+  \end{multicols}
+
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Antienne à Magnificat}}\\
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{antiennes/an--amen_amen_dico_vobis_quia_plorabitis--solesmes}
+  \medskip
+  \begin{center}
+    \footnotesize{\textit{
+      En vérité, je vous le dis, vous gémirez et vous pleurerez, vous, mais le monde se réjouira ; vous serez tristes, mais votre tristesse se changera en joie, alléluia.
+    }}
+  \end{center}
+  \medskip
+
+  \gresetinitiallines{0}
+  \gregorioscore{magnificat/magnificat-VIIIG}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{2}
+    \item Quia respéxit humilitátem ancíllæ \textbf{su}æ:~* ecce enim ex hoc beátam me dicent omnes gene\textit{ra}\textit{ti}\textbf{ó}nes.
+
+    \item Quia fecit mihi magna qui \textbf{pot}ens est:~* et sanctum \textit{no}\textit{men} \textbf{e}jus.
+    
+    \item Et misericórdia ejus a progénie in pro\textbf{gé}nies~* timén\textit{ti}\textit{bus} \textbf{e}um.
+    
+    \item Fecit poténtiam in bráchio \textbf{su}o:~* dispérsit supérbos mente \textit{cor}\textit{dis} \textbf{su}i.
+    
+    \item Depósuit poténtes de \textbf{se}de,~* et exal\textit{tá}\textit{vit} \textbf{hú}miles.
+    
+    \item Esuriéntes implévit \textbf{bo}nis:~* et dívites dimí\textit{sit} \textit{in}\textbf{á}nes.
+    
+    \item Suscépit Israël púerum \textbf{su}um,~* recordátus misericór\textit{di}\textit{æ} \textbf{su}æ.
+    
+    \item Sicut locútus est ad patres \textbf{nos}tros,~* Abraham et sémini e\textit{jus} \textit{in} \textbf{sǽ}cula.
+    
+    \item Glória Patri, et \textbf{Fí}lio,~* et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+    
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,~* et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+  \end{enumerate}
+
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) A(g)men,(g) a(gh)men(gf~) di(h)co(hi) vo(g)bis,(g'_) (,) qui(g)a(g') plo(g)rá(gh)bi(g)tis(g') et(g) flé(gf)bi(g)tis(gh) vos:(f.) (;) mun(f)dus(gh) au(ggf~)tem(g) gau(h)dé(j_k)bit,(ji/jkj.) (;) vos(j') ve(k)ro(j') con(h)tri(ji)sta(hg)bí(hi)mi(h)ni:(g.) (:) sed(g) tri(g)stí(g_e)ti(g)a(g) ve(f_e)stra(f'_) (,) ver(d)té(e_f)tur(gh) in(h') gáu(g)di(fg)um,(gv_FD') al(f)le(fg)lú(g.)ia.(g.) (::)}
+
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Oraison}}\\
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    \begin{flushright}
+      \textcolor{red}{\Vbar.} Dominus vobiscum.\\
+      \textcolor{red}{\Rbar.} Et cum spiritu tuo.\\
+    \end{flushright}
+
+    \columnbreak
+    
+    \textit{\textcolor{red}{\Vbar.} Le Seigneur soit avec vous.\\
+    \textcolor{red}{\Rbar.} Et avec votre esprit.}\\
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Deus, , qui errántibus, ut in viam possint redíre justítiæ, veritátis tuæ lumen osténdis : \textcolor{red}{†} da cunctis, qui christiána professióne censéntur, et illa respúere, quæ huic inimíca sunt nómini ; \textcolor{red}{*} et ea quæ sunt apta, sectári.\\ Per Dóminum nostrum...
+    \textcolor{red}{\Rbar.} Amen.
+
+    \columnbreak
+
+    \textit{ Dieu qui avez révélé aux égarés la lumière de votre
+    vérité afin qu’ils puissent rentrer dans la voie de la
+    justice, donnez à tous ceux qui se déclarent
+    chrétiens la grâce de rejeter ce qui est contraire à
+    ce nom et de pratique ce qui y est conforme. Par Notre Seigneur...
+    Amen.
+    }
+  \end{multicols}
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \bigskip
+
+  \begin{center}
+    \begin{LARGE}
+      IV\textsuperscript{e} Dimanche après Pâques
+    \end{LARGE}
+  \end{center}
+  \medskip
+  \begin{center}
+    \textcolor{red}{\large{Capitule}}\\
+    \small\textit{
+      Jacques. I, 17.
+    }
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Caríssimi : Omne datum óptimum, et omne donum perféctum desúrsum est, descéndens a Patre lúminum, \textcolor{red}{†} apud quem non est transmutátio \textcolor{red}{*} nec vicissitúdinis obumbrátio.\\
+    \textcolor{red}{\Rbar.} Deo grátias.
+
+    \columnbreak
+
+    \textit{ Frères bien-aimés, tout beau présent, tout don parfait vient d’en-haut et descend du Père des lumières, en qui n’existent point la variation ni les ombres du changement.\\
+    \textcolor{red}{\Rbar.} Rendons grâce à Dieu.
+    }
+  \end{multicols}
+
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Antienne à Magnificat}}\\
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont V}
+  \gregorioscore{antiennes/an--vado_ad_eum..._sed_quia--solesmes_1961}
+  \medskip
+  \begin{center}
+    \footnotesize{\textit{
+      Je m’en vais à celui qui m’a envoyé : mais parce que je vous ai dit ces choses, la tristesse a rempli votre cœur, alléluia.
+    }}
+  \end{center}
+  \medskip
+
+  \gresetinitiallines{0}
+  \gregorioscore{magnificat/magnificat-IID}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{2}
+    \item Quia respéxit humilitátem ancíllæ \textbf{su}æ:~* ecce enim ex hoc beátam me dicent omnes genera\textit{ti}\textbf{ó}nes.
+
+    \item Quia fecit mihi magna qui \textbf{pot}ens est:~* et sanctum no\textit{men} \textbf{e}jus.
+    
+    \item Et misericórdia ejus a progénie in pro\textbf{gé}nies~* timénti\textit{bus} \textbf{e}um.
+    
+    \item Fecit poténtiam in bráchio \textbf{su}o:~* dispérsit supérbos mente cor\textit{dis} \textbf{su}i.
+    
+    \item Depósuit poténtes de \textbf{se}de,~* et exaltá\textit{vit} \textbf{hú}miles.
+    
+    \item Esuriéntes implévit \textbf{bo}nis:~* et dívites dimísit \textit{in}\textbf{á}nes.
+    
+    \item Suscépit Israël púerum \textbf{su}um,~* recordátus misericórdi\textit{æ} \textbf{su}æ.
+    
+    \item Sicut locútus est ad patres \textbf{nos}tros,~* Abraham et sémini ejus \textit{in} \textbf{sǽ}cula.
+    
+    \item Glória Patri, et \textbf{Fí}lio,~* et Spirítu\textit{i} \textbf{Sanc}to.
+    
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,~* et in sǽcula sæculó\textit{rum}. \textbf{A}men.
+  \end{enumerate}
+
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(f3) Va(h)do(h_g) ad(f') e(g)um(f') qui(e) mi(fh)sit(hg) me :(ffe.) (;) sed(h) qui(j)a(i) haec(kxj_[oh:h+1mm]k_[oh:h+1mm]j_[oh:h+1mm]) lo(h_i)cú(j)tus(i) sum(h') vo(i)bis,(f.) (;) tri(i')stí(h)ti(hg)a(fe) im(f)plé(e')vit(f) cor(h) ve(h)strum,(g_[uh:l]h) al(i)le(hg)lú(f.){ia}.(f.) (::) }
+
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Oraison}}\\
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    \begin{flushright}
+      \textcolor{red}{\Vbar.} Dominus vobiscum.\\
+      \textcolor{red}{\Rbar.} Et cum spiritu tuo.\\
+    \end{flushright}
+
+    \columnbreak
+    
+    \textit{\textcolor{red}{\Vbar.} Le Seigneur soit avec vous.\\
+    \textcolor{red}{\Rbar.} Et avec votre esprit.}\\
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Deus, qui fidélium mentes uníus éfficis voluntátis : \textcolor{red}{†} da pópulis tuis id amáre quod præcipis, id desideráre quod promíttis ; \textcolor{red}{*} ut inter mundánas varietátes ibi nostra fixa sint corda, ubi vera sunt gáudia.\\ Per Dóminum nostrum...
+    \textcolor{red}{\Rbar.} Amen.
+
+    \columnbreak
+
+    \textit{ Dieu qui unissez les cœurs de vos fidèles dans une même volonté, donnez à votre peuple d’aimer ce que vous commandez, de désirer ce que vous promettez, afin qu’au milieu des fluctuations de ce monde, nos cœurs demeurent fixés là où se trouvent les vraies joies. Par Notre Seigneur...
+    Amen.
+    }
+  \end{multicols}
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \bigskip
+
+  \begin{center}
+    \begin{LARGE}
+      V\textsuperscript{e} Dimanche après Pâques
+    \end{LARGE}
+  \end{center}
+  \medskip
+  \begin{center}
+    \textcolor{red}{\large{Capitule}}\\
+    \small\textit{
+      Jacques. I, 22-23.
+    }
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Caríssimi : Estóte factóres verbi, et non auditóres tantum : falléntes vosmetípsos.  \textcolor{red}{†} Quia si quis audítor est verbi et non factor : hic comparábitur viro consideránti vultum nativitátis suæ in spéculo : \textcolor{red}{*} considerávit enim se et ábiit, et statim oblítus est, qualis fúerit.\\
+    \textcolor{red}{\Rbar.} Deo grátias.
+
+    \columnbreak
+
+    \textit{Frères bien-aimés, soyez de ceux qui pratiquent la Parole ; et pas seulement de ceux qui l’écoutent en s’abusant eux-mêmes. Car si quelqu’un écoute la Parole et ne la pratique pas, il ressemble à l’homme qui regarde dans un miroir le visage qu’il tient de la nature : il se regarde, il s’en va, et aussitôt il oublie comment il était. \\
+    \textcolor{red}{\Rbar.} Rendons grâce à Dieu.
+    }
+  \end{multicols}
+
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Antienne à Magnificat}}\\
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont P}
+  \gregorioscore{antiennes/an--petite_et_accipietis--solesmes_1961}
+  \medskip
+  \begin{center}
+    \footnotesize{\textit{
+      Demandez et vous recevrez, afin que votre joie soit complète ; car mon Père lui-même vous aime, parce que vous m’avez aimé, et que vous avez cru, alléluia.
+    }}
+  \end{center}
+  \medskip
+
+  \gresetinitiallines{0}
+  \gregorioscore{magnificat/magnificat-VIIIG}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{2}
+    \item Quia respéxit humilitátem ancíllæ \textbf{su}æ:~* ecce enim ex hoc beátam me dicent omnes gene\textit{ra}\textit{ti}\textbf{ó}nes.
+
+    \item Quia fecit mihi magna qui \textbf{pot}ens est:~* et sanctum \textit{no}\textit{men} \textbf{e}jus.
+    
+    \item Et misericórdia ejus a progénie in pro\textbf{gé}nies~* timén\textit{ti}\textit{bus} \textbf{e}um.
+    
+    \item Fecit poténtiam in bráchio \textbf{su}o:~* dispérsit supérbos mente \textit{cor}\textit{dis} \textbf{su}i.
+    
+    \item Depósuit poténtes de \textbf{se}de,~* et exal\textit{tá}\textit{vit} \textbf{hú}miles.
+    
+    \item Esuriéntes implévit \textbf{bo}nis:~* et dívites dimí\textit{sit} \textit{in}\textbf{á}nes.
+    
+    \item Suscépit Israël púerum \textbf{su}um,~* recordátus misericór\textit{di}\textit{æ} \textbf{su}æ.
+    
+    \item Sicut locútus est ad patres \textbf{nos}tros,~* Abraham et sémini e\textit{jus} \textit{in} \textbf{sǽ}cula.
+    
+    \item Glória Patri, et \textbf{Fí}lio,~* et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+    
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,~* et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+  \end{enumerate}
+
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) Pe(f)ti(fg)te,(g'_[oh:h]) (,) et(h) ac(g')ci(j)pi(i)é(h_[oh:h]i_[oh:h]g_[oh:h])tis,(g.) (;) ut(f_h) gáu(j)di(jk)um(k') ve(k)strum(j) sit(k_[uh:l]l) ple(j_i)num :(h.) (:) i(j)pse(i') e(j)nim(h) Pa(ji)ter(h_g) a(h_i)mat(h) vos,(g.) (;) qui(g)a(g') vos(h) me(g') a(g)má(fe)stis,(f'_) (,) et(d) cre(e')di(f)dí(g')stis,(f) al(gh)le(h)lú(g.){ia}.(g.) (::)}
+
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Oraison}}\\
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    \begin{flushright}
+      \textcolor{red}{\Vbar.} Dominus vobiscum.\\
+      \textcolor{red}{\Rbar.} Et cum spiritu tuo.\\
+    \end{flushright}
+
+    \columnbreak
+    
+    \textit{\textcolor{red}{\Vbar.} Le Seigneur soit avec vous.\\
+    \textcolor{red}{\Rbar.} Et avec votre esprit.}\\
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Deus, a quo bona cuncta procédunt, largíre supplícibus tuis : \textcolor{red}{†} ut cogitémus, te inspiránte, quæ recta sunt ; \textcolor{red}{*} et, te gubernánte, éadem faciámus.\\ Per Dóminum nostrum...
+    \textcolor{red}{\Rbar.} Amen.
+
+    \columnbreak
+
+    \textit{Dieu de qui tous biens procèdent, accorde à nos supplications que, sous ton inspiration, nous pensions au bien, et que sous ta conduite, nous le fassions. Par Notre Seigneur...
+    Amen.
+    }
+  \end{multicols}
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \bigskip
+
+  \begin{center}
+    \begin{LARGE}
+      L'Ascension de Notre Seigneur
+    \end{LARGE}
+  \end{center}
+  \medskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont V}
+  \gregorioscore{antiennes/an--viri_galilaei--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{ Hommes de Galilée, que regardez-vous au ciel ? Ce Jésus, qui du milieu de vous a été enlevé au ciel, viendra de la même manière, alléluia.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 109.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume109-VIIa}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Donec ponam ini\textbf{mí}cos \textbf{tu}os,~* scabéllum \textbf{pe}dum tu\textbf{ó}rum.
+
+    \item Virgam virtútis tuæ emíttet Dómi\textbf{nus} ex \textbf{Si}on:~* domináre in médio inimi\textbf{có}rum tu\textbf{ó}rum.
+    
+    \item Tecum princípium in die virtútis tuæ in splendóri\textbf{bus} sanc\textbf{tó}rum:~* ex útero ante lucíferum \textbf{gé}nu\textbf{i} te.
+    
+    \item Jurávit Dóminus, et non pœni\textbf{té}bit \textbf{e}um:~* Tu es sacérdos in ætérnum secúndum órdi\textbf{nem} Mel\textbf{chí}sedech.
+    
+    \item Dóminus a \textbf{dex}tris \textbf{tu}is,~* confrégit in die iræ \textbf{su}æ \textbf{re}ges.
+    
+    \item Judicábit in natiónibus, im\textbf{plé}bit ru\textbf{í}nas:~* conquassábit cápita in \textbf{ter}ra mul\textbf{tó}rum.
+    
+    \item De torrénte in \textbf{vi}a \textbf{bi}bet:~* proptérea exal\textbf{tá}bit \textbf{ca}put.
+    
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,~* et Spi\textbf{rí}tui \textbf{Sanc}to.
+    
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,~* et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) Vi(e')ri(e) Ga(g)li(h)laé(ih/ji)i,(i'_[oh:h]) (,) quid(i) a(i)spí(i)ci(g)tis(ij) in(i) cae(h_g)lum?(ee) (;) Hic(d) Je(f_h)sus,(h'_) (,) qui(i) as(g')súm(h)ptus(i) est(f') a(e) vo(f')bis(e) in(f') cae(d)lum,(d.) (;) sic(h) vé(hg)ni(f)et,(g_[uh:l]h) al(i'_[oh:h])le(f)lú(e.){ia}.(e.) (::)}
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \medskip
+
+  \bigskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont C}
+  \gregorioscore{antiennes/an--cumque_intuerentur--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{ Lorsqu’ils le virent montant au ciel, ils dirent : alléluia. }
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 110.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume110-VIIIG}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Magna ópera \textbf{Dó}mini:~* exquisíta in omnes volun\textit{tá}\textit{tes} \textbf{e}jus.
+
+    \item Conféssio et magnificéntia opus \textbf{e}jus:~* et justítia ejus manet in sǽ\textit{cu}\textit{lum} \textbf{sǽ}culi.
+    
+    \item Memóriam fecit mirabílium suórum,~† miséricors et miserátor \textbf{Dó}minus:~* escam dedit ti\textit{mén}\textit{ti}\textbf{bus} se.
+    
+    \item Memor erit in sǽculum testaménti \textbf{su}i:~* virtútem óperum suórum annuntiábit pó\textit{pu}\textit{lo} \textbf{su}o:
+    
+    \item Ut det illis hereditátem \textbf{gén}tium:~* ópera mánuum ejus véritas, \textit{et} \textit{ju}\textbf{dí}cium.
+    
+    \item Fidélia ómnia mandáta ejus:~† confirmáta in sǽculum \textbf{sǽ}culi,~* facta in veritáte et \textit{æ}\textit{qui}\textbf{tá}te.
+    
+    \item Redemptiónem misit pópulo \textbf{su}o:~* mandávit in ætérnum testa\textit{mén}\textit{tum} \textbf{su}um. 
+    \begin{center}
+      \textcolor{red}{\textit{Ici on s'incline par respect pour le nom de Dieu : }}
+    \end{center}
+    \item Sanctum, et terríbile nomen \textbf{e}jus:~* inítium sapiéntiæ \textit{ti}\textit{mor} \textbf{Dó}mini.
+    
+    \item Intelléctus bonus ómnibus faciéntibus \textbf{e}um:~* laudátio ejus manet in sǽ\textit{cu}\textit{lum} \textbf{sǽ}culi.
+    
+    \item Glória Patri, et \textbf{Fí}lio,~* et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+    
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,~* et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.    
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) Cum(f_g)que(g') in(g)tu(g)e(g)rén(g)tur(h_i) in(gh) cae(g)lum(f.) (,) e(hj)ún(j)tem(i') il(j)lum,(h.) (;) di(g)xé(hg)runt,(f) al(gh)le(h)lú(g.){ia}.(g.) (::)}
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \medskip
+
+  \bigskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont E}
+  \gregorioscore{antiennes/an--elevatis_manibus--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Les mains levées, il les bénit, et il s’éleva au ciel, alléluia.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 111.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume111-IVA}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Potens in terra erit \textit{se}\textit{men} \textbf{e}jus:~* generátio rectórum \textit{be}\textit{ne}\textit{di}\textbf{cé}tur.
+
+    \item Glória, et divítiæ in \textit{do}\textit{mo} \textbf{e}jus:~* et justítia ejus manet in \textit{sǽ}\textit{cu}\textit{lum} \textbf{sǽ}culi.
+    
+    \item Exórtum est in ténebris \textit{lu}\textit{men} \textbf{rec}tis:~* miséricors, et mise\textit{rá}\textit{tor}, \textit{et} \textbf{jus}tus.
+    
+    \item Jucúndus homo qui miserétur et cómmodat,~† dispónet sermónes suos \textit{in} \textit{ju}\textbf{dí}cio:~* quia in ætérnum \textit{non} \textit{com}\textit{mo}\textbf{vé}bitur.
+    
+    \item In memória ætérna \textit{e}\textit{rit} \textbf{jus}tus:~* ab auditióne ma\textit{la} \textit{non} \textit{ti}\textbf{mé}bit.
+    
+    \item Parátum cor ejus speráre in Dómino,~† confirmátum \textit{est} \textit{cor} \textbf{e}jus:~* non commovébitur donec despíciat in\textit{i}\textit{mí}\textit{cos} \textbf{su}os.
+    
+    \item Dispérsit, dedit paupéribus:~† justítia ejus manet in sǽ\textit{cu}\textit{lum} \textbf{sǽ}culi,~* cornu ejus exaltá\textit{bi}\textit{tur} \textit{in} \textbf{gló}ria.
+    
+    \item Peccátor vidébit, et irascétur,~† déntibus suis fremet \textit{et} \textit{ta}\textbf{bé}scet:~* desidérium pecca\textit{tó}\textit{rum} \textit{per}\textbf{í}bit.
+    
+    \item Glória Pa\textit{tri}, \textit{et} \textbf{Fí}lio,~* et Spi\textit{rí}\textit{tu}\textit{i} \textbf{Sanc}to.
+    
+    \item Sicut erat in princípio, et \textit{nunc}, \textit{et} \textbf{sem}per,~* et in sǽcula sæ\textit{cu}\textit{ló}\textit{rum}. \textbf{A}men.    
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) E(e')le(f)vá(h)tis(h') má(h)ni(ij)bus,(i.) (,) be(h')ne(i)dí(j)xit(ih) e(i_[oh:h])is :(i.) (;) et(i) fe(f')re(i)bá(g')tur(h) in(f) cae(f_e)lum,(f_e) (,) al(d_e)le(f_h)lú(f.){ia}.(f.) (::) }
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \medskip
+
+  \bigskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont E}
+  \gregorioscore{antiennes/an--exaltate_regem--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Exaltez le Roi des rois, et dites une hymne à Dieu, alléluia. }
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 112.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume112-VIIIG}
+
+  \begin{center}
+    \textcolor{red}{\textit{Ici on s'incline par respect pour le nom de Dieu : }}
+  \end{center}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Sit nomen Dómini bene\textbf{díc}tum,~* ex hoc nunc, et us\textit{que} \textit{in} \textbf{sǽ}culum.
+
+    \item A solis ortu usque ad oc\textbf{cá}sum,~* laudábile \textit{no}\textit{men} \textbf{Dó}mini.
+    
+    \item Excélsus super omnes gentes \textbf{Dó}minus,~* et super cælos gló\textit{ri}\textit{a} \textbf{e}jus.
+    
+    \item Quis sicut Dóminus, Deus noster, qui in altis \textbf{há}bitat,~* et humília réspicit in cælo \textit{et} \textit{in} \textbf{ter}ra?
+    
+    \item Súscitans a terra \textbf{ín}opem,~* et de stércore é\textit{ri}\textit{gens} \textbf{páu}perem:
+    
+    \item Ut cóllocet eum cum prin\textbf{cí}pibus,~* cum princípibus pó\textit{pu}\textit{li} \textbf{su}i.
+    
+    \item Qui habitáre facit stérilem in \textbf{do}mo,~* matrem filió\textit{rum} \textit{læ}\textbf{tán}tem.
+    
+    \item Glória Patri, et \textbf{Fí}lio,~* et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+    
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,~* et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.    
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) Ex(f)al(fg~)tá(g)te(g_[oh:h]f) Re(h)gem(j) re(jkj)gum,(hih.) (;) et(g) hy(hj)mnum(g') dí(h)ci(g')te(f) De(fe)o,(d) al(f)le(gh)lú(g.){ia}.(g.) (::)}
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \medskip
+
+  \bigskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont V}
+  \gregorioscore{antiennes/an--videntibus_illis--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Eux le voyant, il s’éleva, et une nuée le déroba à leurs yeux, alléluia.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 116.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume116-VIIIG}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Quóniam confirmáta est super nos misericórdia \textbf{e}jus:~* et véritas Dómini manet \textit{in} \textit{æ}\textbf{tér}num.
+
+    \item Glória Patri, et \textbf{Fí}lio,~* et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+    
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,~* et in sǽcula sæcu\textit{ló}\textit{rum}. \textbf{A}men.    
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) Vi(g)dén(j')ti(j)bus(i_[oh:h]g) il(i')lis(j) (,) e(h')le(g)vá(h')tus(g) est,(f.) (;) et(f) nu(g')bes(g) sus(g')cé(f)pit(h') e(j)um(i') in(g) cae(i')lo,(j) (,) al(h')le(h)lú(g.){ia}.(g.) (::)}
+
+  % \medskip
+  % \begin{center}
+  %   \rule{2cm}{0.4pt}
+  % \end{center}
+  % \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Capitule}}\\
+    \small\textit{
+      Actes des Apôtres. I, 1-2.
+    }
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Primum quidem sermónem feci de ómnibus, o Theóphile, \textcolor{red}{†} quæ cœpit Jesus fácere et docére usque in diem, qua, præcípiens Apóstolis per Spíritum Sanctum, quos elégit, \textcolor{red}{*} as-súmp-tus est.\\
+    \textcolor{red}{\Rbar.} Deo grátias.
+
+    \columnbreak
+
+    \textit{Dans mon premier livre, ô Théophile, j’ai raconté tout ce que Jésus a fait et enseigné, depuis le début jusqu’au jour où ayant donné ses instructions par l’Esprit-Saint aux Apôtres qu’il avait choisis, il fut enlevé au ciel.\\
+    \textcolor{red}{\Rbar.} Rendons grâce à Dieu.
+    }
+  \end{multicols}
+
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Hymne.}}\\
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont S}
+  \gregorioscore{hymnes/hy--salutis_humanae_sator--solesmes_1961}
+
+  \bigskip
+
+  \gresetinitiallines{0}
+  \gabcsnippet{<c><sp>V/</sp>.</c> A(h)scén(h)dit(h) De(h)us(h) in(h) ju(h)bi(h)la(h)ti(h)ó(hi)ne,(h'_) (,) al(h)le(fe)lú(f_h){ia}.(hiH'Ghih.ghG'FE'fggf.0) (::) (Z-) 
+  <c><sp>R/</sp>.</c> Et(h) Dó(h)mi(h)nus(h) in(h) vo(h)ce(h) tu(hi)bae,(h'_) (,) al(h)le(fe)lú(f_h){ia}.(hiH'Ghih.ghG'FE'fggf.0) (::)}
+  \bigskip
+  \normalsize
+  \begin{center}
+    \textit{\textcolor{red}{\Vbar.} Dieu monte au milieu des acclamations, Allelúia.}\\
+    \textit{\textcolor{red}{\Rbar.} Le Seigneur au son de la trompette, Allelúia.}
+  \end{center}
+
+  \begin{center}
+    \textcolor{red}{\large{Antienne à Magnificat}}\\
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont O}
+  \gregorioscore{antiennes/an--o_rex_gloriae--solesmes_1961}
+  \medskip
+  \begin{center}
+    \footnotesize{\textit{
+      O Roi de gloire, Seigneur des Puissances, qui aujourd’hui êtes monté en triomphateur au-dessus de tous les cieux, ne nous laissez pas orphelins ; mais envoyez sur nous l’Esprit de vérité promis par le Père, alléluia.
+    }}
+  \end{center}
+  \medskip
+
+  \gresetinitiallines{0}
+  \gregorioscore{magnificat/magnificat-IID}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{2}
+    \item Quia respéxit humilitátem ancíllæ \textbf{su}æ:~* ecce enim ex hoc beátam me dicent omnes genera\textit{ti}\textbf{ó}nes.
+
+    \item Quia fecit mihi magna qui \textbf{pot}ens est:~* et sanctum no\textit{men} \textbf{e}jus.
+    
+    \item Et misericórdia ejus a progénie in pro\textbf{gé}nies~* timénti\textit{bus} \textbf{e}um.
+    
+    \item Fecit poténtiam in bráchio \textbf{su}o:~* dispérsit supérbos mente cor\textit{dis} \textbf{su}i.
+    
+    \item Depósuit poténtes de \textbf{se}de,~* et exaltá\textit{vit} \textbf{hú}miles.
+    
+    \item Esuriéntes implévit \textbf{bo}nis:~* et dívites dimísit \textit{in}\textbf{á}nes.
+    
+    \item Suscépit Israël púerum \textbf{su}um,~* recordátus misericórdi\textit{æ} \textbf{su}æ.
+    
+    \item Sicut locútus est ad patres \textbf{nos}tros,~* Abraham et sémini ejus \textit{in} \textbf{sǽ}cula.
+    
+    \item Glória Patri, et \textbf{Fí}lio,~* et Spirítu\textit{i} \textbf{Sanc}to.
+    
+    \item Sicut erat in princípio, et nunc, et \textbf{sem}per,~* et in sǽcula sæculó\textit{rum}. \textbf{A}men.
+  \end{enumerate}
+
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(f3) O(ehhg) Rex(h_f) gló(gf)ri(ef)ae,(f'_) (,) Dó(e)mi(fh)ne(hg) vir(fg)tú(ff)tum,(e.) (;) qui(f) tri(cf)um(f)phá(g)tor(f) hó(gf)di(ef)e(f'_) (,) su(e)per(fh) o(hg~)mnes(fe) cae(g_[uh:l]h)los(f') a(h)scen(h)dí(kxhj!kvJI)sti,(ji..) (;) ne(g) de(ij)re(i')lín(h)quas(hg) nos(f) ór(g)pha(ef)nos :(f.) (:) sed(fe) mit(fg)te(f') pro(f)mís(g)sum(hih) Pa(ghe)tris(e.) in(fe/fe) nos,(c.) (;) Spí(e')ri(f)tum(h') ve(h)ri(i)tá(hg)tis,(fe) al(f)le(hg)lú(f.){ia}.(f.) (::)}
+
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Oraison}}\\
+  \end{center}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    \begin{flushright}
+      \textcolor{red}{\Vbar.} Dominus vobiscum.\\
+      \textcolor{red}{\Rbar.} Et cum spiritu tuo.\\
+    \end{flushright}
+
+    \columnbreak
+    
+    \textit{\textcolor{red}{\Vbar.} Le Seigneur soit avec vous.\\
+    \textcolor{red}{\Rbar.} Et avec votre esprit.}\\
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Concéde, quæsumus, omnípotens Deus : \textcolor{red}{†} ut, qui die Unigénitum tuum Redemptórem nostrum ad cælos ascendísse crédimus : \textcolor{red}{*} ipsi quoque mente in cæléstibus habitémus.\\ Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, \textcolor{red}{†} qui tecum vivit et regnat in unitáte Spiritus sancti Deus : \textcolor{red}{*} per ómnia sæcula sæculórum. 
+    \textcolor{red}{\Rbar.} Amen.
+
+    \columnbreak
+
+    \textit{ Accordez, Dieu tout-puissant, à nous qui croyons que votre Fils unique notre Rédempteur est aujourd’hui monté aux cieux, que, de cœur, nous habitions au ciel nous aussi. \\ Par notre même Seigneur Jésus-Christ, votre Fils, qui avec vous vit et règne en l’unité du Saint Esprit, Dieu pour les siècles des siècles. 
+    Amen.
+    }
+  \end{multicols}
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \bigskip
+
+\end{document}

@@ -1,0 +1,69 @@
+% !TeX program = lualatex
+\documentclass[12pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[autocompile]{gregoriotex}
+
+% \geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\geometry{top=2cm, bottom=2cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+  \font\titlefont=lmr12 at 50pt
+  \begin{titlepage}\centering
+    \vspace*{\fill}\
+    \titlefont Office\\
+    \bigskip
+    \LARGE des\\
+    \bigskip
+    \titlefont Ténèbres\\
+    \bigskip
+    \LARGE du Vendredi Saint\\
+    \vspace*{\fill}
+    \LARGE Schola Vocem Laudis\\
+    \vspace*{\fill}
+    \begin{figure}[h!]
+      \centering
+      \includegraphics[width=2cm]{../../ordinaires/logo.png}
+    \end{figure}
+    \centering \normalsize Paroisse Saint Roch
+  \end{titlepage}
+
+  \begin{center}
+    \huge VENDREDI SAINT\\
+    \greseparator{3}{30}\\
+    \bigskip
+    \large A L'OFFICE DES TÉNÈBRES.\\
+  \end{center}
+  \bigskip
+  \par  \textit{" Le bon Pasteur donne sa vis pour ses brebis. Il n'y a pas de plus grand amour que de donner sa vie pour ceux qu'on aime."} Ces paroles que Jésus a prononcé pendant sa vie, il les réalise aujourd'hui en mourrant pour nous sur la Croix, accomplissant ainsi le mystère de la Rédemption.
+  \par Il est trahis dès le mercredi par Judas, qui le livre à ses ennemis le jeudi soir au jardin des Oliviers. Ses Apôtres prennent la fuite. Le Sanhédrin ou grand conseil des juifs condamne Jésus parce qu'il se dit le Christ, Fils de Dieu. Pilate reconnaît son innocence, mais par politique le condamne à mort. Jésus, le plus doux et le plus obéissant des hommes, s'abandonne volontairement aux souffrances, et offre le sacrifice sanglant qui devait racheter le genre hunain.  Poussant un grand cri, il remet son âme entre les mains de son Père et il expire. Désormais, tout est changé : le péché est expié, le démon vaincu, et la justice de Dieu satisfaite. Pour l'amour des hommes coupable, Dieu a frappé son fils innocent, et pour l'amour de son Fils innocent, ila pardonné aux hommes coupables. Couverts de son sang et de ses mérites nous pouvons donc approcher de Dieu avec confiance. \textit{Celui qui nous a aimé, étant pécheurs,} dit Saint Paul, \textit{jusqu'à donner sa vie pour nous, que nous refusera-t-il après qu'il nous a réconciliés et justifiés par son sang ?}
+  \par "Le Christ souffrant, dit Saint Thomas, affirme mieux qu'un Christ glorieux la vérité de son incarnation", et les divers récits évangéliques de la Passion nous donnent la preuve de sa mort jusqu'à la suprême évidence. Mais des prodiges accompagnent et suivent la mort du Sauveur : il expire avec un grand cri, - le voile du Temple se déchier -, - le soleil s'éclipse -, - la terre tremble -, - les rochers se fendent -, - et plusieurs morts ressuscités sont vus à Jérusalem. - Le centurion étonné de tels prodiges s'écrie que Jésus est vraiment le Fils de Dieu, et les spectateurs s'en vont en se frappant la poitrine.
+
+  \newpage
+
+  \subfile{premier-nocturne.tex}
+  \subfile{deuxieme-nocturne.tex}
+  \newpage
+  \subfile{troisieme-nocturne.tex}
+  \subfile{laudes.tex}
+\end{document}

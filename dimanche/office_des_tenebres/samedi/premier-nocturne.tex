@@ -1,0 +1,464 @@
+% !TeX program = lualatex
+\documentclass[12pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[autocompile]{gregoriotex}
+
+% \geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+  \begin{center}
+    \large À MATINES.\\
+  \end{center}
+  \medskip
+
+  \begin{center}
+    \large AU PREMIER NOCTURNE.\\
+  \end{center}
+  \medskip
+  \par Dans ce premier Psaume, Jésus Christ invoque son Père, le Dieu de justice, auquel il vient de rendre satisfaction pour les péchés des hommes. Il est écouté, il descend victorieux dans le repos du tombeau, attendant la gloire de la resurrection, qui viendra bientôt l'illuminer.
+
+  \medskip
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont I}
+  \gregorioscore{antiennes/an--in_pace_in_idipsum--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Pour moi je dormirai en paix, et je me reposerai.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 4.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume4-VIIIG}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Miserére \textbf{me}i,\textcolor{red}{~*} et exáudi orati\textit{ó}\textit{nem} \textbf{me}am.
+
+    \item Fílii hóminum, úsquequo gravi \textbf{cor}de?\textcolor{red}{~*} ut quid dilígitis vanitátem et quǽri\textit{tis} \textit{men}\textbf{dá}cium?
+
+    \item Et scitóte quóniam mirificávit Dóminus sanctum \textbf{su}um:\textcolor{red}{~*} Dóminus exáudiet me cum clamáve\textit{ro} \textit{ad} \textbf{e}um.
+
+    \item Irascímini, et nolíte peccáre:\textcolor{red}{~†} quæ dícitis in córdibus \textbf{ves}tris,\textcolor{red}{~*} in cubílibus vestris \textit{com}\textit{pun}\textbf{gí}mini.
+
+    \item Sacrificáte sacrifícium justítiæ,\textcolor{red}{~†} et speráte in \textbf{Dó}mino.\textcolor{red}{~*} Multi dicunt: quis osténdit \textit{no}\textit{bis} \textbf{bo}na?
+
+    \item Signátum est super nos lumen vultus tui, \textbf{Dó}mine:\textcolor{red}{~*} dedísti lætítiam in \textit{cor}\textit{de} \textbf{me}o.
+
+    \item A fructu fruménti, vini et ólei \textbf{su}i\textcolor{red}{~*} mul\textit{ti}\textit{pli}\textbf{cá}ti sunt.
+
+    \item In pace in id\textbf{íp}sum\textcolor{red}{~*} dórmiam et \textit{re}\textit{qui}\textbf{és}cam;
+
+    \item Quóniam tu, Dómine, singuláriter \textbf{in} spe\textcolor{red}{~*} con\textit{sti}\textit{tu}\textbf{ís}ti me.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) In(g) pa(j)ce(ig) in(i_[uh:l]j) id(h_g)í(h_g)psum,(f_h) (,) dór(j)mi(j)am(ig~) et(i_[uh:l]j) re(h)qui(h)és(g.)cam.(g.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Le Dieu de ma justice m’a exaucé, lorsque je l’ai invoqué ; il m’a consolé dans mon affliction.}
+        \item \textit{Ayez compassion de moi, et exaucez ma prière.}
+        \item \textit{Enfants des hommes, jusqu’à quand aurez-vous le
+        cœur appesanti ? pourquoi aimez-vous la vanité,
+        et cherchez-vous le mensonge ?}
+        \item \textit{Sachez que le Seigneur a comblé de gloire et rendu admirable son Saint : le Seigneur m’exaucera,
+        quand je crierai vers lui.}
+        \item \textit{Mettez-vous en colère, et ne péchez pas : ayez de
+        la componction dans vos lits, sur les choses que
+        vous méditez dans vos cœurs.}
+        \item \textit{Offrez à Dieu un sacrifice de justice, et espérez
+        au Seigneur : plusieurs disent ; Qui nous fera voir
+        les biens ?}
+        \item \textit{Seigneur, la lumière de votre visage est imprimée
+        sur nous : vous avez mis la joie dans mon cœur.}
+        \item \textit{Ils se sont enrichis par l’abondance du froment, du
+        vin et de l’huile.}
+        \item \textit{Pour moi je dormirai en paix, et je me reposerai}
+        \item \textit{Parce que vous m’avez, Seigneur, établi dans
+        l’espérance, d’une manière singulière.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \medskip
+
+  \par Le Prophète se demande, dans ce Psaume, qui sera digne d'entrer dans la demeure du Seigneur ? Jésus Christ seul, le juste par excellence, dont la vie est sans tache, la parole sans tromperie, les actions dirigées uniquement selon la charité. Tous les autres justes ne seront sauvés que par l'imitation de ses vertus et la participation à ses mérites.
+  \medskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont H}
+  \gregorioscore{antiennes/an--habitabit--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Il habitera dans votre tabernacle, il reposera sur votre sainte montagne.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 14.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume14-IVE}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Qui ingréditur \textit{si}\textit{ne} \textbf{má}cula,\textcolor{red}{~*} et ope\textit{rá}\textit{tur} \textit{jus}\textbf{tí}\textbf{ti}am:
+
+    \item Qui lóquitur veritátem in \textit{cor}\textit{de} \textbf{su}o,\textcolor{red}{~*} qui non egit dolum \textit{in} \textit{lin}\textit{gua} \textbf{su}a:
+
+    \item Nec fecit próximo \textit{su}\textit{o} \textbf{ma}lum,\textcolor{red}{~*} et oppróbrium non accépit advérsus \textit{pró}\textit{xi}\textit{mos} \textbf{su}os.
+
+    \item Ad níhilum dedúctus est in conspéctu e\textit{jus} \textit{ma}\textbf{lí}gnus:\textcolor{red}{~*} timéntes autem Dó\textit{mi}\textit{num} \textit{glo}\textbf{rí}\textbf{fi}cat:
+
+    \item Qui jurat próximo suo, \textit{et} \textit{non} \textbf{dé}cipit,\textcolor{red}{~*}  qui pecúniam suam non dedit ad usúram, et múnera super innocén\textit{tem} \textit{non} \textit{ac}\textbf{cé}pit.
+
+    \item \textit{Qui} \textbf{fa}cit hæc:\textcolor{red}{~*} non movébi\textit{tur} \textit{in} \textit{æ}\textbf{tér}num.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) Ha(f_e)bi(d')tá(f)bit(e'_[oh:h]) in(d) ta(e')ber(f)ná(g')cu(f)lo(e) tu(f_g)o,(g.) (;) re(g)qui(f)é(f_e)scet(d'_) in(d) mon(f')te(f) san(fd~)cto(f') tu(g)o.(e.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Seigneur, qui habitera dans votre tabernacle, ou qui reposera sur votre sainte montagne ?}
+        \item \textit{Ce sera celui dont la vie est sans tache, et qui fait
+        des actions de justice.}
+        \item \textit{Qui dit la vérité selon qu’elle est dans son cœur :
+        qui ne trompe personne par sa langue.}
+        \item \textit{Qui n’a point fait de mal à personne, et qui n’a
+        pas écouté les calomnies contre son prochain.}
+        \item \textit{Qui regarde et considère intérieurement le méchant comme le néant ; qui honore ceux qui craignent Dieu.}
+        \item \textit{Qui fait des serments à son prochain, et qui ne le
+        trompe pas ; qui ne prête point à l’usure, et qui
+        ne reçoit point de présent pour opprimer l’innocent.}
+        \item \textit{Celui qui fait toutes ces hoses, ne sera point ébranlé dans l’éternité.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  \medskip
+
+  \par David, au milieu de ses épreuves, se console par les sentiments de sa confiance en Dieu qui le délivrera et lui rendra la joie. Mais c'est dans le Christ que se réalisent complètement les paroles du Psaume : lui seul peut se rendre compte d'avoir été entièrement fidèle à Dieu, et dans la mort il sait qu'il doit bientôt ressusciter glorieusement et prendre place à la droite de son Père.
+  \medskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont C}
+  \gregorioscore{antiennes/an--caro_mea_requiescet--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{ }
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 15.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume15-VIIc}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Sanctis, qui sunt in \textbf{ter}ra \textbf{e}jus,\textcolor{red}{~*} mirificávit omnes voluntátes \textbf{me}as in \textbf{e}is.
+
+    \item Multiplicátæ sunt infirmi\textbf{tá}tes e\textbf{ó}rum:\textcolor{red}{~*} póstea acce\textbf{le}ra\textbf{vé}runt.
+
+    \item Non congregábo conventícula eórum \textbf{de} san\textbf{guí}nibus,\textcolor{red}{~*} nec memor ero nóminum eórum per \textbf{lá}bia \textbf{me}a.
+
+    \item Dóminus pars hereditátis meæ, et \textbf{cá}licis \textbf{me}i:\textcolor{red}{~*} tu es, qui restítues hereditátem \textbf{me}am \textbf{mi}hi.
+
+    \item Funes cecidérunt mihi \textbf{in} præ\textbf{clá}ris:\textcolor{red}{~*} étenim heréditas mea præ\textbf{clá}ra est \textbf{mi}hi.
+
+    \item Benedícam Dóminum, qui tríbuit mihi \textbf{in}tel\textbf{léc}tum:\textcolor{red}{~*} ínsuper et usque ad noctem increpuérunt me \textbf{re}nes \textbf{me}i.
+
+    \item Providébam Dóminum in conspéctu \textbf{me}o \textbf{sem}per:\textcolor{red}{~*} quóniam a dextris est mihi, \textbf{ne} com\textbf{mó}vear.
+
+    \item Propter hoc lætátum est cor meum, et exsultávit \textbf{lin}gua \textbf{me}a:\textcolor{red}{~*} ínsuper et caro mea requi\textbf{é}scet \textbf{in} spe.
+
+    \item Quóniam non derelínques ánimam meam \textbf{in} in\textbf{fér}no:\textcolor{red}{~*} nec dabis sanctum tuum vidére cor\textbf{rup}ti\textbf{ó}nem.
+
+    \item Notas mihi fecísti vias vitæ,\textcolor{red}{~†} adimplébis me lætítia cum \textbf{vul}tu \textbf{tu}o:\textcolor{red}{~*} delectatiónes in déxtera tua \textbf{us}que in \textbf{fi}nem.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) Ca(i)ro(g) me(i_0[uh:l]//jki)a(i.) (,) re(i)qui(g')é(h)scet(f) in(gf) spe.(e.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Conservez-moi, Seigneur, parce que j’ai mis en vous mon espérance.}
+        \item \textit{J’ai dit au Seigneur : Vous êtes mon Dieu, car
+        vous n’avez aucun besoin de mes biens.}
+        \item \textit{Il a fait connaître avec admiration toutes mes volontés, à l’égard des Saints qui sont sur la terre.}
+        \item \textit{Depuis que leurs infirmités se sont multipliées, ils
+        ont couru avec vitesse, avec plus d’empressement.}
+        \item \textit{Je n’aurai point de part à leurs assemblées sanguinaires ; et leur nom ne sera jamais prononcé par
+        mes lèvres.}
+        \item \textit{Le Seigneur est la part de mon héritage, et mon
+        calice : vous êtes celui qui me rendrez l’héritage qui
+        m’appartient.}
+        \item \textit{Le sort est heureusement tombé pour moi : car
+        mon héritage m’est très avantageux.}
+        \item \textit{Je bénirai le Seigneur qui m’a donné de
+        l’intelligence, et qui a fait que mes reins même
+        m’ont instruit pendant la nuit.}
+        \item \textit{J’avais toujours le Seigneur présent devant mes
+        yeux ; parce qu’il est toujours à ma droite, afin que je ne sois pas ébranlé.}
+        \item \textit{Voilà pourquoi mon cœur s’est réjoui : ma langue
+        a exprimé ma joie, et ma chair même se reposera
+        dans l’espérance.}
+        \item \textit{Car vous ne laisserez pas mon âme dans l’enfer,
+        et vous ne permettrez pas que votre Saint éprouve
+        la corruption.}
+        \item \textit{Vous m’avez montré les voies de la vie : vous me
+        comblerez de joie, en me faisant voir votre visage :
+        les délices dont on jouit à votre droite, sont éternelles.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \begin{center}
+    \begin{footnotesize}
+      \textcolor{red}{\textit{On chante le verset debout.}}
+    \end{footnotesize}
+    \begin{minipage}{0.8\linewidth}
+      \gresetinitiallines{0}
+      \large
+      \gabcsnippet{(c4)<c><v>\Vbar</v>.</c> In(h) pá(h)ce(h) in(i') id(h)í(g.)psum.(g.) (::) <c><v>\Rbar</v>.</c> Dórm(h)i(h)am(h) et(h) re(i')qui(h)é(g.)scam(g.) (::)}
+      \bigskip
+      \normalsize
+      \begin{center}
+        \textit{\textcolor{red}{\Vbar.} Je m'endormirai en paix.}\\
+        \textit{\textcolor{red}{\Rbar.} Et me reposerai en lui.}
+      \end{center}
+      \par Pater noster, \textit{tout bas.}
+    \end{minipage}
+  \end{center}
+  \normalsize
+  \bigskip
+
+  \par La sainte Église continue au premier Nocturne le chant des lamentations. La première est une prophétie de la passion de Jésus-Christ, dont plusieurs traits y sont manifestement indiqués.
+
+
+  \begin{center}
+    \large Leçon I.\\
+    \footnotesize\textit{Chap. 3, 22-30.}
+    \normalsize
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont D}
+  \gregorioscore{lamentations/va--de_lamentatione...heth_misericordiae--solesmes}
+
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \par \emph{Des Lamentations du Prophète Jérémie.}
+      \par \textcolor{red}{\textit{Heth.}} \textit{ C’est l’effet des miséricordes du Seigneur, si nous n’avons pas péri ; parce que ses bontés et sa compassion n’ont point cessées.}
+      \par \textcolor{red}{\textit{Heth.}} \textit{J’ai connu dès le matin le nombre et la félicité de vos promesses.}
+      \par \textcolor{red}{\textit{Heth.}} \textit{Mon âme a dit : Le Seigneur est mon partage, c’est pourquoi je l’attendrai.}
+      \par \textcolor{red}{\textit{Teth.}} \textit{Le Seigneur est bon à ceuw qui espèrent en
+      lui ; aux âmes qui le cherchent.}
+      \par \textcolor{red}{\textit{Teth.}} \textit{Il est avantageux à l’homme d’attendre dans
+      le silence le salut qui vient de Dieu.}
+      \par \textcolor{red}{\textit{Teth.}} \textit{Il est avantageux à l’homme de porter le
+      joug dès sa jeunesse.}
+      \par \textcolor{red}{\textit{Jod.}} \textit{Il s’assoiera, il se tiendra solitaire, et il se taira ; parce qu’il a mis ce joug sur lui.}
+      \par \textcolor{red}{\textit{Jod.}} \textit{Il mettra sa bouche dans la poussière, pour
+      concevoir encore quelque espérance.}
+      \par \textcolor{red}{\textit{Jod.}} \textit{Il présentera la joue à celui qui le frappera : il sera rassasié d’opprobres. \\ Jérusalem, Jérusalem, convertissez-vous au Seigneur votre Dieu.}
+      \par \hspace{\fill}
+    \end{footnotesize}
+  \end{multicols}
+
+
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont S}
+  \gregorioscore{repons/re--sicut_ovis--solesmes_2019}
+
+  \smallskip
+
+  \small
+  \begin{multicols}{2}
+    \par\textcolor{red}{\textit{\Rbar}.} \textit{ Il a été conduit à la mort comme une brebis ;
+    et il n’a point ouvert la bouche quand on le maltraitait : il a été livré à la mort, \textcolor{red}{*} Pour donner la
+    vie à son peuple.}
+    \columnbreak
+    \par\textcolor{red}{\textit{\Vbar}.} \textit{Il a livré son âme à la mort, et il a été mis au nombre des scélérats.
+    \textcolor{red}{*} * Pour donner la vie à son peuple.}
+  \end{multicols}
+  \normalsize
+
+  \bigskip
+
+  \par La \textit{deuxième Lamentation} continue de décrire les malheurs de Jérusalem qui lui sont causés par sont infidélité. On y voit la prophétie des maux arrivés à ceux qui n'ont pas reconnu le Messie, et au sens mystique une image de l'âme qui se rend infidèle à Dieu par le péché.
+  \medskip
+
+  \begin{center}
+    \large Leçon II.\\
+    \footnotesize\textit{Chap. 4, 1-6.}
+    \normalsize
+  \end{center}
+  % \grechangedim{baselineskip}{55pt}{scalable}
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{lamentations/va--aleph_quomodo_obscuratum--solesmes}
+
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \par \textcolor{red}{\textit{Aleph.}} \textit{Comment est-ce que l’or s’est obscurci, et
+      que cette excellente couleur a été changée ? les
+      pierres du Sanctuaire ont été dispersées dans toutes
+      les places.}
+      \par \textcolor{red}{\textit{Beth.}} \textit{Les nobles enfants de Sion, couverts de l’or
+      le plus fin ; comment ont-ils été plus méprisés que
+      des vases d’argile, qui sont les ouvrages des maisn
+      du potier ?}
+      \par \textcolor{red}{\textit{Ghimel.}} \textit{Les bêtes farouches ont découvert leurs
+      mammelles : elles ont allaité leurs petits : la fille de
+      mon peuple est cruelle comme l’autruche dans le
+      désert.}
+      \par \textcolor{red}{\textit{Daleth.}} \textit{La langue de celui qui tétait s’est collée
+      dans sa soif à son palais : les enfants ont demandé
+      du pain, et il n’y avait personne pour leur en
+      donner.}
+      \par \textcolor{red}{\textit{Hé.}} \textit{Ceux qui vivaient dans les plaisirs, tombaient
+      morts dans les rues : ceux qui se nourrissaient délicatement, ont embrassé l’ordure et le fumier.}
+      \par \textcolor{red}{\textit{Vau.}} \textit{ Et l’iniquité de la Fille de mon peuple est
+      devenue plus grande que le péché de Sodome, qui a
+      été exterminée dans un moment, sans que les
+      mains aient eu part à sa ruine. }
+      \par \textit{Jérusalem, Jérusalem, convertissez-vous au Seigneur votre Dieu.}
+    \end{footnotesize}
+  \end{multicols}
+
+  \newpage
+  
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont J}
+  \gregorioscore{repons/re--jerusalem_surge_et_exue_te--solesmes_1961}
+
+  \smallskip
+
+  \small
+  \begin{multicols}{2}
+    \par\textcolor{red}{\textit{\Rbar}.} \textit{ Jérusalem, levez-vous, et ôtez vos habits de
+    fêtes ; couvrez-vous de cendre et de cilice, \\ \textcolor{red}{*} Parce
+    que le Sauveur d’Israël a été mis à mort chez vous}
+    \columnbreak
+    \par\textcolor{red}{\textit{\Vbar}.} \textit{Répandez des torrents de larmes jour et nuit ;
+    que les paupières de vos yeux ne se ferment point.\\
+    \textcolor{red}{*} Parce que le Sauveur d’Israël a été mis à mort
+    chez vous.}
+  \end{multicols}
+  \normalsize
+
+  \bigskip
+
+  \par Dans la \textit{troisième Lamentation}, Jérémie prie pour son peuple, dont il retrace en termes énergiques l'extrême misère. Il est ici encore l'image de Jésus Christ, qui, touché des maux de l'humanité, prie le Père éternel avec des gémissements bien plus capables que ceux du prophète, d'apaiser la colère divine.
+
+  \begin{center}
+    \large Leçon III.\\
+    \footnotesize\textit{Chap. 5, 1-11.}
+    \normalsize
+  \end{center}
+  % \grechangedim{baselineskip}{55pt}{scalable}
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont I}
+  \gregorioscore{lamentations/va--incipit_oratio_jeremiae_prophetae--solesmes}
+
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \par \emph{Ici commence la prière du prophète Jérémie.}
+      \par \textit{Seigneur, souvenez-vous de ce qui nous est arrivé ;
+      regardez et voyez l’opprobre où nous sommes.}
+      \par \textit{Notre héritage est tombé entre les mains des étrangers.}
+      \par \textit{Nous sommes devenus orphelins sans père : nos
+      mères sont comme des veuves.}
+      \par \textit{Nous avons bu l’eau à prix d’argent : nous avons
+      acheté chèrement le bois.}
+      \par \textit{On nous a entraînés la corde au col, sans nous
+      donner aucun relâche dans nos fatigues.}
+      \par \textit{Nous avons tendu la main aux Egyptiens et aux
+      Assyriens, pour avoir du pain.}
+      \par \textit{Nos Pères ont péché, et ils ne sont plus, et nous
+      avons porté la peine de leurs iniquités.}
+      \par \textit{Des esclaves sont devenus nos maîtres : il ne s’est
+      trouvé personne pour nous délivrer de leurs mains.}
+      \par \textit{Nous allions chercher notre pain, en exposant
+      notre vie aux épées dans le désert.}
+      \par \textit{Notre peau s’est brûlée et noircie par la faim excessive, comme si elle eut été dans un four.}
+      \par \textit{Ils ont humilié les femmes dans Sion, et les
+      vierges dans les villes de Juda.}
+      \par \textit{Jérusalem, Jérusalem, convertissez-vous au Seigneur votre Dieu.}
+      % \par \hspace{\fill}
+    \end{footnotesize}
+  \end{multicols}
+
+
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont P}
+  \gregorioscore{repons/re--plange--solesmes_1961}
+
+  \smallskip
+
+  \small
+  \begin{multicols}{2}
+    \par\textcolor{red}{\textit{\Rbar}.} \textit{ Pleurez, mon peuple, comme une vierge : pasteurs, gémissez dans la cendre et le cilice,  \\ \textcolor{red}{*}Parce
+    que le grand jour du Seigneur s’approche, ce jour rempli d’amertume.}
+    \columnbreak
+    \par\textcolor{red}{\textit{\Vbar}.} \textit{Prêtres, ceignez-vous : ministres de l’autel,
+    pleurez, couvrez-vous de cendre.\\
+    \textcolor{red}{*} Parce que le grand jour du Seigneur s’approche, ce jour rempli d’amertume.}
+  \end{multicols}
+  \normalsize
+
+  \medskip
+  \begin{center}
+    \rule{4cm}{0.4pt}
+  \end{center}
+  \medskip
+\end{document}

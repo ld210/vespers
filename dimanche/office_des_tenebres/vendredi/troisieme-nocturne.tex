@@ -1,0 +1,572 @@
+% !TeX program = lualatex
+\documentclass[12pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=2cm, bottom=2cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+  \begin{center}
+    \large AU TROISIÈME NOCTURNE.\\
+  \end{center}
+  \medskip
+  \par Le Psaume 58 est aussi relatif au Christ souffrant. Il prie encore Dieu de le délivrer de ses ennemis, en se rendant le témoignage d'être sans péché. Il prédit ensuite les châtiments qui attendent ses persécuteurs, spécialement la dispersion des juifs et le mépris dans lequel ils tomberont.
+
+  \medskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{antiennes/an--ab_insurgentibus--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Délivrez-moi, Seigneur, de ceux qui se soulèvent contre moi,
+      parce qu’ils ont voulu surprendre mon âme.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 58.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume58-If}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Eripe me de operántibus in\textbf{i}qui\textbf{tá}tem:\textcolor{red}{~*} et de viris sán\textit{gui}\textit{num} \textbf{sal}va me.
+
+    \item Quia ecce cepérunt \textbf{á}nimam \textbf{me}am:\textcolor{red}{~*} irruérunt \textit{in} \textit{me} \textbf{for}tes.
+
+    \item Neque iníquitas mea, neque peccátum \textbf{me}um, \textbf{Dó}mine:\textcolor{red}{~*} sine iniquitáte cucúrri, \textit{et} \textit{di}\textbf{ré}xi.
+
+    \item Exsúrge in occúrsum \textbf{me}um, et \textbf{vi}de:\textcolor{red}{~*} et tu, Dómine, Deus virtútum, \textit{De}\textit{us} \textbf{Is}raël.
+
+    \item Inténde ad visitándas \textbf{om}nes \textbf{Gen}tes:\textcolor{red}{~*} non misereáris ómnibus, qui operántur in\textit{i}\textit{qui}\textbf{tá}tem.
+
+    \item Converténtur ad vésperam: et famem pati\textbf{én}tur ut \textbf{ca}nes:\textcolor{red}{~*} et circuíbunt \textit{ci}\textit{vi}\textbf{tá}tem.
+
+    \item Ecce loquéntur in ore suo,\textcolor{red}{~†} et gládius in lábi\textbf{is} e\textbf{ó}rum:\textcolor{red}{~*} quóniam \textit{quis} \textit{au}\textbf{dí}vit?
+
+    \item Et tu, Dómine, deri\textbf{dé}bis \textbf{e}os:\textcolor{red}{~*} ad níhilum dedúces \textit{om}\textit{nes} \textbf{Gen}tes.
+
+    \item Fortitúdinem meam ad te custódiam,\textcolor{red}{~†} quia, Deus, su\textbf{scép}tor \textbf{me}us es:\textcolor{red}{~*} Deus meus, misericórdia ejus præ\textit{vé}\textit{ni}\textbf{et} me.
+
+    \item Deus osténdet mihi super inimícos meos, ne oc\textbf{cí}das \textbf{e}os:\textcolor{red}{~*} nequándo obliviscántur pó\textit{pu}\textit{li} \textbf{me}i.
+
+    \item Dispérge illos in vir\textbf{tú}te \textbf{tu}a:\textcolor{red}{~*} et depóne eos, protéctor \textit{me}\textit{us}, \textbf{Dó}mine:
+
+    \item Delíctum oris eórum, sermónem labi\textbf{ó}rum ip\textbf{só}rum:\textcolor{red}{~*} et comprehendántur in supér\textit{bi}\textit{a} \textbf{su}a.
+
+    \item Et de exsecratióne et mendácio annuntiabúntur in consum\textbf{ma}ti\textbf{ó}ne:\textcolor{red}{~*} in ira consummatiónis, \textit{et} \textit{non} \textbf{e}runt.
+
+    \item Et scient quia Deus domi\textbf{ná}bitur \textbf{Ja}cob:\textcolor{red}{~*} et fí\textit{ni}\textit{um} \textbf{ter}ræ.
+
+    \item Converténtur ad vésperam: et famem pati\textbf{én}tur ut \textbf{ca}nes,\textcolor{red}{~*} et circuíbunt \textit{ci}\textit{vi}\textbf{tá}tem.
+
+    \item Ipsi dispergéntur ad \textbf{man}du\textbf{cán}dum:\textcolor{red}{~*} si vero non fúerint saturáti, et \textit{mur}\textit{mu}\textbf{rá}bunt.
+
+    \item Ego autem cantábo forti\textbf{tú}dinem \textbf{tu}am:\textcolor{red}{~*} et exsultábo mane misericór\textit{di}\textit{am} \textbf{tu}am.
+
+    \item Quia factus es su\textbf{scép}tor \textbf{me}us,\textcolor{red}{~*} et refúgium meum, in die tribulati\textit{ó}\textit{nis} \textbf{me}æ.
+
+    \item Adjútor meus, tibi psallam,\textcolor{red}{~†} quia, Deus, su\textbf{scép}tor \textbf{me}us es:\textcolor{red}{~*} Deus meus, misericór\textit{di}\textit{a} \textbf{me}a.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) Ab(d) in(d)sur(dc~)gén(f)ti(g')bus(f) in(gh~) me(h.) (,) lí(ixi)be(h)ra(g) me,(g') Dó(h)mi(fe)ne,(d.) (;) qui(g')a(g) oc(g')cu(h)pa(g')vé(f)runt(f.) (,) á(f_g)ni(e)mam(f) me(d.)am.(d.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Mon Dieu, délivrez-moi de mes ennemis : sauvez-moi de ceux qui s’élèvent contre moi.}
+        \item \textit{Délivrez-moi de ceux qui commettent l’iniquité ;
+        et sauvez-moi des hommes sanguinaires.}
+        \item \textit{Car ils sont prêts à surprendre mon âme : des
+        hommes forts se sont jetés sur moi.}
+        \item \textit{Cependant, Seigneur, ils n’ont point à me reprocher d’injustice ni de péché : j’ai couru et réglé ma
+        conduite sans iniquité.}
+        \item \textit{Levez-vous, venez au-devant de moi, et voyez ;
+        vous qui êtes le Seigneur, le Dieu des armées, le
+        Dieu d’Israël}
+        \item \textit{Appliquez-vous à visiter toutes les nations : n’ayez point pitié de tous ceux qui commettent l’iniquité.}
+        \item \textit{Ils retourneront sur le soir, et ils seront affamés
+        comme des chiens ; et ils tourneront autour de la
+        ville.}
+        \item \textit{Ils parleront dans leur bouche : leurs paroles ressembleront à des épées ; car, disent-ils : Qui est-ce
+        qui vous a écouté ?}
+        \item \textit{Mais vous, Seigneur, vous vous moquez d’eux ;
+        vous réduirez à rien toutes les nations.}
+        \item \textit{C’est en vous que je conserverai ma force ; parce
+        que vous êtes mon Dieu et mon protecteur, et
+        que votre miséricorde me préviendra.}
+        \item \textit{Dieu me fera connaître la conduite que je dois tenir envers mes ennemis : ne les tuez pas, de peur
+        que mon peuple ne vous oublie.}
+        \item \textit{Dissipez-les par votre puissance : abaissez-les,
+        Seigneur, vous qui êtes mon protecteur.}
+        \item \textit{A cause du crime de leur bouche, des paroles de
+        leurs lèvres ; et qu’ils soient surpris dans leur orgueil.}
+        \item \textit{Et on publiera au jour de la consommation, leur
+        abomination et leur mensonge : ils périront dans
+        votre colère, et ils ne seront plus.} 
+        \item \textit{Et ils sauront que Dieu règne sur Jacob, et
+        jusqu’aux extrémités de la terre.}
+        \item \textit{Ils reviendront vers le soir : ils souffriront la faim
+        comme des chiens, et tourneront autour de la ville.}
+        \item \textit{Ils se disperseront pour chercher de quoi manger ;
+        mais ils ne seront pas rassasiés, et ils murmureront.}
+        \item \textit{Mais pour moi, je chanterai votre force, et
+        j’exalterai dès le matin votre miséricorde.}
+        \item \textit{Parce que vous êtes devenu mon protecteur et mon
+        asile, au jour de ma tribulation.}
+        \item \textit{O mon défenseur, je chanterai votre gloire, parce
+        que vous êtes le Dieu qui me protège ; vous êtes
+        mon Dieu, et ma miséricorde.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \medskip
+
+  \par Dans le Psaume 87, le prophète décrit ses maux, qui sont la figure de ceux du Messie. Dans sa douloureuse agonie, Jésus-Christ nous fait entendre sa voix lamentable et montre les tourments accumulés sur lui : il est humilié, accablé sous la colère de Dieu, abandonné de tous.
+  \medskip
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont L}
+  \gregorioscore{antiennes/an--longe_fecisti--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Vous avez éloigné de moi ceux qui me connaissaient : j’ai été livré, et je ne puis me délivrer}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 87.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume87-VIIIG}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Intret in conspéctu tuo orátio \textbf{me}a:\textcolor{red}{~*} inclína aurem tuam ad \textit{pre}\textit{cem} \textbf{me}am:
+
+    \item Quia repléta est malis ánima \textbf{me}a:\textcolor{red}{~*} et vita mea inférno ap\textit{pro}\textit{pin}\textbf{quá}vit.
+
+    \item Æstimátus sum cum descendéntibus in \textbf{la}cum:\textcolor{red}{~*} factus sum sicut homo sine adjutório, inter mór\textit{tu}\textit{os} \textbf{li}ber.
+
+    \item Sicut vulneráti dormiéntes in sepúlcris,\textcolor{red}{~†} quorum non es memor \textbf{ám}plius:\textcolor{red}{~*} et ipsi de manu tu\textit{a} \textit{re}\textbf{púl}si sunt.
+
+    \item Posuérunt me in lacu inferi\textbf{ó}ri:\textcolor{red}{~*} in tenebrósis, et in \textit{um}\textit{bra} \textbf{mor}tis.
+
+    \item Super me confirmátus est furor \textbf{tu}us:\textcolor{red}{~*} et omnes fluctus tuos indu\textit{xís}\textit{ti} \textbf{su}per me.
+
+    \item Longe fecísti notos meos \textbf{a} me:\textcolor{red}{~*} posuérunt me abominati\textit{ó}\textit{nem} \textbf{si}bi.
+
+    \item Tráditus sum, et non egredi\textbf{é}bar:\textcolor{red}{~*} óculi mei languérunt \textit{præ} \textit{in}\textbf{ó}pia.
+
+    \item Clamávi ad te, Dómine, tota \textbf{di}e:\textcolor{red}{~*} expándi ad te \textit{ma}\textit{nus} \textbf{me}as.
+
+    \item Numquid mórtuis fácies mira\textbf{bí}lia:\textcolor{red}{~*} aut médici suscitábunt, et confite\textit{bún}\textit{tur} \textbf{ti}bi?
+
+    \item Numquid narrábit áliquis in sepúlcro misericórdiam \textbf{tu}am,\textcolor{red}{~*} et veritátem tuam in per\textit{di}\textit{ti}\textbf{ó}ne?
+
+    \item Numquid cognoscéntur in ténebris mirabília \textbf{tu}a,\textcolor{red}{~*} et justítia tua in terra ob\textit{li}\textit{vi}\textbf{ó}nis?
+
+    \item Et ego ad te, Dómine, cla\textbf{má}vi:\textcolor{red}{~*} et mane orátio mea præ\textit{vé}\textit{ni}\textbf{et} te.
+
+    \item Ut quid, Dómine, repéllis oratiónem \textbf{me}am:\textcolor{red}{~*} avértis fáciem \textit{tu}\textit{am} \textbf{a} me?
+
+    \item Pauper sum ego, et in labóribus a juventúte \textbf{me}a:\textcolor{red}{~*}exaltátus autem, humiliátus sum et \textit{con}\textit{tur}\textbf{bá}tus.
+
+    \item In me transiérunt iræ \textbf{tu}æ:\textcolor{red}{~*} et terróres tui con\textit{tur}\textit{ba}\textbf{vé}runt me.
+
+    \item Circumdedérunt me sicut aqua tota \textbf{di}e:\textcolor{red}{~*} circumdedé\textit{runt} \textit{me} \textbf{si}mul.
+
+    \item Elongásti a me amícum et \textbf{pró}ximum:\textcolor{red}{~*} et notos meos \textit{a} \textit{mi}\textbf{sé}ria.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) Lon(g')ge(h) fe(h')cí(g)sti(g'_[oh:h]) (,) no(i)tos(h') me(j)os(i') a(h) me :(h.) (;) trá(j_k)di(i_[uh:l]j)tus(h) sum,(g'_[oh:h]) (,) et(g) non(e') e(f)gre(gh)di(h)é(g.)bar.(g.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Seigneur mon Dieu et mon Sauveur, j’ai poussé des cris vers vous dans le jour et la nuit.}
+        \item \textit{Que ma prière pénètre jusqu’à vous : prêtez
+        l’oreille à mes supplications.}
+        \item \textit{Parce que mon âme est accablée de maux, et que
+        je me suis vu tout près du tombeau.}
+        \item \textit{On m’a regardé comme prêt à être enseveli : je suis
+        devenu comme un homme sans secours, et qui est
+        libre entre les morts}
+        \item \textit{Comme ceux qui ont été blessés, et qui reposent
+        dans le tombeau, dont vous ne vous souvenez plus,
+        et qui ont été rejettés de votre main.}
+        \item \textit{On m’a mis dans une fosse profonde ; dans des
+        lieux ténébreux, au milieu des ombres de la mort.}
+        \item \textit{Votre fureur s’est augmentée contre moi : vous
+        avez fait passer tous vos flots sur moi.}
+        \item \textit{Vous avez éloigné de moi mes amis, qui m’ont regardé avec abomination.}
+        \item \textit{J’ai été abandonné sans oser sortir : mes yeux sont
+        devenus languissants par la misère.}
+        \item \textit{Seigneur, j’ai crié vers vous tout le jour : j’ai étendu les mains vers vous.}
+        \item \textit{Ferez-vous des miracles pour les morts : les médecins les ressusciteront-ils, afin qu’ils vous louent ?}
+        \item \textit{Quelqu’un racontera-t-il dans le tombeau votre
+        miséricorde, et votre vérité dans le sein de la perdition ?}
+        \item \textit{Quelqu’un racontera-t-il dans le tombeau votre
+        miséricorde, et votre vérité dans le sein de la perdition ?} 
+        \item \textit{Vos prodiges seront-ils connus dans les ténèbres,
+        et votre justice dans la terre de l’oubli ?}
+        \item \textit{Mais pour moi, Seigneur, j’ai crié vers vous, et
+        dès le matin ma prière vous préviendra.}
+        \item \textit{Pourquoi, Seigneur, rejetez-vous ma prière ? pourquoi détournez-vous votre visage de moi ?}
+        \item \textit{Je suis pauvre, et dans les travaux depuis ma
+        jeunesse ; et dans mon élévation, j’ai été humilié
+        et troublé.}
+        \item \textit{Votre colère m’a pénétré : les terreurs de vos jugements m’ont troublé.}
+        \item \textit{Elles m’ont environné comme l’eau pendant tout le
+        jour : elles m’ont environné toutes ensembles.}
+        \item \textit{Vous avez éloigné de moi mes amis, mes proches
+        et ceux qui me connaissaient, à cause de ma misère.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \newpage
+
+  \par Le dernier Psaume des Matines est encore une plainte saisissante dans la bouche du Messie. Il prie le Dieu des vengeances, qui ne l'a pas épargné lui-même, de rendre aux pécheurs orgueilleux et obstinés le châtiment qu'ils méritent, mais il rassure en même temps son peuple fidèle et déclare qu'il ne l'abandonnera pas.
+
+  \medskip
+
+
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont C}
+  \gregorioscore{antiennes/an--captabunt--solesmes_1961}
+  \begin{center}
+    \footnotesize{
+      \textit{Ils tendront des pièges à l’âme du juste ; et ils condamneront le sang innocent.}
+    }
+  \end{center}
+  % ===== FIN Antienne ===========
+
+  % ===== DEBUT psaume ===========
+  % gresetinitiallines : avec le parametre à 0, supprime l'ornement
+  \begin{center}
+    \large{Psaume 93.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume93-VIIIG}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Exaltáre, qui júdicas \textbf{ter}ram:\textcolor{red}{~*} redde retributió\textit{nem} \textit{su}\textbf{pér}bis.
+
+    \item Usquequo peccatóres, \textbf{Dó}mine:\textcolor{red}{~*} úsquequo peccatóres glo\textit{ri}\textit{a}\textbf{bún}tur:
+
+    \item Effabúntur et loquéntur iniqui\textbf{tá}tem:\textcolor{red}{~*} loquéntur omnes, qui operántur \textit{in}\textit{jus}\textbf{tí}tiam?
+
+    \item Pópulum tuum, Dómine, humilia\textbf{vé}runt:\textcolor{red}{~*} et hereditátem tuam \textit{ve}\textit{xa}\textbf{vé}runt.
+
+    \item Víduam et ádvenam interfe\textbf{cé}runt:\textcolor{red}{~*} et pupíllos \textit{oc}\textit{ci}\textbf{dé}runt.
+
+    \item Et dixérunt: Non vidébit \textbf{Dó}minus:\textcolor{red}{~*} nec intélliget \textit{De}\textit{us} \textbf{Ja}cob.
+
+    \item Intellígite, insipiéntes in \textbf{pó}pulo:\textcolor{red}{~*} et stulti, ali\textit{quán}\textit{do} \textbf{sá}pite.
+
+    \item Qui plantávit aurem, non \textbf{áu}diet?\textcolor{red}{~*} aut qui finxit óculum, \textit{non} \textit{con}\textbf{sí}derat?
+
+    \item Qui córripit Gentes, non \textbf{ár}guet:\textcolor{red}{~*} qui docet hómi\textit{nem} \textit{sci}\textbf{én}tiam?
+
+    \item Dóminus scit cogitatiónes \textbf{hó}minum,\textcolor{red}{~*} quón\textit{i}\textit{am} \textbf{va}næ sunt.
+
+    \item Beátus homo, quem tu erudíeris, \textbf{Dó}mine,\textcolor{red}{~*} et de lege tua docú\textit{e}\textit{ris} \textbf{e}um.
+
+    \item Ut mítiges ei a diébus \textbf{ma}lis:\textcolor{red}{~*} donec fodiátur pecca\textit{tó}\textit{ri} \textbf{fó}vea.
+
+    \item Quia non repéllet Dóminus plebem \textbf{su}am:\textcolor{red}{~*} et hereditátem suam non \textit{de}\textit{re}\textbf{lín}quet.
+
+    \item Quoadúsque justítia convertátur in ju\textbf{dí}cium:\textcolor{red}{~*} et qui juxta illam omnes qui rec\textit{to} \textit{sunt} \textbf{cor}de.
+
+    \item Quis consúrget mihi advérsus mali\textbf{gnán}tes?\textcolor{red}{~*} aut quis stabit mecum advérsus operántes in\textit{i}\textit{qui}\textbf{tá}tem?
+
+    \item Nisi quia Dóminus ad\textbf{jú}vit me:\textcolor{red}{~*} paulo minus habitásset in inférno á\textit{ni}\textit{ma} \textbf{me}a.
+
+    \item Si dicébam: Motus est pes \textbf{me}us:\textcolor{red}{~*} misericórdia tua, Dómine, \textit{ad}\textit{ju}\textbf{vá}bat me.
+
+    \item Secúndum multitúdinem dolórum meórum in corde \textbf{me}o:\textcolor{red}{~*} consolatiónes tuæ lætificavérunt á\textit{ni}\textit{mam} \textbf{me}am.
+
+    \item Numquid adhǽret tibi sedes iniqui\textbf{tá}tis:\textcolor{red}{~*} qui fingis labórem \textit{in} \textit{præ}\textbf{cép}to?
+
+    \item Captábunt in ánimam \textbf{jus}ti:\textcolor{red}{~*} et sánguinem innocéntem \textit{con}\textit{dem}\textbf{ná}bunt.
+
+    \item Et factus est mihi Dóminus in re\textbf{fú}gium:\textcolor{red}{~*} et Deus meus in adjutórium \textit{spe}\textit{i} \textbf{me}æ.
+
+    \item Et reddet illis iniquitátem ipsórum: et in malítia eórum dispérdet \textbf{e}os:\textcolor{red}{~*} dispérdet illos Dóminus \textit{De}\textit{us} \textbf{nos}ter.
+  \end{enumerate}
+  %  Répetition de l'Antienne
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c4) Ca(g)ptá(j)bunt(i') in(g) á(i_[uh:l]j)ni(h)mam(g) ju(h_g)sti,(f.) (;) et(h) sán(j')gui(j)nem(ig) in(i')no(j)cén(h)tem(gf~) con(gh)de(h)mná(g.)bunt.(g.) (::)}
+
+  \medskip
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \item \textit{Le Seigneur est le Dieu des vengeances : le Dieu des vengeances a agi librement}
+        \item \textit{Vous qui jugez la terre, élevez-vous ; traitez les
+        superbes comme ils le méritent.}
+        \item \textit{Jusqu’à quand, Seigneur, jusqu’à quand les pécheurs se glorifieront-ils ?}
+        \item \textit{Ils parleront et se vanteront de leur injustice :
+        ceux qui commettent l’iniquité profèrent des paroles impies.}
+        \item \textit{Seigneur, ils ont humilié votre peuple : ils ont opprimé votre héritage}
+        \item \textit{Ils ont égorgé la veuve et l’étranger : et ils ont tué
+        les orphelins.}
+        \item \textit{Et ils ont dit : le Seigneur ne le verra pas, et le
+        Dieu de Jacob n’y prendra pas garde.}
+        \item \textit{Hommes sans jugement parmi le peuple ; pensez
+        et tâchez de devenir sages.}
+        \item \textit{Celui qui a formé l’oreille, n’entendra-t-il pas, et
+        celui qui a fait l’œil ne verra-t-il pas ?}
+        \item \textit{Celui qui châtie les nations, ne vous punira-t-il
+        pas, lui qui enseigne la science à l’homme ?}
+        \item \textit{Le Seigneur sait les pensées des hommes, et connait qu’elles sont vaines.}
+        \item \textit{Heureux l’homme que vous avez vous-même instruit, Seigneur, et à qui vous avez enseigné votre loi.}
+        \item \textit{Afin que vous lui adoucissiez les mauvais jours,
+        jusqu’à ce qu’on ait creusé une fosse au pécheur.} 
+        \item \textit{Car le Seigneur ne rejettera point son peuple, et il n’abandonnera point son héritage.}
+        \item \textit{Jusqu’à ce que sa justice paraisse dans ses jugements, et que tous ceux qui ont le cœur droit y demeurent attachés.}
+        \item \textit{Qui m’aidera contre les méchants, ou qui se joindra à moi pour combattre contre ceux qui commettent l’iniquité ?}
+        \item \textit{Si le Seigneur ne m’eût assisté, il s’en serait peu
+        fallu que mon âme n’eût habité l’enfer.}
+        \item \textit{Si je disais : Mon pied a été ébranlé, votre miséricorde, Seigneur, venait à mon secours.}
+        \item \textit{Selon la multitude des douleurs qui pénètrent dans
+        mon cœur, vos consolations remplissaient mon âme
+        de joie.}
+        \item \textit{Peut-ont dire que votre trône soit le siège de
+        l’injustice, lorsque vous joignez le travail aux préceptes ?}
+        \item \textit{Ils tendront des pièges à l’âme du juste, et condamneront le Sang innocent.}
+        \item \textit{Mais le Seigneur est devenu mon refuge ; et mon
+        Dieu est l’appui de mon espérance.}
+        \item \textit{Il les punira selon leur iniquité ; il les fera prérir
+        par leur malice : le Seigneur notre Dieu les exterminera.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \medskip
+
+  \begin{center}
+    \begin{footnotesize}
+      \textcolor{red}{\textit{On chante le verset debout.}}
+    \end{footnotesize}
+  \end{center}
+  \gresetinitiallines{0}
+  \gabcsnippet{(c4)<c><v>\Vbar</v>.</c> Lo(h)cú(h)ti(h) sunt(h) ad(h)vér(h)sum(h) me(h) li(i)ngua(h') do(h)ló(g.)sa.(g.) (::) (Z) <c><v>\Rbar</v>.</c> Et(h) ser(h)mó(h)ni(h)bus(h) ó(h)dii(h) cir(h)cum(h)de(h)dé(h)runt(h) me(h), et(h) ex(h)pur(h)gna(h)vé(i)runt(h) me(h) gra(g.)tis.(g.) (::)}
+  \normalsize
+  \begin{center}
+    \textit{\textcolor{red}{\Vbar.}  Ils ont parlé contre moi avec une langue trompeuse.}\\
+    \textit{\textcolor{red}{\Rbar.}  Et par des discours odieux et pleins de haine, ils m’ont environné et maltraité sans sujet}
+  \end{center}
+  \normalsize
+  \medskip
+  \par \textit{On dit le }Pater Noster \textit{tout bas.}
+  \medskip
+  \begin{center}
+    \rule{4cm}{0.4pt}
+  \end{center}
+
+  \begin{center}
+    \large Leçon VII.
+    \normalsize
+  \end{center}
+  \medskip
+
+  \setlength{\columnsep}{2pc}
+  \def\columnseprulecolor{\color{red}}
+  \setlength{\columnseprule}{0.4pt}
+
+  \begin{multicols}{2}
+    \begin{center}
+      De Epístola prima beáti Pauli Apóstoli\\ ad Hebræos.
+    \end{center}
+
+    \par Festinémus íngredi in illam réquiem, ut ne in idípsum quis íncidat incredulitátis exémplum. Vivus est enim sermo Dei, et éfficax et penetrabílior omni gládio ancípiti : 
+    \par et pertíngens usque ad divisiónem ánimæ ac spíritus : compágum quoque ac medullárum, et discrétor cogitatiónum et intentiónum cordis. Et non est ulla
+    creatúra invisíbilis in conspéctu ejus : ómnia autem nuda et apérta sunt óculis ejus, ad quem nobis sermo.
+    \par Habéntes ergo Pontíficem magnum qui
+    penetrávit cælos, Jesum Fílium Dei,
+    teneámus confessiónem. Non enim
+    habémus Pontíficem qui non possit
+    cómpati infirmitátibus nostris :
+    tentátum autem per ómnia pro similitúdine absque peccáto.
+    \par \hspace{\fill}
+    \columnbreak
+
+    \begin{center}
+      De la première Epître du Saint Paul, Apôtre,\\ aux Hébreux.
+      \begin{footnotesize}
+        \textit{Chap. 4, 11-16 ; 5, 1-10.}
+      \end{footnotesize}
+    \end{center}
+    \par \textit{Hâtons-nous d’entrer dans ce repos, de peur que
+    quelqu’un d’entre nous ne tombe dans la même incrédulité qu’eux.
+    Car la parole de Dieu est vivante, agissante, et
+    plus perçante qu’une épée qui tranche des deux côtés.}
+    \par \textit{Elle pénètre jusques dans le fond de l’âme et de
+    l’esprit, jusques dans les ligaments et dans les moelles ; et elle discerne les pensées et les intentions du cœur. Et il n’y a point de créature qui lui puisse être cachée, mais tout est entièrement découvert aux yeux de celui de qui nous parlons.}
+    \par \textit{Puis donc que nous avons un grand Pontife qui est
+    entré dans le ciel, Jésus, le Fils de Dieu, demeurons fermes dans notre foi, car nous n’avons pas un Pontife qui ne puisse point compatir à nos infirmités ; mais étant semblable à nous, il a été sujet à toutes sortes de tentations, excepté le péché.}
+  \end{multicols}
+  \setlength\columnseprule{0pt}
+
+  \newpage
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont T}
+  \gregorioscore{repons/re--tradiderunt--solesmes_1961}
+
+  \small
+  \begin{multicols}{2}
+    \par\textcolor{red}{\textit{\Rbar}.} \textit{Ils m’ont livré entre les mains des impies, et
+    ils m’ont jeté entre les scélérats : ils n’ont point épargné ma vie. Les forts se sont assemblés contre moi ;  \\ \textcolor{red}{*} Et ils se sont jetés sur moi comme des
+    géants.}
+    \columnbreak
+    \par\textcolor{red}{\textit{\Vbar}.} \textit{Les étrangers se sont soulevés contre moi, et les
+    forts m’ont cherché pour m’ôter la vie.\\
+    \textcolor{red}{*} Et ils se sont jetés sur moi comme des géants.}
+  \end{multicols}
+  \normalsize
+
+  \begin{center}
+    \rule{4cm}{0.4pt}
+  \end{center}
+
+  \begin{center}
+    \large Leçon VIII.
+    \normalsize
+  \end{center}
+  \medskip
+
+  \setlength{\columnsep}{2pc}
+  \def\columnseprulecolor{\color{red}}
+  \setlength{\columnseprule}{0.4pt}
+
+  \begin{multicols}{2}
+    \par Adeámus ergo cum fidúcia ad thronum grátiæ : ut misericórdiam consequámur, et grátiam inveniámus in auxílio opportúno. Omnis namque Póntifex ex homínibus assúmptus pro
+    homínibus constitúitur in iis quæ sunt ad Deum ut ófferat dona et sacrifícia
+    pro peccátis : qui condolére possit iis qui ígnorant et errant : quóniam et ipse
+    circúmdatus est infirmitáte. Et proptérea debet quemádmodum pro pópulo ita étiam pro semetípso offérre pro peccátis.
+    % \par \hspace{\fill}
+    \columnbreak
+
+    \par \textit{Approchons-nous donc avec confiance du trône de
+    la grâce, afin d’obtenir miséricorde, et de trouver grâce dans le temps que nous avons besoin de secours. Car tout Pontife étant choisi d’entre les hommes, est établi pour eux dans ce qui regarde le culte de Dieu ; afin d’offrir des dons et des sacrifices pour les péchés, et de pouvoir compatir à ceux qui pèchent par ignorance et par erreur ;
+    étant lui-même environné et sujet aux mêmes faiblesses qu’eux. C’est pour cela qu’il est obligé d’offrir pour lui-même, aussi bien que pour le peuple, la victime qui est offerte pour le péché.}
+  \end{multicols}
+  \setlength\columnseprule{0pt}
+  \medskip
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont J}
+  \gregorioscore{repons/re--jesum_tradidit--solesmes_1961}
+
+  \small
+  \begin{multicols}{2}
+    \par\textcolor{red}{\textit{\Rbar}.} \textit{  Un impie a livré Jésus aux Souverains Princes
+    des Prêtres, et aux plus anciens du peuple.\\ \textcolor{red}{*} Et
+    Pierre le suivit de loin pour voir quelle en serait la
+    fin.}
+    \columnbreak
+    \par\textcolor{red}{\textit{\Vbar}.} \textit{Ils l’amenèrent donc à Caïphe Prince des
+    Prêtres, où les Scribes et les Pharisiens s’étaient assemblés.\\
+    \textcolor{red}{*} Et Pierre le suivit de loin pour voir quelle en serait la fin.}
+  \end{multicols}
+  \normalsize
+
+  \begin{center}
+    \large Leçon IX.
+    \normalsize
+  \end{center}
+  \medskip
+
+  \setlength{\columnsep}{2pc}
+  \def\columnseprulecolor{\color{red}}
+  \setlength{\columnseprule}{0.4pt}
+
+  \begin{multicols}{2}
+    \par Nec quisquam sumit sibi honórem,
+    sed qui vocátur a Deo, tamquam Aaron. Sic et Christus non semetípsum
+    clarificávit ut Póntifex fíeret : sed qui
+    locútus est ad eum : Fílius meus es tu,
+    ego hódie génui te. Quemádmodum et
+    in álio loco dicit : Tu es sacérdos in
+    ætérnum, secúndum órdinem Melchísedech.
+    \par Qui in diébus carnis suæ preces, supplicatiónesque ad eum, qui possit illum salvum fácere a morte, cum clamóre válido, et lácrimis ófferens, exaudítus est pro sua reveréntia.
+    \par Et quidem cum esset Fílius Dei, dídicit ex iis, quæ passus est, obediéntiam : et consummátus, factus est ómnibus obtemperántibus sibi, causa salútis ætérnæ, appellátus a Deo Póntifex juxta órdinem Melchísedech.
+    \par \hspace{\fill}
+    \columnbreak
+    \par \textit{Or nul ne peut s’attribuer cette dignité ; mais il
+    faut y être appelé de Dieu comme Aaron ; aussi Jésus-Christ ne s’est-il pas attribué à lui-même la dignité de Pontife, mais l’a reçue de celui qui lui a
+    dit : Vous êtes mon Fils, je vous ai engendré aujourd’hui. Comme il lui dit aussi dans un autre endroit : Vous êtes prêtre pour toujours selon l’ordre de Melchisedech.}
+    \textit{Et pendant qu’il vivait sur la terre, ayant offert
+    avec de grands cris et avec larmes, des prières et
+    des supplications, à celui qui pouvait le délivrer de
+    la mort, il fut exaucé à cause de sa piété.}
+    \textit{Et quoiqu’il fut Fils de Dieu, il a appris ce que
+    c’était que l’obéissance, par tout ce qu’il a souffert ; et étant arrivé à sa perfection, il est devenu l’auteur du salut éternel pour tous ceux qui lui obéissent ; Dieu lui ayant donné le titre de Pontife selon l’ordre de Melchisedech.}
+  \end{multicols}
+  \setlength\columnseprule{0pt}
+
+  \medskip
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont C}
+  \gregorioscore{repons/re--caligaverunt--solesmes_1961}
+
+  \small
+  \begin{multicols}{2}
+    \par\textcolor{red}{\textit{\Rbar}.} \textit{Mes yeux se sont obscurcis à cause de mes larmes ; car celui qui était ma consolation m'a été enlevé. Peuples, voyez tous\\ \textcolor{red}{*} S'il est une douleur semblable à la mienne.}
+    \par \hspace{\fill}
+    \columnbreak
+    \par\textcolor{red}{\textit{\Vbar}.} \textit{Vous tous qui passez par le chemin, considérez, et voyez \\ \textcolor{red}{*} S'il est une douleur semblable à la mienne. }
+    \par\textcolor{red}{\textit{\Rbar}.} \textit{Mes yeux se sont obscurcis à cause de mes larmes ; car celui qui était ma consolation m'a été enlevé. Peuples, voyez tous\\ \textcolor{red}{*} S'il est une douleur semblable à la mienne.}
+    \par \hspace{\fill}
+  \end{multicols}
+  \normalsize
+
+  \begin{center}
+    \rule{4cm}{0.4pt}
+  \end{center}
+\end{document}

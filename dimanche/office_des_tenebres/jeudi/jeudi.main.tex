@@ -1,0 +1,87 @@
+% !TeX program = lualatex
+\documentclass[12pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=2cm, bottom=2cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+  \font\titlefont=lmr12 at 50pt
+  \begin{titlepage}\centering
+    \vspace*{\fill}\
+    \titlefont Office\\
+    \bigskip
+    \LARGE des\\
+    \bigskip
+    \titlefont Ténèbres\\
+    \bigskip
+    \LARGE du Jeudi Saint\\
+    \vspace*{\fill}
+    \LARGE Schola Vocem Laudis\\
+    \vspace*{\fill}
+    \begin{figure}[h!]
+      \centering
+      \includegraphics[width=2cm]{../../ordinaires/logo.png}
+    \end{figure}
+    \centering \normalsize Paroisse Saint Roch
+  \end{titlepage}
+
+  \begin{center}
+    \huge JEUDI SAINT\\
+    \greseparator{3}{30}\\
+    \bigskip
+    \large L'OFFICE DES TÉNÈBRES.
+  \end{center}
+  \bigskip
+  \par Comme l'Office des Morts, avec lequel il a une grande analogie, il est rempli de sentiments de deuil et de tristesse. Toute joie en est bannie dans les deux, absence complète des hymnes, du \textit{Glória Patri}, de \textit{Bénédictions}, du \textit{Dóminus vobíscum}, etc. 
+  \medskip
+  \par Depuis la réforme de Pie XII (décret de la SC des Rites du 18 novembre 1955), il a lieu dans la matinée des Jeudi, Vendredi et Samedi Saints. On y récite les Matines et les Laudes qui se disaient autrefois la nuit d'où le nom de \textit{Ténèbres}. On y récite aussi les \textit{Lamentations de Jérémie}, dont les accents graves et plaintifs invitent au deuil et au repentir.
+  \medskip
+  \par L'extinction successive des cierges du chandelier triangulaire et de l'autel, qui se faisait autrefois à mesure que le jour paraissait, peut représenter, au sens allégorique, la fuite successive des Apôtres, les ténèbres du Calvaire et l'aveuglement des juifs.
+
+  \begin{center}
+    \large À MATINES.\\
+  \end{center}
+  \medskip
+  \par Aujourd'hui et les deux jours suivants, à Matines, on commence directement l'Office par la première Antienne et à la fin de chaque Psaume de Matine et Laude, on éteint l'un des 15 cierges du chandelier triangulaire placé en avant de l'autel. On omet le \textit{Glória Patri} à la fin des Psaumes et des Repons.
+  \medskip
+  \par Quand l'Office est chanté, on achève le dernier verset de chaque Psaume et Cantique comme les versets précédents, c'est à dire sur le ton indiqué à la suite de l'Antienne. Mais si l'Office est seulement récité, on baisse d'un ton à la fin de ce dernier verset de Psaume, fraction de Psaume ou Cantique.
+  \medskip
+  \par De même pour l'Oraison \textit{Réspice} qui est dite aussi à mi-voix sur une teneur grave avec la même et unique inflexion d'un ton sur la dernière syllabe.
+
+  \begin{center}
+    \large AU PREMIER NOCTURNE.\\
+  \end{center}
+  \medskip
+  \par L'Office s'ouvre par la plainte douloureuse du Messie affligé : il lui faut rendre ce qu'il n'a pas ravi, sur lui retombent les outrages de ceux qui insultent et offensent Dieu, ses ennemis l'abreuvent de fiel et de vinaigre ; ceux qui étaient auparavant ses frères et ses amis le renient et aucun d'eux ne vient le consoler. Après avoir éclaté en malédictions effrayantes contre la nation deicide, il chante les fruits merveilleux que retireront de son grand sacrifice les pauvres de la nouvelle Sion, déstinée à remplacer la Jérusalem infidèle.
+
+  \medskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+
+  \newpage
+
+  \subfile{jeudi.tex}
+\end{document}
