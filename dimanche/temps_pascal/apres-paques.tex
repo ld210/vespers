@@ -1,0 +1,349 @@
+% !TeX program = lualatex
+\documentclass[12pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[autocompile]{gregoriotex}
+
+\geometry{top=2cm, bottom=2cm}
+\pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+
+  \begin{center}
+    \begin{LARGE}
+      Le Dimanche de Pâques\\
+    \end{LARGE}
+    \begin{normalsize}
+      \textit{Voir au propre.}
+    \end{normalsize}
+  \end{center}
+  \medskip
+
+  \begin{center}
+    \begin{LARGE}
+      Les Dimanches du Temps Pascal\\
+    \end{LARGE}
+    \begin{normalsize}
+      \textit{Du Dimanche de Quasimodo au IV\textsuperscript{e} Dimanche après Pâques,\\Dimanche après l'Ascension.}
+    \end{normalsize}
+  \end{center}
+  \bigskip
+
+  \textcolor{red}{\textit{Les cinq psaumes se chantent sous l'unique antienne suivante :}}
+  \medskip
+  % ===== DEBUT Antienne =========
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{antiennes/an--alleluia._(sund._p._t._at_vespers)--solesmes.gabc}
+  % ===== FIN Antienne ===========
+
+  \begin{center}
+    \large{Psaume 109.}\\
+  \end{center}
+
+  \gresetinitiallines{0}
+  \gregorioscore{psaumes/psaume109-VIIc2}
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Donec ponam ini\textbf{mí}cos \textbf{tu}os,\textcolor{red}{~*} scabéllum \textbf{pe}dum tu\textbf{ó}rum.
+
+    \item Virgam virtútis tuæ emíttet Dómi\textbf{nus} ex \textbf{Si}on:\textcolor{red}{~*} domináre in médio inimi\textbf{có}rum tu\textbf{ó}rum.
+
+    \item Tecum princípium in die virtútis tuæ in splendóri\textbf{bus} sanc\textbf{tó}rum:\textcolor{red}{~*} ex útero ante lucíferum \textbf{gé}nu\textbf{i} te.
+
+    \item Jurávit Dóminus, et non pœni\textbf{té}bit \textbf{e}um:\textcolor{red}{~*} Tu es sacérdos in ætérnum secúndum órdi\textbf{nem} Mel\textbf{chí}sedech.
+
+    \item Dóminus a \textbf{dex}tris \textbf{tu}is,\textcolor{red}{~*} confrégit in die iræ \textbf{su}æ \textbf{re}ges.
+
+    \item Judicábit in natiónibus, im\textbf{plé}bit ru\textbf{í}nas:\textcolor{red}{~*} conquassábit cápita in \textbf{ter}ra mul\textbf{tó}rum.
+
+    \item De torrénte in \textbf{vi}a \textbf{bi}bet:\textcolor{red}{~*} proptérea exal\textbf{tá}bit \textbf{ca}put.
+
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spi\textbf{rí}tui \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
+  \end{enumerate}
+
+  \medskip
+  \begin{center}
+    \large{Psaume 110.}\\
+  \end{center}
+  \medskip
+
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Confitébor tibi, Dómine, in toto \textbf{cor}de \textbf{me}o:\textcolor{red}{~*} in consílio justórum, et congre\textbf{ga}ti\textbf{ó}ne.
+
+    \item Magna \textbf{ó}pera \textbf{Dó}mini:\textcolor{red}{~*} exquisíta in omnes volun\textbf{tá}tes \textbf{e}jus.
+
+    \item Conféssio et magnificéntia \textbf{o}pus \textbf{e}jus:\textcolor{red}{~*} et justítia ejus manet in \textbf{sǽ}culum \textbf{sǽ}culi.
+
+    \item Memóriam fecit mirabílium suórum,\textcolor{red}{~†} miséricors et mise\textbf{rá}tor \textbf{Dó}minus:\textcolor{red}{~*} escam dedit ti\textbf{mén}ti\textbf{bus} se.
+
+    \item Memor erit in sǽculum testa\textbf{mén}ti \textbf{su}i:\textcolor{red}{~*} virtútem óperum suórum annuntiábit \textbf{pó}pulo \textbf{su}o:
+
+    \item Ut det illis heredi\textbf{tá}tem \textbf{gén}tium:\textcolor{red}{~*} ópera mánuum ejus véritas, \textbf{et} ju\textbf{dí}cium.
+
+    \item Fidélia ómnia mandáta ejus:\textcolor{red}{~†} confirmáta in \textbf{sǽ}culum \textbf{sǽ}culi,\textcolor{red}{~*} facta in veritáte et \textbf{æ}qui\textbf{tá}te.
+
+    \item Redemptiónem misit \textbf{pó}pulo \textbf{su}o:\textcolor{red}{~*} mandávit in ætérnum testa\textbf{mén}tum \textbf{su}um.
+
+    \item Sanctum, et terríbile \textbf{no}men \textbf{e}jus:\textcolor{red}{~*} inítium sapiéntiæ \textbf{ti}mor \textbf{Dó}mini.
+
+    \item Intelléctus bonus ómnibus faci\textbf{én}tibus \textbf{e}um:\textcolor{red}{~*} laudátio ejus manet in \textbf{sǽ}culum \textbf{sǽ}culi.
+
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spi\textbf{rí}tui \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
+  \end{enumerate}
+
+  \medskip
+  \begin{center}
+    \large{Psaume 111.}\\
+  \end{center}
+  \medskip
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Beátus vir, qui \textbf{ti}met \textbf{Dó}minum:\textcolor{red}{~*} in mandátis ejus \textbf{vo}let \textbf{ni}mis.
+
+    \item Potens in terra erit \textbf{se}men \textbf{e}jus:\textcolor{red}{~*} generátio rectórum be\textbf{ne}di\textbf{cé}tur.
+
+    \item Glória, et divítiæ in \textbf{do}mo \textbf{e}jus:\textcolor{red}{~*} et justítia ejus manet in \textbf{sǽ}culum \textbf{sǽ}culi.
+
+    \item Exórtum est in ténebris \textbf{lu}men \textbf{rec}tis:\textcolor{red}{~*} miséricors, et mise\textbf{rá}tor, et \textbf{jus}tus.
+
+    \item Jucúndus homo qui miserétur et cómmodat,\textcolor{red}{~†} dispónet sermónes suos \textbf{in} ju\textbf{dí}cio:\textcolor{red}{~*} quia in ætérnum non \textbf{com}mo\textbf{vé}bitur.
+
+    \item In memória ætérna \textbf{e}rit \textbf{jus}tus:\textcolor{red}{~*} ab auditióne mala \textbf{non} ti\textbf{mé}bit.
+
+    \item Parátum cor ejus speráre in Dómino,\textcolor{red}{~†} confirmátum \textbf{est} cor \textbf{e}jus:\textcolor{red}{~*} non commovébitur donec despíciat ini\textbf{mí}cos \textbf{su}os.
+
+    \item Dispérsit, dedit paupéribus:\textcolor{red}{~†} justítia ejus manet in \textbf{sǽ}culum \textbf{sǽ}culi,\textcolor{red}{~*} cornu ejus exaltábi\textbf{tur} in \textbf{gló}ria.
+
+    \item Peccátor vidébit, et irascétur,\textcolor{red}{~†} déntibus suis fremet \textbf{et} ta\textbf{bé}scet:\textcolor{red}{~*} desidérium pecca\textbf{tó}rum per\textbf{í}bit.
+
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spi\textbf{rí}tui \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
+  \end{enumerate}
+
+  \medskip
+  \begin{center}
+    \large{Psaume 112.}\\
+  \end{center}
+  \medskip
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item Laudáte, \textbf{pú}eri, \textbf{Dó}minum:\textcolor{red}{~*} laudáte \textbf{no}men \textbf{Dó}mini.
+
+    \item Sit nomen Dómini \textbf{be}ne\textbf{díc}tum,\textcolor{red}{~*} ex hoc nunc, et \textbf{us}que in \textbf{sǽ}culum.
+
+    \item A solis ortu usque \textbf{ad} oc\textbf{cá}sum,\textcolor{red}{~*} laudábile \textbf{no}men \textbf{Dó}mini.
+
+    \item Excélsus super omnes \textbf{gen}tes \textbf{Dó}minus,\textcolor{red}{~*} et super cælos \textbf{gló}ria \textbf{e}jus.
+
+    \item Quis sicut Dóminus, Deus noster, qui in \textbf{al}tis \textbf{há}bitat,\textcolor{red}{~*} et humília réspicit in cælo \textbf{et} in \textbf{ter}ra?
+
+    \item Súscitans a \textbf{ter}ra \textbf{ín}opem,\textcolor{red}{~*} et de stércore \textbf{é}rigens \textbf{páu}perem:
+
+    \item Ut cóllocet eum \textbf{cum} prin\textbf{cí}pibus,\textcolor{red}{~*} cum princípibus \textbf{pó}puli \textbf{su}i.
+
+    \item Qui habitáre facit stéri\textbf{lem} in \textbf{do}mo,\textcolor{red}{~*} matrem fili\textbf{ó}rum læ\textbf{tán}tem.
+
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spi\textbf{rí}tui \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
+  \end{enumerate}
+
+  \medskip
+  \begin{center}
+    \large{Psaume 113.}\\
+  \end{center}
+  \medskip
+  \begin{enumerate}[label=\textcolor{red}{\arabic*}]
+    \setcounter{enumi}{1}
+    \item In éxitu Israël \textbf{de} Æ\textbf{gýp}to,\textcolor{red}{~*} domus Jacob de \textbf{pó}pulo \textbf{bár}baro:
+
+    \item Facta est Judǽa sanctifi\textbf{cá}tio \textbf{e}jus,\textcolor{red}{~*} Israël pot\textbf{és}tas \textbf{e}jus.
+
+    \item Mare \textbf{vi}dit, et \textbf{fu}git:\textcolor{red}{~*} Jordánis convérsus \textbf{est} re\textbf{trór}sum.
+
+    \item Montes exsultavérunt \textbf{ut} a\textbf{rí}etes,\textcolor{red}{~*} et colles sicut \textbf{a}gni \textbf{ó}vium.
+
+    \item Quid est tibi, mare, \textbf{quod} fu\textbf{gís}ti:\textcolor{red}{~*} et tu, Jordánis, quia convérsus \textbf{es} re\textbf{trór}sum?
+
+    \item Montes, exsultástis \textbf{sic}ut a\textbf{rí}etes,\textcolor{red}{~*} et colles, sicut \textbf{a}gni \textbf{ó}vium.
+
+    \item A fácie Dómini \textbf{mo}ta est \textbf{ter}ra,\textcolor{red}{~*} a fácie \textbf{De}i \textbf{Ja}cob.
+
+    \item Qui convértit petram in \textbf{sta}gna a\textbf{quá}rum,\textcolor{red}{~*} et rupem in \textbf{fon}tes a\textbf{quá}rum.
+
+    \item Non nobis, Dómi\textbf{ne}, non \textbf{no}bis:\textcolor{red}{~*} sed nómini \textbf{tu}o da \textbf{gló}riam.
+
+    \item Super misericórdia tua, et veri\textbf{tá}te \textbf{tu}a:\textcolor{red}{~*} nequándo dicant gentes: Ubi est \textbf{De}us e\textbf{ó}rum?
+
+    \item Deus autem \textbf{nos}ter in \textbf{cæ}lo:\textcolor{red}{~*} ómnia quæcúmque \textbf{vó}luit, \textbf{fe}cit.
+
+    \item Simulácra géntium ar\textbf{gén}tum, et \textbf{au}rum,\textcolor{red}{~*} ópera \textbf{má}nuum \textbf{hó}minum.
+
+    \item Os habent, et \textbf{non} lo\textbf{quén}tur:\textcolor{red}{~*} óculos habent, et \textbf{non} vi\textbf{dé}bunt.
+
+    \item Aures habent, \textbf{et} non \textbf{áu}dient:\textcolor{red}{~*} nares habent, et non \textbf{o}do\textbf{rá}bunt.
+
+    \item Manus habent, et non palpábunt:\textcolor{red}{~†} pedes habent, et non \textbf{am}bu\textbf{lá}bunt:\textcolor{red}{~*} non clamábunt in \textbf{gút}ture \textbf{su}o.
+
+    \item Símiles illis fiant qui \textbf{fá}ciunt \textbf{e}a:\textcolor{red}{~*} et omnes qui con\textbf{fí}dunt in \textbf{e}is.
+
+    \item Domus Israël spe\textbf{rá}vit in \textbf{Dó}mino:\textcolor{red}{~*} adjútor eórum et pro\textbf{téc}tor e\textbf{ó}rum est,
+
+    \item Domus Aaron spe\textbf{rá}vit in \textbf{Dó}mino:\textcolor{red}{~*} adjútor eórum et pro\textbf{téc}tor e\textbf{ó}rum est,
+
+    \item Qui timent Dóminum, spera\textbf{vé}runt in \textbf{Dó}mino:\textcolor{red}{~*} adjútor eórum et pro\textbf{téc}tor e\textbf{ó}rum est.
+
+    \item Dóminus memor \textbf{fu}it \textbf{nos}tri:\textcolor{red}{~*} et bene\textbf{dí}xit \textbf{no}bis:
+
+    \item Benedíxit \textbf{dó}mui \textbf{Is}raël:\textcolor{red}{~*} benedíxit \textbf{dó}mui \textbf{A}aron.
+
+    \item Benedíxit ómnibus, qui \textbf{ti}ment \textbf{Dó}minum,\textcolor{red}{~*} pusíllis \textbf{cum} ma\textbf{jó}ribus.
+
+    \item Adjíciat \textbf{Dó}minus \textbf{su}per vos:\textcolor{red}{~*} super vos, et super \textbf{fí}lios \textbf{ves}tros.
+
+    \item Benedícti \textbf{vos} a \textbf{Dó}mino,\textcolor{red}{~*} qui fecit \textbf{cæ}lum, et \textbf{ter}ram.
+
+    \item Cælum \textbf{cæ}li \textbf{Dó}mino:\textcolor{red}{~*} terram autem dedit \textbf{fí}liis \textbf{hó}minum.
+
+    \item Non mórtui lau\textbf{dá}bunt te, \textbf{Dó}mine:\textcolor{red}{~*} neque omnes, qui descéndunt \textbf{in} in\textbf{fér}num.
+
+    \item Sed nos qui vívimus, bene\textbf{dí}cimus \textbf{Dó}mino,\textcolor{red}{~*} ex hoc nunc et \textbf{us}que in \textbf{sǽ}culum.
+
+    \item Glória \textbf{Pa}tri, et \textbf{Fí}lio,\textcolor{red}{~*} et Spi\textbf{rí}tui \textbf{Sanc}to.
+
+    \item Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,\textcolor{red}{~*} et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
+  \end{enumerate}
+
+  \grecommentary{\textit{Reprise de l'Antienne.}}
+  \gabcsnippet{(c3) Al(g)le(h)lú(i_[uh:l]j){ia},(i.) (,) al(i_[oh:h]h)le(fh)lú(g_[oh:h]f){ia}(e'_[oh:h]) al(f)le(fhg)lú(e.){ia}.(e.) (::)}
+
+  \bigskip
+  \begin{center}
+    \textcolor{red}{\large{Capitule.}}\\
+    \footnotesize{
+      \emph{Au propre du jour}
+    }
+  \end{center}
+  \medskip
+
+  \begin{center}
+    \textcolor{red}{\large{Hymne.}}\\
+  \end{center}
+  \medskip
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{hymnes/hy--ad_regias_agni_dapes--solesmes_1961}
+  \begin{multicols}{2}
+    \begin{footnotesize}
+      \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
+        \setcounter{enumi}{1}
+        \item \textit{Assis au festin royal de l'Agneau, parés de nos robes blanches, la Mer Rouge traversée, chnaton Jésus Christ, notre Roi.}
+        \item \textit{Sa charité toute céleste nous abreuve de son sang divin ; l'amour sacrificateur immole pour nous les membres de son saint corps.}
+        \item \textit{La marque du sang sur les portes fait reculer le glaive de l'ange ; la mer se divise et s'enfuit, ses flots engloutissent l'ennemi.}
+        \item \textit{Notre Pâques à nous, c'est le Christ ; il est la victime pascale, et, pour les âmes pures, l'azyme pur de vérité.}
+        \item \textit{Ô vraie hostie venue du ciel, par vous Satan est subjugué, les liens de la mort sont brisés, les dons de la vie recouvrés.}
+        \item \textit{L'enfer est vaincu ; le Christ triomphant déploie sont étendard, et, rouvrant le ciel, il tient enchaîné le roi des ténèbres.}
+        \item \textit{Soyez sans cesse, ô Jésus, la joie pascale de nos cœurs ; vous nous avez rendu la vie : gardez-nous de la fatale mort du crime.}
+        \item \textit{Gloire soit à Dieu le Père, gloire à son Fils, ressuscité des morts, ainsi qu'au Paraclet, pendant les siècles éternels ! Amen.}
+      \end{enumerate}
+    \end{footnotesize}
+  \end{multicols}
+
+  \medskip
+  \gresetinitiallines{0}
+  \gabcsnippet{(c3)<c><v>\Vbar</v>.</c> Má(h)ne(h) no(h)bís(h)cum(h) Dò(h)mi(h)ne,(h) al(h)le(h)lú(h)ia.(g'_) (hvGF'Efgf.) (::) (Z) <c><v>\Rbar</v>.</c> Quó(h)ni(h)am(h) ad(h)ve(h)spe(h)rá(h)scit(h), al(h)le(h)lú(h)ia(g'_) (hvGF'Efgf.) (::)}
+  \smallskip
+  \begin{center}
+    \textit{\textcolor{red}{\Vbar.} Demeurez avec nous, Seigneur, Allelúia.\\
+    \textcolor{red}{\Rbar.} Car il se fait tard, Allelúia.}
+  \end{center}
+
+  \bigskip
+
+  \begin{center}
+    \textcolor{red}{\large{Cantique de la Bienheureuse Vierge Marie}}\\
+    \footnotesize{
+      \emph{Au propre du jour}
+    }
+  \end{center}
+  
+  \begin{center}
+    \textcolor{red}{\large{Oraison}}\\
+    \footnotesize{
+      \emph{Au propre du jour}
+    }
+  \end{center}
+  
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+  
+  \begin{center}
+    \textcolor{red}{\large{Conclusion de l'office}}
+  \end{center}
+  
+  
+  \begin{multicols}{2}
+    \parindent=0pt
+    \begin{flushright}
+      \textcolor{red}{\Vbar.} Dominus vobiscum.\\
+      \textcolor{red}{\Rbar.} Et cum spiritu tuo.\\
+    \end{flushright}
+  
+    \columnbreak
+    
+    \textit{\textcolor{red}{\Vbar.} Le Seigneur soit avec vous.\\
+    \textcolor{red}{\Rbar.} Et avec votre esprit.}\\
+  \end{multicols}
+
+  \vspace{10pt}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont B}
+  \gregorioscore{benedicamus/or--benedicamus_domino_(paschal_time)--solesmes_1961}
+  \begin{center}
+    \begin{footnotesize}
+      \textcolor{red}{\textit{Sur un ton très grave : }}
+    \end{footnotesize}
+  \end{center}
+  \begin{multicols}{2}
+    \parindent=0pt
+    \textcolor{red}{\Vbar.} Fidélium ánimæ per misericórdiam Dei requiéscant in pace.\\
+    \textcolor{red}{\Rbar.} Amen.\\
+
+    \columnbreak
+    
+    \textit{\textcolor{red}{\Vbar.} Que les âmes des fidèles défunts, par la
+    miséricorde de Dieu, reposent en paix.\\
+    \textcolor{red}{\Rbar.} Amen.}\\
+  \end{multicols}
+  
+\end{document}

@@ -1,0 +1,25 @@
+% !TEX TS-program = gregorio
+% !TEX encoding = UTF-8
+
+% The first part of the score is called the header, you can input some useful informations here:
+
+name: Deus in adjutorium;
+office-part: beginning;
+occasion: all;
+date: 2011;
+transcriber: Benjamin Bloomfield;
+transcription-date: 2011;
+style: modern;
+annotation: {\color{red} \Vbar};
+
+% Then, when gregorio encounters the following line (%%), it switches to the score, where you input the notes
+
+%%
+
+% The syntax in this part is called gabc. Please refer to http://home.gna.org/gregorio/gabc/#basis
+
+DE(c4j)us(j'_) (,) <c><v>\grealtcross{}</v></c>  in(j) ad(j)ju(j)tó(jk)ri(j)um(j) mé(j)um(j'_) in(j)tén(ij)de. (j.) (::) (Z)
+
+<c><sp>R/</sp></c>~Dó(j)mi(j)ne(j'_) (,) ad(j) ad(j)ju(j)ván(j)dum(j) me(j'_) fe(j)stí(ij)na.(j.) (:)
+
+Gló(j)ri(j)a(j) Pá(j)tri,(j) et(j) Fí(j)li(j)o,(j'_) (,) et(j) Spi(j)rí(j)tu(j)i(j) Sán(ij)cto.(j.) (,) Si(j)cut(j) é(j)rat(j) in(j) prin(j)cí(j)pi(j)o,(j) et(j) nunc,(j) et(j) sem(j)per,(j.) (,) et(j) in(j) saé(j)cu(j)la(j) sæ(j)cu(j)ló(j)rum.(j) A(ij)men.(j.) (;) Al(j)le(k)lú(ji~)ia.(i.) (::)
