@@ -1,6 +1,7 @@
 name:Regina caeli laetare;
 office-part:Antiphona;
-mode:6;
+annotation: {\color{red}\footnotesize Ant.};
+annotation: {\color{red}\scriptsize VI};
 book:Antiphonale Monasticum, 1934, p. 179 & Liber antiphonarius, 1960, p. 67 & Liber antiphonarius, 1960, p. 69.1;
 transcriber:Andrew Hinkley;
 %%
