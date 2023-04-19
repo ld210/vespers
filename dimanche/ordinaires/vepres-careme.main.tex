@@ -12,9 +12,10 @@
 \usepackage{graphicx}
 \usepackage{enumitem}
 \usepackage[autocompile]{gregoriotex}
+\usepackage[latin,french]{babel}
 
 \geometry{top=2cm, bottom=2cm}
-\pagestyle{empty}
+% \pagestyle{empty}
 
 \definecolor{red}{HTML}{C70039}
 % \input GoudyIn.fd
@@ -41,22 +42,30 @@
   \medskip
   \large et\\
   \medskip
-  \LARGE Salut du Saint-Sacrement
+  \LARGE Salut du Saint-Sacrement\\
   \bigskip
-  \begin{figure}[h!]
-    \centering
-    \includegraphics[width=7cm]{logo.png}
-  \end{figure}
-
   \vspace*{\fill}
-  \normalsize\textit{
-    Livret latin-français
-  }
-\end{titlepage}
+    \begin{figure}[h!]
+      \centering
+      \includegraphics[width=7cm]{../ordinaires/logo.png}
+    \end{figure}
+    \centering \normalsize Paroisse Saint Roch\\
+    \bigskip
+    \begin{Large}
+      \centering Ne pas emporter
+    \end{Large}
+  \end{titlepage}
+
+  \newpage
+  \vspace*{\fill}
+  \begin{center}
+    \normalsize\textit{
+      Livret latin-français
+    }
+  \end{center}
 
 \newpage
 
-\vspace{5mm}
 \begin{center}
   \textcolor{red}{\large{Ouverture.}}
 \end{center}
@@ -77,18 +86,16 @@
 \end{center}
 
 
-% \gregorioscore{vepres-deus_in_adjutorium_septuagesime}
-
-% vfill : prends l'espace vertical disponible 
-% \vfill
-
-\begin{center}
-  \rule{2cm}{0.4pt}
-\end{center}
+  \vspace*{\fill}\
+  \begin{center}
+    \greseparator{3}{30}
+  \end{center}
+  \vspace*{\fill}\
 % greseparator: ornement. Le premier parametre est le type (de 1 à 5), le second la taille en points
 % \greseparator{4}{30}
 
 \newpage
+\normalsize
 
 \subfile{psaumes-dimanches-ordinaires.tex}
 
@@ -173,11 +180,9 @@
     \end{footnotesize}
   \end{center}
 
-  \grechangedim{baselineskip}{65pt}{scalable}
   \gresetinitiallines{1}
   \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont V}
   \gregorioscore{hymnes/hy--vexilla_regis_prodeunt--solesmes}
-  \grechangedim{baselineskip}{50pt}{scalable}
 
   \begin{center}
     \begin{footnotesize}
@@ -529,15 +534,13 @@
 
   \newpage
 
-  \begin{titlepage}\centering
+  \begin{center}
     \vspace*{\fill}
-    \LARGE Propre du temps.
+    \LARGE PROPRE DU TEMPS.
     \vspace*{\fill}
-  \end{titlepage}
+  \end{center}
 
   \newpage
-
-  \grechangedim{baselineskip}{50pt}{scalable}
 
   \subfile{propre-careme.tex}
   % \newpage
