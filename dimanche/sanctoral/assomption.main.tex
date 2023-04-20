@@ -1,0 +1,98 @@
+% !TeX program = lualatex
+\documentclass[12pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{subfiles}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{xcolor}
+\usepackage{GotIn}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{multicolrule}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[autocompile]{gregoriotex}
+\usepackage[latin,french]{babel}
+
+
+\geometry{top=2cm, bottom=2cm}
+% \pagestyle{empty}
+
+\definecolor{red}{HTML}{C70039}
+% \input GoudyIn.fd
+% \newcommand*\initfamily{\usefont{U}{GoudyIn}{xl}{n}}
+
+\input Acorn.fd
+\newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
+% cette ligne ajoute de l'espace entre les portées
+% \grechangedim{baselineskip}{60pt}{scalable}
+
+\begin{document}
+  \gresetlinecolor{gregoriocolor}
+
+  \begin{titlepage}\centering
+    \vspace*{\fill}\
+    \huge Secondes Vêpres\\
+    \smallskip
+    \begin{Large}
+      \textit{
+        de l'Assomption de la Très Sainte Vierge Marie\\
+      }
+    \end{Large}
+    \medskip
+    \large et\\
+    \medskip
+    \LARGE Salut du Saint-Sacrement\\
+    \bigskip
+    % \begin{figure}[h!]
+    %   \centering
+    %   \includegraphics[width=7cm]{../epiphanie-septuagesime-careme/logo.png}
+    % \end{figure}
+    \vspace*{\fill}
+    \begin{figure}[h!]
+      \centering
+      \includegraphics[width=7cm]{../epiphanie-septuagesime-careme/logo.png}
+    \end{figure}
+    \centering \normalsize Paroisse Saint Roch\\
+    \bigskip
+    \begin{Large}
+      \centering Ne pas emporter
+    \end{Large}
+  \end{titlepage}
+
+  \newpage
+  \vspace*{\fill}
+  \begin{center}
+    \normalsize\textit{
+      Livret latin-français
+    }
+  \end{center}
+  \newpage
+
+  \begin{center}
+    \textcolor{red}{\large{Ouverture.}}
+  \end{center}
+
+  % greillumination: remplace la première lettre, ici par une font ornementale
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont D}
+  \gregorioscore{../epiphanie-septuagesime-careme/vepres-deus_in_adjutorium}
+
+  \begin{center}
+    \small{
+    \emph{
+      Dieu, venez à mon aide ; Seigneur, hatez-vous de me secourir.\\
+      Gloire au Père, au Fils et au Saint Esprit, comme il était au commencement, maintenant et toujour et dans les siècles des siècles. Allelúia\\
+    }
+  }
+  \end{center}
+
+  \vspace*{\fill}\
+  \begin{center}
+    \greseparator{3}{30}
+  \end{center}
+  \vspace*{\fill}\
+
+  \newpage
+  \normalsize
+
+\end{document}
