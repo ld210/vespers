@@ -1,5 +1,5 @@
 % !TeX program = lualatex
-\documentclass[12pt, a5paper]{article}
+\documentclass[12pt, a4paper]{article}
 \usepackage{fullpage}
 \usepackage{subfiles}
 \usepackage{fontspec}
@@ -10,10 +10,13 @@
 \usepackage{multicol}
 \usepackage{multicolrule}
 \usepackage{graphicx}
+\usepackage{enumitem}
 \usepackage[autocompile]{gregoriotex}
+\usepackage[latin,french]{babel}
 
-\geometry{top=1cm, bottom=1cm, right=1cm, left=1cm}
-\pagestyle{empty}
+
+\geometry{top=2cm, bottom=2cm}
+% \pagestyle{empty}
 
 \definecolor{red}{HTML}{C70039}
 % \input GoudyIn.fd
@@ -21,24 +24,20 @@
 
 \input Acorn.fd
 \newcommand*\initfamily{\usefont{U}{Acorn}{xl}{n}}
-% cette ligne ajoute de l'espace entre les portées
-% \grechangedim{baselineskip}{60pt}{scalable}
 
 \begin{document}
   \gresetlinecolor{gregoriocolor}
-  \small
-
-  \begin{titlepage}
-    \centering
+  \normalsize
+  \begin{center}
     \vspace*{\fill}
-    \large Antiennes à la Sainte Vierge.
+    \LARGE Antiennes à la Sainte Vierge.
     \vspace*{\fill}
-  \end{titlepage}
+  \end{center}
 
   \newpage
 
   \begin{center}
-    \textcolor{red}{\normalsize{Alma Redemptoris Mater}}\\
+    \textcolor{red}{\large{Alma Redemptoris Mater}}\\
     \begin{footnotesize}
       \textit{
         Depuis les Vêpres du samedi avant le 1 Dimanche de l'Avent jusqu'aux Vêpres du 2 Février inclusivement.
@@ -55,8 +54,6 @@
       Mère féconde du Rédempteur, vous qui demeurez la Porte toujours ouverte du ciel et l'Étoile de la mer, venez au secours de ce peuple déchu qui voudrait se relever. Vous qui, au grand étonnement de la nature, avez donné le jour à votre divin Auteur, et qui êtes restée Vierge après comme auparavant, en recevant cet Ave de la bouche de Gabriel, ayez pitié des pécheurs.
     }
   \end{footnotesize}
-
-  \newpage
 
   \begin{multicols}{2}
     \parindent=0pt
@@ -93,10 +90,10 @@
     \rule{2cm}{0.4pt}
   \end{center}
 
-  % \newpage
+  \newpage
 
   \begin{center}
-    \textcolor{red}{\normalsize{Ave Regina caelorum}}\\
+    \textcolor{red}{\large{Ave Regina caelorum}}\\
     \begin{footnotesize}
       \textit{
       Depuis les Complies du 2 Février inclusivement, jusqu'aux Complies du Mercredi Saint inclusivement.

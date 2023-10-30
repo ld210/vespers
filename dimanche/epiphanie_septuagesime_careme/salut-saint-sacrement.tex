@@ -12,11 +12,9 @@
 \usepackage{graphicx}
 \usepackage{enumitem}
 \usepackage[autocompile]{gregoriotex}
-\usepackage[latin,french]{babel}
-
 
 \geometry{top=2cm, bottom=2cm}
-% \pagestyle{empty}
+\pagestyle{empty}
 
 \definecolor{red}{HTML}{C70039}
 % \input GoudyIn.fd
@@ -27,17 +25,12 @@
 % cette ligne ajoute de l'espace entre les portées
 % \grechangedim{baselineskip}{60pt}{scalable}
 
-\begin{document}
+\begin{document} 
   \gresetlinecolor{gregoriocolor}
 
   \begin{center}
-    \begin{LARGE}
-      Salut du Très Saint Sacrement\\
-    \end{LARGE}
-  \end{center}
-
-  \begin{center}
-    \textcolor{red}{\large{Chant d'exposition}}\\
+    \textcolor{red}{\large{Ô Salutaris}}\\
+    \textit{Chant d'exposition}
   \end{center}
 
   \smallskip
@@ -61,21 +54,21 @@
   \end{center}
 
   \begin{multicols}{2}
+    \parindent=0pt
     \begin{flushright}
-      O vere digna Hostia\\
-      Spes única fidélium :\\
-      In te confídit Fráncia ;\\
-      Da pacem, serva lílium.\\
+      O vere digna Hostia,\\
+      Spes unica fidelium,\\
+      In te confidit Francia,\\
+      Da pacem, serva lilium.\\
     \end{flushright}
     \columnbreak
     \textit{
-      Ô vraiment digne Hostie\\
+      Ô vraiment digne Hostie,\\
       Unique espoir des fidèles,\\
-      En vous se confie la France,\\
-      Donnez-lui la paix, conserve le lys.\\
+      en toi se confie la France,\\
+      Donne-lui la paix, conserve le lys.\\
     }
   \end{multicols}
-
   \begin{multicols}{2}
     \begin{flushright}
       Uni trinoque Domino\\
@@ -91,62 +84,119 @@
       La vie qui n'aura pas de fin. Amen\\
     }
   \end{multicols}
-  \bigskip
+
   \begin{center}
     \rule{2cm}{0.4pt}
   \end{center}
 
   \newpage
 
-  % \begin{center}
-  %   \textcolor{red}{\normalsize{Antienne à la Sainte Vierge.}}\\
-  % \end{center}
   \begin{center}
-    \textcolor{red}{\large{Alma Redemptoris}}\\
+    \textcolor{red}{\large{Alma Redemptoris Mater}}\\
     \begin{footnotesize}
       \textit{
-        Depuis les Vêpres du samedi avant le 1\textsuperscript{er} dimanche de l'Avent jusqu'aux Vêpres du 2 février inclusivement.
+        Depuis les Vêpres du samedi avant le 1 Dimanche de l'Avent jusqu'aux Vêpres du 2 Février inclusivement.
       }
     \end{footnotesize}
   \end{center}
 
   \gresetinitiallines{1}
   \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
-  \gregorioscore{antiennes/an--alma_redemptoris_(simple_tone)--solesmes_1961.1}
+  \gregorioscore{antiennes-mariales/an--alma_redemptoris--solesmes}
+  \smallskip
+  \begin{footnotesize}
+    \textit{
+      Mère féconde du Rédempteur, vous qui demeurez la Porte toujours ouverte du ciel et l'Étoile de la mer, venez au secours de ce peuple déchu qui voudrait se relever. Vous qui, au grand étonnement de la nature, avez donné le jour à votre divin Auteur, et qui êtes restée Vierge après comme auparavant, en recevant cet Ave de la bouche de Gabriel, ayez pitié des pécheurs.
+    }
+  \end{footnotesize}
+
+  \begin{multicols}{2}
+    \textcolor{red}{\Vbar.} Post partum, Virgo, invioláta\\ permansísti.\\
+    \textcolor{red}{\Rbar.} Dei Génitrix, intercéde pro nobis.
+  
+    \columnbreak
+    
+    \textit{\textcolor{red}{\Vbar.} Après votre enfantement, ô Vierge, vous êtes
+      demeurée sans tache.\\
+      \textcolor{red}{\Rbar.} Mère de Dieu, intercédez pour nous.}
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \parindent=0pt
+    Deus, qui salútis ætérnæ, beátæ Maríæ virginitáte fecúnda, humáno géneri præmia præstitísti :   \textcolor{red}{†} tríbue, quæsumus ; ut ipsam pro nobis intercédere sentiámus, per quam merúimus auctórem vitæ suscípere, \textcolor{red}{*} Dóminum nostrum Iesum Christum, Fílium tuum.
+      \textcolor{red}{\Rbar.} Amen.
+
+    \columnbreak
+  
+    \textit{ Dieu, qui par la virginité féconde de la
+      bienheureuse Marie, avez procuré au genre
+      humain les avantages du salut éternel ;
+      accordez-nous, s’il vous plaît, de ressentir les
+      effets de l’intercession de celle par qui nous
+      avons eu la grâce de recevoir l’auteur de la vie,
+      notre Seigneur Jésus-Christ, votre Fils. Amen.
+      }
+  \end{multicols}
+
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
+
+  \newpage
+
+  \begin{center}
+    \textcolor{red}{\large{Ave Regina caelorum}}\\
+    \begin{footnotesize}
+      \textit{
+      Depuis les Complies du 2 Février inclusivement, jusqu'aux Complies du Mercredi Saint inclusivement.
+      }
+    \end{footnotesize}
+  \end{center}
+
+  \gresetinitiallines{1}
+  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont A}
+  \gregorioscore{antiennes-mariales/an--ave_regina_caelorum_(simple_tone)--solesmes}
   \medskip
   \begin{footnotesize}
     \textit{
-      Sainte Mère du Rédempteur, Porte du ciel toujours ouverte, Étoile de la mer, secourez ce peuple qui tombe, mais cherche à se relever. À l’étonnement de la nature entière, vous avez mis au monde le Dieu saint ; ô vous, toujours vierge, avant comme après l’enfantement, accueillez cet Ave dont Gabriel te saluait, et ayez pitié des pécheurs.   
+      Salut, Reine des cieux ! Salut, Souveraine des Anges ! Salut, Tige, salut, Ô Porte par qui la lumière s'est levée sur le monde. Réjouissez-vous, Vierge glorieuse, qui l'emportez sur toutes en beauté ! Adieu, Ô toute belle, et priez le Christ pour nous.
     }
   \end{footnotesize}
 
   \begin{multicols}{2}
     \parindent=0pt
     \begin{flushright}
-      \textcolor{red}{\Vbar.} Angelus Domini nuntiávit Maríæ. \\
-      \textcolor{red}{\Rbar.} Et concépit de Spíritu Sancto. \\
+      \textcolor{red}{\Vbar.} Dignáre me laudáre te, Virgo sacráta.\\
+      \textcolor{red}{\Rbar.} Da mihi virtútem contra hostes tuos.\\
     \end{flushright}
-
+  
     \columnbreak
     
-    \textit{\textcolor{red}{\Vbar.} L’Ange du Seigneur annonça à Marie. \\
-    \textcolor{red}{\Rbar.} Et elle conçut du Saint-Esprit.}\\
+    \textit{\textcolor{red}{\Vbar.} Agréez que j’annonce vos louanges, Vierge
+    sainte.\\
+    \textcolor{red}{\Rbar.} Obtenez-moi la force contre vos ennemis.}\\
   \end{multicols}
 
   \begin{multicols}{2}
     \parindent=0pt
-    Gratiam tuam, quæsumus Dómine, méntibus nostris infúnde :\textcolor{red}{†} ut, qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus ; \textcolor{red}{*} per passiónem ejus et crucem, ad resurrectiónis glóriam perducámur. \\ Per eúmdem Christum Dóminum nostrum.\\ 
+    Concede, miséricors Deus, fragilitáti nostræ præsídium :   \textcolor{red}{†} ut, qui sanctæ Dei Genitrícis memóriam ágimus ; \textcolor{red}{*} intercessiónis ejus
+    auxílio, a nostris iniquitátibus resurgámus. Per Christum Dóminum nostrum.
     \textcolor{red}{\Rbar.} Amen.
 
     \columnbreak
-
-    \textit{Répandez, Seigneur, votre grâce en nos âmes, afin qu’ayant connu par la voix de l’Ange l’incarnation de votre Fils le Christ, nous parvenions, par sa passion et sa croix, à la gloire de sa résurrection. \\
-    Amen.
+  
+    \textit{ Accordez, Dieu miséricordieux, à notre faiblesse les
+      secours de votre grâce et comme nous célébrons la
+      mémoire de la sainte Mère de Dieu, faites qu’étant
+      aidés auprès de vous de son intercession, nous nous
+      relevions de nos péchés. Par le Christ notre Seigneur.
+      Amen.
     }
   \end{multicols}
 
-
-  \newpage
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
 
   \begin{center}
     \textcolor{red}{\large{En l'honneur Du Saint Sacrement}}
@@ -177,7 +227,9 @@
     
   \end{multicols}
 
-  \bigskip
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
 
   \begin{center}
     \textcolor{red}{\large{Oraison}}
@@ -210,8 +262,9 @@
     }
   \end{multicols}
 
-
-  \newpage
+  \begin{center}
+    \rule{2cm}{0.4pt}
+  \end{center}
 
 
   \begin{center}
@@ -241,11 +294,8 @@
     Seigneur, donnez-nous beaucoup de saintes vocations religieuses.\\
   \end{normalsize}
 
-  \medskip
-  \begin{center}
-    \rule{2cm}{0.4pt}
-  \end{center}
-  \medskip
+
+  \newpage
 
   \begin{center}
     \textcolor{red}{\large{Déposition}}\\
@@ -275,55 +325,4 @@
     }
   \end{footnotesize}
 
-  \newpage
-
-  \begin{center}
-    \textcolor{red}{\large{Chant de sortie}}\\
-    \textit{Rorate Cæli}
-  \end{center}
-
-  \gresetinitiallines{1}
-  \greillumination{\initfamily\fontsize{11mm}{11mm}\selectfont R}
-  \gregorioscore{va--rorate_caeli--solesmes.1}
-  \smallskip
-  
-  \gresetinitiallines{0}
-  \gregorioscore{va--rorate_caeli--solesmes.2}
-  \smallskip
-  
-  \gabcsnippet{(c4)<c><v>\Rbar</v>.</c>  Ro(f)rá(gh)te(h.) cae(k')li(j) dé(ixji)su(h)per,(hg..) (;) et(h) nu(ixi')bes(h) plu(gf)ant(e) ju(fe)stum.(d.) (::)}
-  \gregorioscore{va--rorate_caeli--solesmes.3}
-  \smallskip
-  
-  \gabcsnippet{(c4)<c><v>\Rbar</v>.</c>  Ro(f)rá(gh)te(h.) cae(k')li(j) dé(ixji)su(h)per,(hg..) (;) et(h) nu(ixi')bes(h) plu(gf)ant(e) ju(fe)stum.(d.) (::)}
-  \gregorioscore{va--rorate_caeli--solesmes.4}
-  \smallskip
-
-  \gabcsnippet{(c4)<c><v>\Rbar</v>.</c>  Ro(f)rá(gh)te(h.) cae(k')li(j) dé(ixji)su(h)per,(hg..) (;) et(h) nu(ixi')bes(h) plu(gf)ant(e) ju(fe)stum.(d.) (::)}
-  \gregorioscore{va--rorate_caeli--solesmes.5}
-  \smallskip
-
-  \gabcsnippet{(c4)<c><v>\Rbar</v>.</c>  Ro(f)rá(gh)te(h.) cae(k')li(j) dé(ixji)su(h)per,(hg..) (;) et(h) nu(ixi')bes(h) plu(gf)ant(e) ju(fe)stum.(d.) (::)}
-
-  \bigskip
-  \begin{center}
-    \textit{
-      \textcolor{red}{\Rbar.} Répandez, ô cieux, votre rosée, et vous nuées, faites pleuvoir le Juste.
-    }
-    \begin{enumerate}[label=\textcolor{red}{\emph{\arabic*}}]
-      \item \textit{Ne vous irritez pas, Seigneur, ne vous  souvenez plus de nos iniquités. Voici la cité de votre sanctuaire est désertée, Sion est désolée, Jérusalem est dévastée, cette maison consacrée à votre sainteté et à votre gloire, où nos pères ont chanté vos louanges.}
-      \item \textit{Nous avons péché et nous sommes devenus semblable au lépreux. Nous sommes tous tombés comme des feuilles mortes, et nos péchés, comme le vent, nous ont emportés. Vous avez caché votre face à nos regards et vous nous avez brisé par la main de notre iniquité.}
-      \item \textit{Vois, Seigneur, l'abattement de ton peuple et envoie celui que tu dois envoyer. Envoie l'Agneau souverain de l'univers, du rocher du désert jusqu'à la montagne de la fille de Sion, pour qu'il nous délivre lui-même du joug de la captivité.}
-      \item \textit{Console-toi, console-toi, mon peuple, bientôt viendra ton Sauveur. Pourquoi te laisses-tu consumer par la tristesse, parce que la douleur t'a repris ? Je te sauverai, ne crains pas, car je suis le Seigneur ton Dieu, le Saint d'Israël, ton Rédempteur.}
-    \end{enumerate}
-  \end{center}
-
-
-  \vspace*{\fill}\
-  \begin{center}
-    \greseparator{3}{30}
-  \end{center}
-  \vspace*{\fill}\
-  
-  \newpage
 \end{document}
